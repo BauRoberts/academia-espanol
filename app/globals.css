@@ -1,26 +1,19 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-orange: #ff6725;
+  --color-yellow: #ffce4a;
+  --font-figtree: "Figtree", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  .btn-primary {
+    @apply px-5 py-2 bg-brand-orange text-white rounded-md hover:bg-opacity-90 transition-colors;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .btn-secondary {
+    @apply px-5 py-2 text-gray-700 border border-gray-300 rounded-md hover:text-brand-orange hover:border-brand-orange transition-colors;
+  }
 }
