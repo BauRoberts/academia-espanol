@@ -14,9 +14,10 @@ academia-espanol/
 │ └── globals.css (Configurado para Tailwind CSS v4)
 ├── components
 │ ├── Hero.tsx (Implementado)
-│ ├── SobreNosotros.tsx (Implementado)
-│ ├── Beneficios.tsx (Implementado)
+│ ├── Servicios.tsx (Implementado)
+│ ├── ProfesoresDestacados.tsx (Implementado)
 │ ├── Testimonios.tsx (Implementado)
+│ ├── Blog.tsx
 │ ├── CTA.tsx (Implementado)
 │ ├── Footer.tsx (Implementado)
 │ ├── Header.tsx (Implementado)
@@ -103,5 +104,6 @@ Todas las secciones principales han sido implementadas con componentes básicos 
 
 Que vamos a hacer ahora?
 
-Vamos a cambiar la seccion de servicios destacados para que nos muestre esto!
-Introducir a los profesores! Mili y Natan! Tenemos que seguir el estilo que venimos teniendo. Para eso deberiamos inspirarnos para ahcerlo bien!
+Vamos a crear la parte de blog de esta pagina!
+
+La idea es seguir la estructura de la imagen que tenemos pero con el styling que venimos poniendo en toda la pagina. El style sacalo de la home y la forma de la imagen que te voy a adjuntar!

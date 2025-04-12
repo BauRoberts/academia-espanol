@@ -83,12 +83,30 @@ const Header = () => {
 
             {/* Navigation - Desktop */}
             <nav className="hidden md:flex items-center justify-center flex-1 px-10">
-              <div className="flex gap-8">
+              <div className="flex gap-6">
                 <Link
                   href="/"
                   className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium"
                 >
                   Inicio
+                </Link>
+                <Link
+                  href="/servicios"
+                  className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium"
+                >
+                  Servicios
+                </Link>
+                <Link
+                  href="/resenas"
+                  className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium"
+                >
+                  Reseñas
+                </Link>
+                <Link
+                  href="/blog"
+                  className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium"
+                >
+                  Blog
                 </Link>
                 <Link
                   href="/profesores"
@@ -113,6 +131,7 @@ const Header = () => {
             <button
               className="md:hidden text-gray-700"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Menú"
             >
               {mobileMenuOpen ? (
                 <svg
@@ -161,6 +180,27 @@ const Header = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Inicio
+              </Link>
+              <Link
+                href="/servicios"
+                className="text-xl text-gray-800 hover:text-brand-orange transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Servicios
+              </Link>
+              <Link
+                href="/resenas"
+                className="text-xl text-gray-800 hover:text-brand-orange transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Reseñas
+              </Link>
+              <Link
+                href="/blog"
+                className="text-xl text-gray-800 hover:text-brand-orange transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link
                 href="/profesores"

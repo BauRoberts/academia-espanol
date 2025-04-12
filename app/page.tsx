@@ -8,6 +8,7 @@ import Testimonios from "@/components/Testimonios";
 import CTA from "@/components/CTA";
 
 import ProfesoresDestacados from "@/components/ProfesoresDestacados";
+import Blog from "@/components/Blog";
 
 export default function Home() {
   // Estado para verificar si estamos en el cliente
@@ -35,6 +36,7 @@ export default function Home() {
 
       <Servicios />
       <ProfesoresDestacados />
+      <Blog />
 
       <Testimonios />
       <CTA />

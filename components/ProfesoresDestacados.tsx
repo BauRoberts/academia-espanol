@@ -13,7 +13,7 @@ const ProfesoresDestacados = () => {
   };
 
   return (
-    <section className="w-full py-16 bg-gray-50">
+    <section className="w-full py-16 bg-white-50">
       <div className="flex justify-center px-4">
         <div className="w-full max-w-6xl mx-auto">
           {/* Encabezado de la sección */}
