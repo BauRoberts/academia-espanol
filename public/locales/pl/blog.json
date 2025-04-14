@@ -1,0 +1,31 @@
+{
+  "blog": {
+    "title": "Artykuły i",
+    "titleHighlight": "Zasoby",
+    "description": "Nasi nauczyciele dzielą się wskazówkami, technikami i zasobami, które pomogą Ci skutecznie usprawnić Twój hiszpański.",
+    "articles": [
+      {
+        "id": 1,
+        "title": "Jak poprawić płynność w języku hiszpańskim w 30 dni",
+        "date": "25 września, 2024",
+        "image": "/images/blog/articulo1.jpg",
+        "slug": "/blog/poprawa-plynnosci-hiszpanski"
+      },
+      {
+        "id": 2,
+        "title": "Najlepsze darmowe zasoby do nauki hiszpańskiego",
+        "date": "21 września, 2024",
+        "image": "/images/blog/articulo2.jpg",
+        "slug": "/blog/darmowe-zasoby-hiszpanski"
+      },
+      {
+        "id": 3,
+        "title": "Kompletny przewodnik po czasownikach nieregularnych w języku hiszpańskim",
+        "date": "18 września, 2024",
+        "image": "/images/blog/articulo3.jpg",
+        "slug": "/blog/czasowniki-nieregularne-hiszpanski"
+      }
+    ],
+    "moreArticles": "Zobacz więcej artykułów"
+  }
+}

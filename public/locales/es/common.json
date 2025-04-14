@@ -1,0 +1,12 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "reviews": "Reseñas",
+      "blog": "Blog",
+      "professors": "Profesores",
+      "schedule": "Agenda tu clase"
+    }
+  }
+}

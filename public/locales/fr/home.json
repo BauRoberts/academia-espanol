@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Españoling:",
+    "subtitle": "Votre académie de langues en ligne",
+    "description": "Bienvenue à bord de cette aventure avec pour destination : l'apprentissage de l'espagnol. Notre méthodologie vise à vous donner confiance, à comprendre et à parler dès le premier cours. L'ennui est strictement interdit dans notre académie.",
+    "buttons": {
+      "schedule": "Réserver votre cours",
+      "video": "Vidéo de présentation"
+    },
+    "stats": {
+      "levels": {
+        "value": "A1-C2",
+        "label": "Tous les niveaux"
+      },
+      "personalized": {
+        "value": "100%",
+        "label": "Personnalisé"
+      },
+      "rating": {
+        "value": "5/5",
+        "label": "Évaluation des étudiants"
+      }
+    },
+    "languages": {
+      "title": "Cours en",
+      "subtitle": "plusieurs langues"
+    }
+  }
+}

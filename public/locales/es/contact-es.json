@@ -1,0 +1,52 @@
+{
+  "title": "Agenda tu clase",
+  "subtitle": "Estamos aquí para ayudarte en tu viaje de aprendizaje del español. Contáctanos o agenda directamente una clase con nuestros profesores nativos.",
+  "form": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje",
+    "success": "¡Mensaje enviado con éxito! Te contactaremos pronto.",
+    "error": "Hubo un error al enviar el mensaje. Por favor, intenta nuevamente.",
+    "placeholder": {
+      "name": "Tu nombre completo",
+      "email": "tu@correo.com",
+      "subject": "¿En qué podemos ayudarte?",
+      "message": "Escribe tu mensaje aquí..."
+    }
+  },
+  "calendar": {
+    "title": "Reserva tu clase",
+    "description": "Selecciona el horario que mejor se adapte a tu disponibilidad para comenzar tu aprendizaje de español con uno de nuestros profesores nativos."
+  },
+  "contact": {
+    "title": "Información de contacto",
+    "description": "Si prefieres contactarnos directamente, aquí tienes nuestros datos:",
+    "email": "contacto@academiaespanol.com",
+    "phone": "+34 912 345 678",
+    "address": "Calle Gran Vía 28, 28013 Madrid, España",
+    "social": "Síguenos en nuestras redes sociales:"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Qué nivel de español necesito para empezar?",
+        "answer": "¡Ninguno! Tenemos cursos para todos los niveles, desde principiantes absolutos (A1) hasta niveles avanzados (C2). Realizamos una evaluación inicial para ubicarte en el nivel adecuado."
+      },
+      {
+        "question": "¿Cómo son las clases online?",
+        "answer": "Las clases se realizan a través de Zoom con material interactivo compartido. Nuestros profesores utilizan recursos digitales, actividades dinámicas y adaptadas a tus necesidades específicas."
+      },
+      {
+        "question": "¿Puedo cancelar o reagendar una clase?",
+        "answer": "Sí, puedes cancelar o reagendar hasta 24 horas antes de la clase sin costo adicional. Las cancelaciones con menos de 24 horas de anticipación están sujetas a nuestra política de cancelación."
+      },
+      {
+        "question": "¿Qué formas de pago aceptan?",
+        "answer": "Aceptamos tarjetas de crédito/débito, PayPal y transferencias bancarias. Puedes elegir entre planes mensuales o paquetes de clases según tus necesidades."
+      }
+    ]
+  }
+}

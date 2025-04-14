@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Españoling:",
+    "subtitle": "Tu academia de idiomas online",
+    "description": "Bienvenidos a bordo a esta aventura con destino a: aprender español. Nuestra metodología consiste en hacer que ganes confianza, entiendas y hables desde la primera clase. El aburrimiento tiene la entrada totalmente prohibida a nuestra academia.",
+    "buttons": {
+      "schedule": "Reserva tu clase",
+      "video": "Video de Presentación"
+    },
+    "stats": {
+      "levels": {
+        "value": "A1-C2",
+        "label": "Todos los niveles"
+      },
+      "personalized": {
+        "value": "100%",
+        "label": "Personalizado"
+      },
+      "rating": {
+        "value": "5/5",
+        "label": "Valoración de estudiantes"
+      }
+    },
+    "languages": {
+      "title": "Clases en",
+      "subtitle": "múltiples idiomas"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "blog": {
+    "title": "Artículos y",
+    "titleHighlight": "Recursos",
+    "description": "Nuestros profesores comparten consejos, técnicas y recursos para que puedas mejorar tu español de forma efectiva.",
+    "articles": [
+      {
+        "id": 1,
+        "title": "Cómo mejorar tu fluidez en español en 30 días",
+        "date": "25 Septiembre, 2024",
+        "image": "/images/blog/articulo1.jpg",
+        "slug": "/blog/mejorar-fluidez-espanol"
+      },
+      {
+        "id": 2,
+        "title": "Los mejores recursos gratuitos para aprender español",
+        "date": "21 Septiembre, 2024",
+        "image": "/images/blog/articulo2.jpg",
+        "slug": "/blog/recursos-gratuitos-espanol"
+      },
+      {
+        "id": 3,
+        "title": "Guía completa para los verbos irregulares en español",
+        "date": "18 Septiembre, 2024",
+        "image": "/images/blog/articulo3.jpg",
+        "slug": "/blog/verbos-irregulares-espanol"
+      }
+    ],
+    "moreArticles": "Ver más artículos"
+  }
+}

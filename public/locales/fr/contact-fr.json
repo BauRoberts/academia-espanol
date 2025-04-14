@@ -1,0 +1,52 @@
+{
+  "title": "Planifiez votre cours",
+  "subtitle": "Nous sommes là pour vous aider dans votre apprentissage de l'espagnol. Contactez-nous ou planifiez directement un cours avec nos professeurs natifs.",
+  "form": {
+    "name": "Nom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "success": "Message envoyé avec succès ! Nous vous contacterons bientôt.",
+    "error": "Une erreur s'est produite lors de l'envoi du message. Veuillez réessayer.",
+    "placeholder": {
+      "name": "Votre nom complet",
+      "email": "votre@email.com",
+      "subject": "Comment pouvons-nous vous aider ?",
+      "message": "Écrivez votre message ici..."
+    }
+  },
+  "calendar": {
+    "title": "Réservez votre cours",
+    "description": "Sélectionnez l'horaire qui convient le mieux à votre disponibilité pour commencer votre apprentissage de l'espagnol avec l'un de nos professeurs natifs."
+  },
+  "contact": {
+    "title": "Informations de contact",
+    "description": "Si vous préférez nous contacter directement, voici nos coordonnées :",
+    "email": "contact@academiaespanol.com",
+    "phone": "+34 912 345 678",
+    "address": "Calle Gran Vía 28, 28013 Madrid, Espagne",
+    "social": "Suivez-nous sur les réseaux sociaux :"
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "questions": [
+      {
+        "question": "Quel niveau d'espagnol dois-je avoir pour commencer ?",
+        "answer": "Aucun ! Nous proposons des cours pour tous les niveaux, des débutants absolus (A1) jusqu'aux niveaux avancés (C2). Nous effectuons une évaluation initiale pour vous placer au niveau approprié."
+      },
+      {
+        "question": "Comment fonctionnent les cours en ligne ?",
+        "answer": "Les cours se déroulent via Zoom avec du matériel interactif partagé. Nos professeurs utilisent des ressources numériques et des activités dynamiques adaptées à vos besoins spécifiques."
+      },
+      {
+        "question": "Puis-je annuler ou reporter un cours ?",
+        "answer": "Oui, vous pouvez annuler ou reporter jusqu'à 24 heures avant le cours sans frais supplémentaires. Les annulations avec moins de 24 heures de préavis sont soumises à notre politique d'annulation."
+      },
+      {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons les cartes de crédit/débit, PayPal et les virements bancaires. Vous pouvez choisir entre des forfaits mensuels ou des packs de cours selon vos besoins."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "testimonials": {
+    "titleSuffix": "był/a niesamowity/a!",
+    "items": [
+      {
+        "id": 1,
+        "name": "Anna L.",
+        "location": "Chicago, IL",
+        "text": "Wiedza i zaangażowanie Petera miały ogromne znaczenie w moim przypadku, czułam się wspierana na każdym kroku.",
+        "image": "/api/placeholder/150/150"
+      },
+      {
+        "id": 2,
+        "name": "Carlos M.",
+        "location": "Madryt, Hiszpania",
+        "text": "Zajęcia są niesamowicie dynamiczne i zabawne. Nauczyłem się więcej hiszpańskiego w 3 miesiące niż przez lata tradycyjnej nauki.",
+        "image": "/api/placeholder/150/150"
+      },
+      {
+        "id": 3,
+        "name": "Sophie D.",
+        "location": "Paryż, Francja",
+        "text": "Nauczyciele są wyjątkowi i dostosowują każdą lekcję do moich potrzeb. Mój hiszpański znacznie się poprawił!",
+        "image": "/api/placeholder/150/150"
+      },
+      {
+        "id": 4,
+        "name": "Markus W.",
+        "location": "Berlin, Niemcy",
+        "text": "Spersonalizowane podejście Españoling pozwoliło mi rozwijać się we własnym tempie. W 100% polecam tę akademię.",
+        "image": "/api/placeholder/150/150"
+      }
+    ]
+  }
+}

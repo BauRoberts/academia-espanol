@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "description": "Witamy na pokładzie tej przygody z miejscem docelowym: nauka hiszpańskiego. Nasza metodologia polega na budowaniu pewności siebie, zrozumieniu i mówieniu od pierwszej lekcji.",
+    "links": {
+      "title": "Linki",
+      "home": "Strona główna",
+      "teachers": "Nauczyciele",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "phone": "+34 123 456 789",
+      "email": "info@espanoling.com",
+      "address": "Madryt, Hiszpania"
+    },
+    "legal": {
+      "copyright": "© {year} Españoling. Wszelkie prawa zastrzeżone.",
+      "terms": "Warunki korzystania",
+      "privacy": "Polityka prywatności",
+      "cookies": "Pliki cookie"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "description": "Welcome aboard this adventure with a destination: learning Spanish. Our methodology focuses on building your confidence, understanding, and speaking from the very first class.",
+    "links": {
+      "title": "Links",
+      "home": "Home",
+      "teachers": "Teachers",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+34 123 456 789",
+      "email": "info@espanoling.com",
+      "address": "Madrid, Spain"
+    },
+    "legal": {
+      "copyright": "© {year} Españoling. All rights reserved.",
+      "terms": "Terms and conditions",
+      "privacy": "Privacy policy",
+      "cookies": "Cookies"
+    }
+  }
+}

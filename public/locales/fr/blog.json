@@ -1,0 +1,31 @@
+{
+  "blog": {
+    "title": "Articles et",
+    "titleHighlight": "Ressources",
+    "description": "Nos professeurs partagent des conseils, des techniques et des ressources pour vous aider à améliorer votre espagnol efficacement.",
+    "articles": [
+      {
+        "id": 1,
+        "title": "Comment améliorer votre fluidité en espagnol en 30 jours",
+        "date": "25 septembre, 2024",
+        "image": "/images/blog/articulo1.jpg",
+        "slug": "/blog/ameliorer-fluidite-espagnol"
+      },
+      {
+        "id": 2,
+        "title": "Les meilleures ressources gratuites pour apprendre l'espagnol",
+        "date": "21 septembre, 2024",
+        "image": "/images/blog/articulo2.jpg",
+        "slug": "/blog/ressources-gratuites-espagnol"
+      },
+      {
+        "id": 3,
+        "title": "Guide complet des verbes irréguliers en espagnol",
+        "date": "18 septembre, 2024",
+        "image": "/images/blog/articulo3.jpg",
+        "slug": "/blog/verbes-irreguliers-espagnol"
+      }
+    ],
+    "moreArticles": "Voir plus d'articles"
+  }
+}

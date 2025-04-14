@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "description": "Bem-vindos a bordo desta aventura com destino a: aprender espanhol. Nossa metodologia consiste em fazer você ganhar confiança, entender e falar desde a primeira aula.",
+    "links": {
+      "title": "Links",
+      "home": "Início",
+      "teachers": "Professores",
+      "blog": "Blog",
+      "contact": "Contato"
+    },
+    "contact": {
+      "title": "Contato",
+      "phone": "+34 123 456 789",
+      "email": "info@espanoling.com",
+      "address": "Madrid, Espanha"
+    },
+    "legal": {
+      "copyright": "© {year} Españoling. Todos os direitos reservados.",
+      "terms": "Termos e condições",
+      "privacy": "Política de privacidade",
+      "cookies": "Cookies"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "services": {
+    "title": "Nuestros",
+    "titleHighlight": "Servicios",
+    "description": "Ofrecemos una variedad de opciones para que encuentres la forma perfecta de aprender español según tus necesidades y objetivos.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Clases Individuales",
+        "description": "Sesiones personalizadas adaptadas a tus necesidades específicas y a tu propio ritmo de aprendizaje."
+      },
+      {
+        "id": 2,
+        "title": "Cursos Grupales",
+        "description": "Cursos para todos los niveles (A1, A2, B1, B2, C1, C2) en un ambiente colaborativo y dinámico."
+      },
+      {
+        "id": 3,
+        "title": "Preparación DELE",
+        "description": "Cursos específicos para la preparación de los exámenes oficiales del Diploma de Español como Lengua Extranjera."
+      },
+      {
+        "id": 4,
+        "title": "Clases de Conversación",
+        "description": "Sesiones enfocadas en mejorar tu fluidez, pronunciación y confianza al hablar español en situaciones cotidianas."
+      },
+      {
+        "id": 5,
+        "title": "Curso a Tu Ritmo",
+        "description": "Suscripción mensual que te permite avanzar según tu disponibilidad, con acceso a materiales exclusivos y soporte personalizado."
+      },
+      {
+        "id": 6,
+        "title": "Asesoría de Viajes",
+        "description": "Kit de supervivencia y asesoría personalizada para tus viajes a España, con consejos culturales y frases esenciales."
+      }
+    ],
+    "moreInfo": "Más información",
+    "cta": {
+      "title": "¿Listo para empezar tu viaje con el español?",
+      "description": "Reserva una clase de prueba gratuita y descubre cómo podemos ayudarte a alcanzar tus objetivos de aprendizaje.",
+      "button": "Reserva tu clase de prueba"
+    }
+  }
+}

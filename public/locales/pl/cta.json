@@ -1,0 +1,25 @@
+{
+  "cta": {
+    "title": "Gotowy na rozpoczęcie przygody",
+    "titleSuffix": "z językiem hiszpańskim?",
+    "description": "Zarezerwuj teraz swoją pierwszą darmową lekcję i odkryj, jak nasza spersonalizowana metodologia pomoże Ci osiągnąć płynność, której zawsze pragnąłeś.",
+    "buttons": {
+      "book": "Zarezerwuj darmową lekcję",
+      "demo": "Zobacz, jak działają lekcje"
+    },
+    "stats": {
+      "satisfaction": {
+        "value": "98%",
+        "label": "Wskaźnik satysfakcji"
+      },
+      "personalized": {
+        "value": "100%",
+        "label": "Spersonalizowane"
+      },
+      "students": {
+        "value": "+1000",
+        "label": "Zadowolonych uczniów"
+      }
+    }
+  }
+}

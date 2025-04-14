@@ -1,0 +1,45 @@
+{
+  "services": {
+    "title": "Nos",
+    "titleHighlight": "Services",
+    "description": "Nous proposons une variété d'options pour que vous puissiez trouver la façon parfaite d'apprendre l'espagnol selon vos besoins et vos objectifs.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Cours individuels",
+        "description": "Sessions personnalisées adaptées à vos besoins spécifiques et à votre propre rythme d'apprentissage."
+      },
+      {
+        "id": 2,
+        "title": "Cours collectifs",
+        "description": "Cours pour tous les niveaux (A1, A2, B1, B2, C1, C2) dans un environnement collaboratif et dynamique."
+      },
+      {
+        "id": 3,
+        "title": "Préparation DELE",
+        "description": "Cours spécifiques pour la préparation des examens officiels du Diplôme d'Espagnol comme Langue Étrangère."
+      },
+      {
+        "id": 4,
+        "title": "Cours de conversation",
+        "description": "Sessions axées sur l'amélioration de votre fluidité, de votre prononciation et de votre confiance lorsque vous parlez espagnol dans des situations quotidiennes."
+      },
+      {
+        "id": 5,
+        "title": "Cours à votre rythme",
+        "description": "Abonnement mensuel qui vous permet de progresser selon votre disponibilité, avec accès à des matériels exclusifs et un support personnalisé."
+      },
+      {
+        "id": 6,
+        "title": "Conseils de voyage",
+        "description": "Kit de survie et conseils personnalisés pour vos voyages en Espagne, avec des conseils culturels et des phrases essentielles."
+      }
+    ],
+    "moreInfo": "Plus d'informations",
+    "cta": {
+      "title": "Prêt à commencer votre voyage avec l'espagnol ?",
+      "description": "Réservez un cours d'essai gratuit et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'apprentissage.",
+      "button": "Réservez votre cours d'essai"
+    }
+  }
+}

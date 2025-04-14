@@ -1,0 +1,24 @@
+{
+  "footer": {
+    "description": "Bienvenue à bord de cette aventure avec pour destination : l'apprentissage de l'espagnol. Notre méthodologie consiste à vous donner confiance, à comprendre et à parler dès le premier cours.",
+    "links": {
+      "title": "Liens",
+      "home": "Accueil",
+      "teachers": "Professeurs",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+34 123 456 789",
+      "email": "info@espanoling.com",
+      "address": "Madrid, Espagne"
+    },
+    "legal": {
+      "copyright": "© {year} Españoling. Tous droits réservés.",
+      "terms": "Conditions générales",
+      "privacy": "Politique de confidentialité",
+      "cookies": "Cookies"
+    }
+  }
+}

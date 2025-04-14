@@ -1,0 +1,146 @@
+import { getTranslations } from "@/lib/i18n/utils";
+import HeroTranslated from "@/components/HeroTranslated";
+import SobreNosotrosTranslated from "@/components/SobreNosotrosTranslated";
+import ServiciosTranslated from "@/components/ServiciosTranslated";
+import ProfesoresDestacadosTranslated from "@/components/ProfesoresDestacadosTranslated";
+import BlogTranslated from "@/components/BlogTranslated";
+import TestimoniosTranslated from "@/components/TestimoniosTranslated";
+import CTATranslated from "@/components/CTATranslated";
+import { i18n } from "@/lib/i18n/config";
+
+// Esta función permite generar páginas estáticas para cada idioma en tiempo de construcción
+export async function generateStaticParams() {
+  return i18n.locales.map((lang) => ({ lang }));
+}
+
+export default async function Home({ params }: { params: { lang: string } }) {
+  // Convertir params a una promesa y esperar su resolución
+  const resolvedParams = await Promise.resolve(params);
+  const lang = resolvedParams.lang;
+
+  // Cargar traducciones
+  const commonTranslations = await getTranslations(lang, "common");
+  const homeTranslations = await getTranslations(lang, "home");
+  const servicesTranslations = await getTranslations(lang, "services");
+  const professorsTranslations = await getTranslations(lang, "professors");
+  const blogTranslations = await getTranslations(lang, "blog");
+  const testimonialsTranslations = await getTranslations(lang, "testimonials");
+  const ctaTranslations = await getTranslations(lang, "cta");
+
+  return (
+    <main>
+      <HeroTranslated
+        currentLocale={lang}
+        translations={
+          homeTranslations?.hero || {
+            title: "Españoling:",
+            subtitle: "Tu academia de idiomas online",
+            description:
+              "Bienvenidos a bordo a esta aventura con destino a: aprender español.",
+            buttons: {
+              schedule: "Reserva tu clase",
+              video: "Video de Presentación",
+            },
+            stats: {
+              levels: { value: "A1-C2", label: "Todos los niveles" },
+              personalized: { value: "100%", label: "Personalizado" },
+              rating: { value: "5/5", label: "Valoración de estudiantes" },
+            },
+            languages: {
+              title: "Clases en",
+              subtitle: "múltiples idiomas",
+            },
+          }
+        }
+      />
+      <SobreNosotrosTranslated
+        title={homeTranslations?.about?.title || ""}
+        content={homeTranslations?.about?.content || ""}
+      />
+
+      <ServiciosTranslated
+        currentLocale={lang}
+        translations={
+          servicesTranslations?.services || {
+            title: "Nuestros",
+            titleHighlight: "Servicios",
+            description:
+              "Ofrecemos una variedad de opciones para que encuentres la forma perfecta de aprender español según tus necesidades y objetivos.",
+            items: [],
+            moreInfo: "Más información",
+            cta: {
+              title: "¿Listo para empezar tu viaje con el español?",
+              description:
+                "Reserva una clase de prueba gratuita y descubre cómo podemos ayudarte a alcanzar tus objetivos de aprendizaje.",
+              button: "Reserva tu clase de prueba",
+            },
+          }
+        }
+      />
+      <ProfesoresDestacadosTranslated
+        currentLocale={lang}
+        translations={
+          professorsTranslations?.featuredProfessors || {
+            title: "Conoce a Nuestros",
+            titleHighlight: "Profesores",
+            description:
+              "Mira este video para conocer a nuestro equipo de profesores y descubrir cómo trabajamos para ayudarte a dominar el español.",
+            videoCaption:
+              "Video de YouTube: Aprende español con nuestros profesores",
+            ctaButton: "Reserva una clase con nuestros profesores",
+          }
+        }
+      />
+      <BlogTranslated
+        currentLocale={lang}
+        translations={
+          blogTranslations?.blog || {
+            title: "Artículos y",
+            titleHighlight: "Recursos",
+            description:
+              "Nuestros profesores comparten consejos, técnicas y recursos para que puedas mejorar tu español de forma efectiva.",
+            articles: [],
+            moreArticles: "Ver más artículos",
+          }
+        }
+      />
+      <TestimoniosTranslated
+        translations={
+          testimonialsTranslations?.testimonials || {
+            titleSuffix: "fue increíble!",
+            items: [],
+          }
+        }
+      />
+      <CTATranslated
+        currentLocale={lang}
+        translations={
+          ctaTranslations?.cta || {
+            title: "¿Listo para comenzar tu aventura",
+            titleSuffix: "con el español?",
+            description:
+              "Reserva ahora tu primera clase gratuita y descubre cómo nuestra metodología personalizada te ayudará a alcanzar la fluidez que siempre has deseado.",
+            buttons: {
+              book: "Reserva tu clase gratuita",
+              demo: "Ver cómo funcionan las clases",
+            },
+            stats: {
+              satisfaction: {
+                value: "98%",
+                label: "Tasa de satisfacción",
+              },
+              personalized: {
+                value: "100%",
+                label: "Personalizado",
+              },
+              students: {
+                value: "+1000",
+                label: "Estudiantes satisfechos",
+              },
+            },
+          }
+        }
+      />
+    </main>
+  );
+}

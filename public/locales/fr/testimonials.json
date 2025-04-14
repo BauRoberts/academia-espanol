@@ -1,0 +1,35 @@
+{
+  "testimonials": {
+    "titleSuffix": "était incroyable !",
+    "items": [
+      {
+        "id": 1,
+        "name": "Anna L.",
+        "location": "Chicago, IL",
+        "text": "L'expertise et le dévouement de Peter ont fait toute la différence dans mon cas, et je me suis sentie soutenue à chaque étape.",
+        "image": "/api/placeholder/150/150"
+      },
+      {
+        "id": 2,
+        "name": "Carlos M.",
+        "location": "Madrid, Espagne",
+        "text": "Les cours sont incroyablement dynamiques et amusants. J'ai appris plus d'espagnol en 3 mois qu'en années d'études traditionnelles.",
+        "image": "/api/placeholder/150/150"
+      },
+      {
+        "id": 3,
+        "name": "Sophie D.",
+        "location": "Paris, France",
+        "text": "Les professeurs sont exceptionnels et adaptent chaque cours à mes besoins. Mon espagnol s'est énormément amélioré !",
+        "image": "/api/placeholder/150/150"
+      },
+      {
+        "id": 4,
+        "name": "Markus W.",
+        "location": "Berlin, Allemagne",
+        "text": "L'approche personnalisée d'Españoling m'a permis de progresser à mon propre rythme. Je recommande cette académie à 100%.",
+        "image": "/api/placeholder/150/150"
+      }
+    ]
+  }
+}

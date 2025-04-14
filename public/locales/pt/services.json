@@ -1,0 +1,45 @@
+{
+  "services": {
+    "title": "Nossos",
+    "titleHighlight": "Serviços",
+    "description": "Oferecemos uma variedade de opções para que você encontre a forma perfeita de aprender espanhol de acordo com suas necessidades e objetivos.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Aulas Individuais",
+        "description": "Sessões personalizadas adaptadas às suas necessidades específicas e ao seu próprio ritmo de aprendizagem."
+      },
+      {
+        "id": 2,
+        "title": "Cursos em Grupo",
+        "description": "Cursos para todos os níveis (A1, A2, B1, B2, C1, C2) em um ambiente colaborativo e dinâmico."
+      },
+      {
+        "id": 3,
+        "title": "Preparação para DELE",
+        "description": "Cursos específicos para a preparação dos exames oficiais do Diploma de Espanhol como Língua Estrangeira."
+      },
+      {
+        "id": 4,
+        "title": "Aulas de Conversação",
+        "description": "Sessões focadas em melhorar sua fluência, pronúncia e confiança ao falar espanhol em situações cotidianas."
+      },
+      {
+        "id": 5,
+        "title": "Curso no Seu Ritmo",
+        "description": "Assinatura mensal que permite avançar de acordo com sua disponibilidade, com acesso a materiais exclusivos e suporte personalizado."
+      },
+      {
+        "id": 6,
+        "title": "Consultoria de Viagens",
+        "description": "Kit de sobrevivência e consultoria personalizada para suas viagens à Espanha, com dicas culturais e frases essenciais."
+      }
+    ],
+    "moreInfo": "Mais informações",
+    "cta": {
+      "title": "Pronto para começar sua jornada com o espanhol?",
+      "description": "Reserve uma aula de teste gratuita e descubra como podemos ajudá-lo a alcançar seus objetivos de aprendizado.",
+      "button": "Reserve sua aula de teste"
+    }
+  }
+}

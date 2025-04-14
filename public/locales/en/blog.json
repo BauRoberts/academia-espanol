@@ -1,0 +1,31 @@
+{
+  "blog": {
+    "title": "Articles and",
+    "titleHighlight": "Resources",
+    "description": "Our teachers share tips, techniques, and resources to help you improve your Spanish effectively.",
+    "articles": [
+      {
+        "id": 1,
+        "title": "How to improve your Spanish fluency in 30 days",
+        "date": "September 25, 2024",
+        "image": "/images/blog/articulo1.jpg",
+        "slug": "/blog/improve-spanish-fluency"
+      },
+      {
+        "id": 2,
+        "title": "The best free resources to learn Spanish",
+        "date": "September 21, 2024",
+        "image": "/images/blog/articulo2.jpg",
+        "slug": "/blog/free-spanish-resources"
+      },
+      {
+        "id": 3,
+        "title": "Complete guide to irregular verbs in Spanish",
+        "date": "September 18, 2024",
+        "image": "/images/blog/articulo3.jpg",
+        "slug": "/blog/spanish-irregular-verbs"
+      }
+    ],
+    "moreArticles": "See more articles"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Strona główna",
+      "services": "Usługi",
+      "reviews": "Opinie",
+      "blog": "Blog",
+      "professors": "Nauczyciele",
+      "schedule": "Zaplanuj lekcję"
+    }
+  }
+}

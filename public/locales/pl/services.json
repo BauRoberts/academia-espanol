@@ -1,0 +1,45 @@
+{
+  "services": {
+    "title": "Nasze",
+    "titleHighlight": "Usługi",
+    "description": "Oferujemy różnorodne opcje, abyś mógł znaleźć idealny sposób nauki hiszpańskiego zgodnie z Twoimi potrzebami i celami.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Zajęcia indywidualne",
+        "description": "Spersonalizowane sesje dostosowane do Twoich konkretnych potrzeb i własnego tempa nauki."
+      },
+      {
+        "id": 2,
+        "title": "Kursy grupowe",
+        "description": "Kursy dla wszystkich poziomów (A1, A2, B1, B2, C1, C2) w środowisku współpracy i dynamiki."
+      },
+      {
+        "id": 3,
+        "title": "Przygotowanie do DELE",
+        "description": "Specjalne kursy przygotowujące do oficjalnych egzaminów Dyplomu Hiszpańskiego jako Języka Obcego."
+      },
+      {
+        "id": 4,
+        "title": "Zajęcia konwersacyjne",
+        "description": "Sesje skupiające się na poprawie płynności, wymowy i pewności siebie podczas mówienia po hiszpańsku w codziennych sytuacjach."
+      },
+      {
+        "id": 5,
+        "title": "Kurs we własnym tempie",
+        "description": "Miesięczna subskrypcja, która pozwala rozwijać się zgodnie z Twoją dostępnością, z dostępem do ekskluzywnych materiałów i spersonalizowanym wsparciem."
+      },
+      {
+        "id": 6,
+        "title": "Porady podróżnicze",
+        "description": "Zestaw przetrwania i spersonalizowane porady na Twoje podróże do Hiszpanii, z wskazówkami kulturowymi i niezbędnymi zwrotami."
+      }
+    ],
+    "moreInfo": "Więcej informacji",
+    "cta": {
+      "title": "Gotowy, aby rozpocząć swoją przygodę z hiszpańskim?",
+      "description": "Zarezerwuj bezpłatną lekcję próbną i odkryj, jak możemy pomóc Ci osiągnąć Twoje cele w nauce.",
+      "button": "Zarezerwuj lekcję próbną"
+    }
+  }
+}

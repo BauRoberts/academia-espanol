@@ -1,0 +1,31 @@
+{
+  "blog": {
+    "title": "Artigos e",
+    "titleHighlight": "Recursos",
+    "description": "Nossos professores compartilham dicas, técnicas e recursos para ajudá-lo a melhorar seu espanhol de forma eficaz.",
+    "articles": [
+      {
+        "id": 1,
+        "title": "Como melhorar sua fluência em espanhol em 30 dias",
+        "date": "25 de setembro, 2024",
+        "image": "/images/blog/articulo1.jpg",
+        "slug": "/blog/melhorar-fluencia-espanhol"
+      },
+      {
+        "id": 2,
+        "title": "Os melhores recursos gratuitos para aprender espanhol",
+        "date": "21 de setembro, 2024",
+        "image": "/images/blog/articulo2.jpg",
+        "slug": "/blog/recursos-gratuitos-espanhol"
+      },
+      {
+        "id": 3,
+        "title": "Guia completo para os verbos irregulares em espanhol",
+        "date": "18 de setembro, 2024",
+        "image": "/images/blog/articulo3.jpg",
+        "slug": "/blog/verbos-irregulares-espanhol"
+      }
+    ],
+    "moreArticles": "Ver mais artigos"
+  }
+}

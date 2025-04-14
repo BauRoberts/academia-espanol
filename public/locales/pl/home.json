@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Españoling:",
+    "subtitle": "Twoja akademia języków online",
+    "description": "Witamy na pokładzie tej przygody z miejscem docelowym: nauka hiszpańskiego. Nasza metodologia polega na budowaniu pewności siebie, zrozumieniu i mówieniu od pierwszej lekcji. Nuda jest surowo zabroniona w naszej akademii.",
+    "buttons": {
+      "schedule": "Zarezerwuj lekcję",
+      "video": "Film prezentacyjny"
+    },
+    "stats": {
+      "levels": {
+        "value": "A1-C2",
+        "label": "Wszystkie poziomy"
+      },
+      "personalized": {
+        "value": "100%",
+        "label": "Spersonalizowane"
+      },
+      "rating": {
+        "value": "5/5",
+        "label": "Ocena uczniów"
+      }
+    },
+    "languages": {
+      "title": "Zajęcia w",
+      "subtitle": "wielu językach"
+    }
+  }
+}

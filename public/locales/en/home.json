@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Españoling:",
+    "subtitle": "Your online language academy",
+    "description": "Welcome aboard this adventure with a destination: learning Spanish. Our methodology focuses on building your confidence, understanding, and speaking from the very first class. Boredom is strictly prohibited in our academy.",
+    "buttons": {
+      "schedule": "Book your class",
+      "video": "Presentation Video"
+    },
+    "stats": {
+      "levels": {
+        "value": "A1-C2",
+        "label": "All levels"
+      },
+      "personalized": {
+        "value": "100%",
+        "label": "Personalized"
+      },
+      "rating": {
+        "value": "5/5",
+        "label": "Student rating"
+      }
+    },
+    "languages": {
+      "title": "Classes in",
+      "subtitle": "multiple languages"
+    }
+  }
+}
