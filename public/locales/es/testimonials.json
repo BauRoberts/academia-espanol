@@ -7,28 +7,28 @@
         "name": "Anna L.",
         "location": "Chicago, IL",
         "text": "La experiencia y dedicación de Peter marcaron toda la diferencia en mi caso, y me sentí apoyada en cada paso del camino.",
-        "image": "/api/placeholder/150/150"
+        "image": "/images/testimonio/testimonio4.jpg"
       },
       {
         "id": 2,
         "name": "Carlos M.",
         "location": "Madrid, España",
         "text": "Las clases son increíblemente dinámicas y divertidas. He aprendido más español en 3 meses que en años de estudio tradicional.",
-        "image": "/api/placeholder/150/150"
+        "image": "/images/testimonio/testimonio4.jpg"
       },
       {
         "id": 3,
         "name": "Sophie D.",
         "location": "París, Francia",
         "text": "Los profesores son excepcionales y adaptan cada clase a mis necesidades. ¡Mi español ha mejorado muchísimo!",
-        "image": "/api/placeholder/150/150"
+        "image": "/images/testimonio/testimonio4.jpg"
       },
       {
         "id": 4,
         "name": "Markus W.",
         "location": "Berlín, Alemania",
         "text": "El enfoque personalizado de Españoling me ha permitido avanzar a mi propio ritmo. Recomiendo 100% esta academia.",
-        "image": "/api/placeholder/150/150"
+        "image": "/images/testimonio/testimonio4.jpg"
       }
     ]
   }

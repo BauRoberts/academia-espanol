@@ -8,21 +8,21 @@
         "id": 1,
         "title": "Como melhorar sua fluência em espanhol em 30 dias",
         "date": "25 de setembro, 2024",
-        "image": "/images/blog/articulo1.jpg",
+        "image": "/images/blog/blog1.png",
         "slug": "/blog/melhorar-fluencia-espanhol"
       },
       {
         "id": 2,
         "title": "Os melhores recursos gratuitos para aprender espanhol",
         "date": "21 de setembro, 2024",
-        "image": "/images/blog/articulo2.jpg",
+        "image": "/images/blog/blog2.png",
         "slug": "/blog/recursos-gratuitos-espanhol"
       },
       {
         "id": 3,
         "title": "Guia completo para os verbos irregulares em espanhol",
         "date": "18 de setembro, 2024",
-        "image": "/images/blog/articulo3.jpg",
+        "image": "/images/blog/blog3.png",
         "slug": "/blog/verbos-irregulares-espanhol"
       }
     ],
