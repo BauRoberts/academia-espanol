@@ -183,3 +183,5 @@ Se utilizó Tailwind CSS v4 con la siguiente configuración:
 - Mejorar la integración de tipos de TypeScript con Contentful
 
 Que vamos a hacer ahora?
+
+Vamos a armar una pagina para hacer un show de los profesores! son dos profesores uno se llama natan y la otra mili! La idea seria mostrar una foto y texto de cada uno! Tratemos de seguir el estilo que llevamos en el resto de la pagina!

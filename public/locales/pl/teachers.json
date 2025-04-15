@@ -1,0 +1,32 @@
+{
+  "title": "Nasi Nauczyciele",
+  "subtitle": "Eksperci języka hiszpańskiego",
+  "description": "Mamy wysoko wykwalifikowanych nauczycieli natywnych z bogatym doświadczeniem w nauczaniu języka hiszpańskiego jako języka obcego. Poznaj nasz zespół profesjonalistów, którzy z pasją dzielą się naszym językiem i kulturą.",
+  "cta": "Zarezerwuj lekcję teraz",
+  "profesores": {
+    "natan": {
+      "name": "Natan Rodríguez",
+      "title": "Nauczyciel hiszpańskiego - Specjalista od konwersacji",
+      "bio": "Natan to pasjonat nauczania języka hiszpańskiego z ponad 8-letnim doświadczeniem w pracy z uczniami z całego świata. Dzięki dynamicznemu i praktycznemu podejściu, Natan specjalizuje się w pomaganiu swoim uczniom w rozwijaniu płynności i pewności w konwersacji, dostosowując swoje zajęcia do indywidualnych potrzeb każdego ucznia.",
+      "specialties": [
+        "Zaawansowana konwersacja",
+        "Hiszpański biznesowy",
+        "Kultura latynoamerykańska",
+        "Wymowa"
+      ],
+      "experience": "8 lat nauczania hiszpańskiego uczniów z ponad 20 różnych krajów"
+    },
+    "mili": {
+      "name": "Mili Fernández",
+      "title": "Nauczycielka hiszpańskiego - Specjalistka od gramatyki",
+      "bio": "Mili łączy swoje wykształcenie akademickie w dziedzinie językoznawstwa z innowacyjnymi technikami nauczania, aby uczynić naukę gramatyki hiszpańskiej przystępną i przyjemną. Jej ustrukturyzowana, ale elastyczna metoda pomogła setkom uczniów opanować najtrudniejsze aspekty języka hiszpańskiego.",
+      "specialties": [
+        "Gramatyka hiszpańska",
+        "Przygotowanie do egzaminów DELE",
+        "Hiszpański akademicki",
+        "Literatura hiszpańskojęzyczna"
+      ],
+      "experience": "10 lat jako certyfikowana nauczycielka hiszpańskiego ze specjalizacją w językoznawstwie stosowanym"
+    }
+  }
+}

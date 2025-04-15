@@ -1,0 +1,32 @@
+{
+  "title": "Nuestros Profesores",
+  "subtitle": "Expertos en la enseñanza del español",
+  "description": "Contamos con profesores nativos altamente calificados y con experiencia en la enseñanza del español como lengua extranjera. Conoce a nuestro equipo de profesionales apasionados por compartir nuestro idioma y cultura.",
+  "cta": "Agenda una clase ahora",
+  "profesores": {
+    "natan": {
+      "name": "Natan Rodríguez",
+      "title": "Profesor de español - Especialista en conversación",
+      "bio": "Natan es un apasionado profesor de español con más de 8 años de experiencia enseñando a estudiantes de todo el mundo. Con un enfoque dinámico y práctico, Natan se especializa en ayudar a sus alumnos a desarrollar fluidez y confianza en la conversación, adaptando sus clases a las necesidades individuales de cada estudiante.",
+      "specialties": [
+        "Conversación avanzada",
+        "Español de negocios",
+        "Cultura latinoamericana",
+        "Pronunciación"
+      ],
+      "experience": "8 años enseñando español a estudiantes de más de 20 países diferentes"
+    },
+    "mili": {
+      "name": "Mili Fernández",
+      "title": "Profesora de español - Especialista en gramática",
+      "bio": "Mili combina su formación académica en lingüística con técnicas pedagógicas innovadoras para hacer que el aprendizaje de la gramática española sea accesible y divertido. Su método estructurado pero flexible ha ayudado a cientos de estudiantes a dominar los aspectos más desafiantes del idioma español.",
+      "specialties": [
+        "Gramática española",
+        "Preparación para exámenes DELE",
+        "Español académico",
+        "Literatura hispanoamericana"
+      ],
+      "experience": "10 años como profesora certificada de ELE con especialización en lingüística aplicada"
+    }
+  }
+}

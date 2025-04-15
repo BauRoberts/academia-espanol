@@ -1,0 +1,32 @@
+{
+  "title": "Nos Professeurs",
+  "subtitle": "Experts en langue espagnole",
+  "description": "Nous disposons de professeurs natifs hautement qualifiés et expérimentés dans l'enseignement de l'espagnol comme langue étrangère. Rencontrez notre équipe de professionnels passionnés par le partage de notre langue et de notre culture.",
+  "cta": "Réservez un cours maintenant",
+  "profesores": {
+    "natan": {
+      "name": "Natan Rodríguez",
+      "title": "Professeur d'espagnol - Spécialiste en conversation",
+      "bio": "Natan est un professeur d'espagnol passionné avec plus de 8 ans d'expérience dans l'enseignement à des étudiants du monde entier. Avec une approche dynamique et pratique, Natan se spécialise dans l'aide aux étudiants pour développer leur fluidité et leur confiance en conversation, en adaptant ses cours aux besoins individuels de chaque étudiant.",
+      "specialties": [
+        "Conversation avancée",
+        "Espagnol des affaires",
+        "Culture latino-américaine",
+        "Prononciation"
+      ],
+      "experience": "8 ans d'enseignement de l'espagnol à des étudiants de plus de 20 pays différents"
+    },
+    "mili": {
+      "name": "Mili Fernández",
+      "title": "Professeure d'espagnol - Spécialiste en grammaire",
+      "bio": "Mili combine sa formation académique en linguistique avec des techniques pédagogiques innovantes pour rendre l'apprentissage de la grammaire espagnole accessible et amusant. Sa méthode structurée mais flexible a aidé des centaines d'étudiants à maîtriser les aspects les plus difficiles de la langue espagnole.",
+      "specialties": [
+        "Grammaire espagnole",
+        "Préparation aux examens DELE",
+        "Espagnol académique",
+        "Littérature hispanique"
+      ],
+      "experience": "10 ans en tant que professeure certifiée d'espagnol avec une spécialisation en linguistique appliquée"
+    }
+  }
+}

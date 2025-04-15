@@ -33,7 +33,7 @@ export default async function BlogPage({
 
   // Textos según el idioma
   const texts = {
-    title: lang === "es" ? "Blog de Academia Español" : "Spanish Academy Blog",
+    title: lang === "es" ? "Blog de Españoling" : "Españoling Blog",
     subtitle:
       lang === "es"
         ? "Artículos sobre aprendizaje de español, cultura hispana y más"

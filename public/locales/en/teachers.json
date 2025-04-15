@@ -1,0 +1,32 @@
+{
+  "title": "Our Teachers",
+  "subtitle": "Spanish Language Experts",
+  "description": "We have highly qualified native teachers with extensive experience in teaching Spanish as a foreign language. Meet our team of professionals who are passionate about sharing our language and culture.",
+  "cta": "Schedule a class now",
+  "profesores": {
+    "natan": {
+      "name": "Natan Rodríguez",
+      "title": "Spanish Teacher - Conversation Specialist",
+      "bio": "Natan is a passionate Spanish teacher with more than 8 years of experience teaching students from around the world. With a dynamic and practical approach, Natan specializes in helping his students develop fluency and confidence in conversation, adapting his classes to the individual needs of each student.",
+      "specialties": [
+        "Advanced conversation",
+        "Business Spanish",
+        "Latin American culture",
+        "Pronunciation"
+      ],
+      "experience": "8 years teaching Spanish to students from more than 20 different countries"
+    },
+    "mili": {
+      "name": "Mili Fernández",
+      "title": "Spanish Teacher - Grammar Specialist",
+      "bio": "Mili combines her academic background in linguistics with innovative teaching techniques to make learning Spanish grammar accessible and fun. Her structured yet flexible method has helped hundreds of students master the most challenging aspects of the Spanish language.",
+      "specialties": [
+        "Spanish grammar",
+        "DELE exam preparation",
+        "Academic Spanish",
+        "Hispanic literature"
+      ],
+      "experience": "10 years as a certified Spanish teacher with specialization in applied linguistics"
+    }
+  }
+}

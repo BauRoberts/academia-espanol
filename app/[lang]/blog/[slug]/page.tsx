@@ -28,7 +28,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${article.fields.title} | Academia Español`,
+    title: `${article.fields.title} | Españoling`,
     description: article.fields.resumen || "",
   };
 }
