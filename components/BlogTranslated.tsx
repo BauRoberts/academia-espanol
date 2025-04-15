@@ -1,3 +1,4 @@
+///Users/bautistaroberts/academia-espanol/components/BlogTranslated.tsx
 "use client";
 
 import Image from "next/image";

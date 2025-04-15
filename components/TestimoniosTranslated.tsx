@@ -1,3 +1,4 @@
+///Users/bautistaroberts/academia-espanol/components/TestimoniosTranslated.tsx
 "use client";
 
 import Image from "next/image";
@@ -76,17 +77,23 @@ const TestimoniosTranslated = ({
   }
 
   return (
-    <section className="w-full py-16 md:py-24 bg-white">
+    <section className="w-full py-10 sm:py-16 md:py-24 bg-white">
       <div className="w-full max-w-3xl mx-auto px-4 flex flex-col items-center text-center relative transition-opacity duration-500">
         {/* Comillas grandes */}
-        <div className="mb-4 text-gray-300">
-          <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
+        <div className="mb-3 sm:mb-4 text-gray-300">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="sm:w-[60px] sm:h-[60px]"
+          >
             <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
           </svg>
         </div>
 
         {/* Título principal del testimonio */}
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
           <span className="text-brand-orange">
             {testimonios[testimonioActivo].name}
           </span>{" "}
@@ -94,13 +101,13 @@ const TestimoniosTranslated = ({
         </h2>
 
         {/* Texto del testimonio */}
-        <p className="text-lg text-gray-700 mb-10">
+        <p className="text-base sm:text-lg text-gray-700 mb-6 sm:mb-10">
           {testimonios[testimonioActivo].text}
         </p>
 
         {/* Información de la persona */}
-        <div className="flex flex-col items-center mb-12">
-          <div className="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-brand-orange">
+        <div className="flex flex-col items-center mb-8 sm:mb-12">
+          <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden mb-3 sm:mb-4 border-2 border-brand-orange">
             <Image
               src={testimonios[testimonioActivo].image}
               alt={testimonios[testimonioActivo].name}
@@ -112,7 +119,7 @@ const TestimoniosTranslated = ({
           <h3 className="font-medium text-gray-900">
             {testimonios[testimonioActivo].name}
           </h3>
-          <p className="text-gray-600 text-sm">
+          <p className="text-gray-600 text-xs sm:text-sm">
             {testimonios[testimonioActivo].location}
           </p>
         </div>
@@ -123,7 +130,7 @@ const TestimoniosTranslated = ({
             <button
               key={index}
               onClick={() => handleDotClick(index)}
-              className={`w-2.5 h-2.5 rounded-full transition-colors ${
+              className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-colors ${
                 testimonioActivo === index
                   ? "bg-brand-orange"
                   : "bg-gray-300 hover:bg-gray-400"

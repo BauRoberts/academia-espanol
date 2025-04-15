@@ -1,3 +1,4 @@
+///Users/bautistaroberts/academia-espanol/components/FooterTranslated.tsx
 "use client";
 
 import Link from "next/link";

@@ -111,33 +111,4 @@ Todas las secciones principales han sido implementadas con componentes básicos 
 
 Que vamos a hacer ahora?
 
-Realizamos unos cambios ayer para que la pagina tenga diferentes idiomas. Estamos usando i18n entonces ahora la URL tiene el /es si esta en espanol y con diferentes idiomas. Tenemos un problema que es que no cargan las imagenes, pero en local si las podemos ver.
-
-En local vemos todas las imagenes y cuando las subimos a produccion no se ven! Tenemos este error!
-
-Failed to load resource: the server responded with a status of 404 ()Understand this error
-/es/profesores?\_rsc=3odvn:1
-
-           Failed to load resource: the server responded with a status of 404 ()Understand this error
-
-/es/images/Logo.png:1
-
-           Failed to load resource: the server responded with a status of 404 ()Understand this error
-
-/es/resenas?\_rsc=3odvn:1
-
-           Failed to load resource: the server responded with a status of 404 ()Understand this error
-
-/es/blog?\_rsc=3odvn:1
-
-           Failed to load resource: the server responded with a status of 404 ()Understand this error
-
-/es/demo?\_rsc=3odvn:1
-
-           Failed to load resource: the server responded with a status of 404 ()Understand this error
-
-/es/images/profesores/profesor_principal.png:1
-
-           Failed to load resource: the server responded with a status of 404 ()Understand this error
-
-Como podemos hacer para debuggear esto? Que puede ser?
+Ahora vamos a trtar de acomodar todos los componentees y paginas para que sean responsive! Viend la estructura de archivo que tenemos, cual crees que sea la mejor estrategia para hacer esto.

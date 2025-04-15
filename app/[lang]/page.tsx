@@ -1,6 +1,5 @@
 import { getTranslations } from "@/lib/i18n/utils";
 import HeroTranslated from "@/components/HeroTranslated";
-import SobreNosotrosTranslated from "@/components/SobreNosotrosTranslated";
 import ServiciosTranslated from "@/components/ServiciosTranslated";
 import ProfesoresDestacadosTranslated from "@/components/ProfesoresDestacadosTranslated";
 import BlogTranslated from "@/components/BlogTranslated";
@@ -25,7 +24,6 @@ export default async function Home({ params }: { params: { lang: string } }) {
   const professorsTranslations = await getTranslations(lang, "professors");
   const blogTranslations = await getTranslations(lang, "blog");
   const testimonialsTranslations = await getTranslations(lang, "testimonials");
-  const ctaTranslations = await getTranslations(lang, "cta");
 
   return (
     <main>
@@ -52,10 +50,6 @@ export default async function Home({ params }: { params: { lang: string } }) {
             },
           }
         }
-      />
-      <SobreNosotrosTranslated
-        title={homeTranslations?.about?.title || ""}
-        content={homeTranslations?.about?.content || ""}
       />
 
       <ServiciosTranslated
@@ -114,32 +108,21 @@ export default async function Home({ params }: { params: { lang: string } }) {
       />
       <CTATranslated
         currentLocale={lang}
-        translations={
-          ctaTranslations?.cta || {
-            title: "¿Listo para comenzar tu aventura",
-            titleSuffix: "con el español?",
-            description:
-              "Reserva ahora tu primera clase gratuita y descubre cómo nuestra metodología personalizada te ayudará a alcanzar la fluidez que siempre has deseado.",
-            buttons: {
-              book: "Reserva tu clase gratuita",
-              demo: "Ver cómo funcionan las clases",
-            },
-            stats: {
-              satisfaction: {
-                value: "98%",
-                label: "Tasa de satisfacción",
-              },
-              personalized: {
-                value: "100%",
-                label: "Personalizado",
-              },
-              students: {
-                value: "+1000",
-                label: "Estudiantes satisfechos",
-              },
-            },
-          }
-        }
+        translations={{
+          title: commonTranslations?.cta?.ready || "",
+          titleSuffix: "", // Proporciona un valor adecuado o vacío
+          description: "", // Proporciona un valor adecuado o vacío
+          buttons: {
+            book: commonTranslations?.cta?.book || "",
+            demo: "", // Proporciona un valor adecuado o vacío
+          },
+          stats: {
+            // Proporciona las estadísticas necesarias o un objeto vacío compatible
+            satisfaction: { value: "", label: "" },
+            personalized: { value: "", label: "" },
+            students: { value: "", label: "" },
+          },
+        }}
       />
     </main>
   );
