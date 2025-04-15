@@ -36,6 +36,41 @@ const ServiciosTranslated = ({
 
   useEffect(() => {
     setIsClient(true);
+
+    const styleElement = document.createElement("style");
+    styleElement.innerHTML = `
+      .wave-text-effect {
+        position: relative;  /* Añadido */
+        display: inline-block;
+        overflow: hidden;    /* Añadido */
+      }
+      
+      .wave-text-effect::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.8) 50%,
+          transparent 100%
+        );
+        transition: none;
+      }
+      
+      .wave-text-effect:hover::before {
+        left: 100%;
+        transition: all 0.8s ease;
+      }
+    `;
+    document.head.appendChild(styleElement);
+
+    return () => {
+      document.head.removeChild(styleElement);
+    };
   }, []);
 
   // Definimos los iconos para cada servicio
@@ -46,6 +81,7 @@ const ServiciosTranslated = ({
       viewBox="0 0 24 24"
       fill="currentColor"
       className="w-6 h-6 sm:w-8 sm:h-8"
+      key="icon-1"
     >
       <path
         fillRule="evenodd"
@@ -59,6 +95,7 @@ const ServiciosTranslated = ({
       viewBox="0 0 24 24"
       fill="currentColor"
       className="w-6 h-6 sm:w-8 sm:h-8"
+      key="icon-2"
     >
       <path
         fillRule="evenodd"
@@ -73,6 +110,7 @@ const ServiciosTranslated = ({
       viewBox="0 0 24 24"
       fill="currentColor"
       className="w-6 h-6 sm:w-8 sm:h-8"
+      key="icon-3"
     >
       <path d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z" />
       <path d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z" />
@@ -83,6 +121,7 @@ const ServiciosTranslated = ({
       viewBox="0 0 24 24"
       fill="currentColor"
       className="w-6 h-6 sm:w-8 sm:h-8"
+      key="icon-4"
     >
       <path
         fillRule="evenodd"
@@ -96,6 +135,7 @@ const ServiciosTranslated = ({
       viewBox="0 0 24 24"
       fill="currentColor"
       className="w-6 h-6 sm:w-8 sm:h-8"
+      key="icon-5"
     >
       <path
         fillRule="evenodd"
@@ -109,6 +149,7 @@ const ServiciosTranslated = ({
       viewBox="0 0 24 24"
       fill="currentColor"
       className="w-6 h-6 sm:w-8 sm:h-8"
+      key="icon-6"
     >
       <path
         fillRule="evenodd"
@@ -151,15 +192,23 @@ const ServiciosTranslated = ({
               {servicio.description}
             </p>
             <Link
-              href={`/${currentLocale}/contacto`}
-              className="text-brand-orange font-medium inline-flex items-center group text-sm sm:text-base"
+              href={
+                servicio.id === 5
+                  ? `/${currentLocale}/curso-ritmo`
+                  : `/${currentLocale}/contacto`
+              }
+              className="inline-flex items-center group text-sm sm:text-base"
             >
-              {translations?.moreInfo || "Más información"}
+              <span className="text-brand-orange font-medium">
+                <span className="relative z-10">
+                  {translations?.moreInfo || "Más información"}
+                </span>
+              </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-4 h-4 sm:w-5 sm:h-5 ml-1 transform transition-transform group-hover:translate-x-1"
+                className="w-4 h-4 sm:w-5 sm:h-5 ml-1 transform transition-transform group-hover:translate-x-1 text-brand-orange"
               >
                 <path
                   fillRule="evenodd"

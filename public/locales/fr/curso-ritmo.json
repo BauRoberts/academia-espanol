@@ -1,0 +1,150 @@
+{
+  "title": "Cours d'espagnol",
+  "titleHighlight": "à votre rythme",
+  "description": "Apprenez l'espagnol à votre propre rythme avec notre cours asynchrone conçu pour s'adapter à votre emploi du temps et à vos besoins spécifiques.",
+
+  "benefitsTitle": "Avantages du cours",
+  "benefits": [
+    {
+      "title": "Flexibilité totale",
+      "description": "Étudiez quand vous voulez et où vous voulez, sans horaires fixes ni engagements."
+    },
+    {
+      "title": "Contenu de qualité",
+      "description": "Matériel pédagogique développé par des professeurs natifs spécialisés dans l'enseignement de l'espagnol."
+    },
+    {
+      "title": "Apprentissage personnalisé",
+      "description": "Adaptez votre expérience d'apprentissage selon vos intérêts et objectifs spécifiques."
+    },
+    {
+      "title": "Accès permanent",
+      "description": "Une fois inscrit, vous aurez un accès illimité à tous les matériaux du cours."
+    }
+  ],
+
+  "formatTitle": "Comment ça fonctionne ?",
+  "format": [
+    {
+      "title": "Leçons structurées",
+      "description": "Le cours est organisé en modules progressifs qui couvrent la grammaire, le vocabulaire et les aspects culturels."
+    },
+    {
+      "title": "Ressources multimédia",
+      "description": "Vidéos, audios, textes et exercices interactifs qui rendent l'apprentissage plus dynamique."
+    },
+    {
+      "title": "Exercices pratiques",
+      "description": "Activités conçues pour renforcer ce que vous avez appris avec un feedback automatique."
+    },
+    {
+      "title": "Communauté d'étudiants",
+      "description": "Accès à un forum où vous pourrez interagir avec d'autres étudiants et résoudre vos doutes."
+    }
+  ],
+
+  "waitlistTitle": "Rejoignez la liste d'attente",
+  "waitlistDescription": "Le cours sera bientôt disponible. Laissez-nous vos coordonnées pour être parmi les premiers à y accéder et recevoir des informations exclusives.",
+
+  "form": {
+    "fields": {
+      "nombre": {
+        "label": "Nom complet",
+        "placeholder": "Entrez votre nom complet"
+      },
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "votreemail@exemple.com"
+      },
+      "nivel": {
+        "label": "Niveau d'espagnol",
+        "options": [
+          {
+            "label": "Débutant (A1)",
+            "value": "a1"
+          },
+          {
+            "label": "Élémentaire (A2)",
+            "value": "a2"
+          },
+          {
+            "label": "Intermédiaire (B1)",
+            "value": "b1"
+          },
+          {
+            "label": "Intermédiaire supérieur (B2)",
+            "value": "b2"
+          },
+          {
+            "label": "Avancé (C1)",
+            "value": "c1"
+          },
+          {
+            "label": "Maîtrise/Bilingue (C2)",
+            "value": "c2"
+          }
+        ]
+      },
+      "interes": {
+        "label": "Qu'êtes-vous intéressé à apprendre ? (optionnel)",
+        "options": [
+          {
+            "label": "Grammaire et structures",
+            "value": "gramatica"
+          },
+          {
+            "label": "Vocabulaire spécifique",
+            "value": "vocabulario"
+          },
+          {
+            "label": "Conversation et fluidité",
+            "value": "conversacion"
+          },
+          {
+            "label": "Culture hispanique",
+            "value": "cultura"
+          },
+          {
+            "label": "Espagnol des affaires",
+            "value": "negocios"
+          }
+        ]
+      },
+      "mensaje": {
+        "label": "Message (optionnel)",
+        "placeholder": "Parlez-nous davantage de vos objectifs d'apprentissage ou de toute autre information que vous jugez pertinente."
+      }
+    },
+    "submit": "Rejoindre la liste d'attente",
+    "success": "Nous vous avons ajouté à notre liste d'attente. Nous vous informerons par e-mail lorsque le cours sera disponible.",
+    "error": "Une erreur s'est produite lors du traitement de votre demande. Veuillez réessayer."
+  },
+
+  "faqTitle": "Questions fréquemment posées",
+  "faqs": [
+    {
+      "question": "Quand le cours sera-t-il disponible ?",
+      "answer": "Nous sommes dans la phase finale de développement. Nous prévoyons de lancer le cours dans les prochaines semaines. En rejoignant la liste d'attente, vous serez parmi les premiers à recevoir l'annonce."
+    },
+    {
+      "question": "Quel niveau d'espagnol est nécessaire pour s'inscrire ?",
+      "answer": "Le cours est conçu pour tous les niveaux, des débutants aux avancés. Nous disposons de différents modules adaptés à chaque niveau de compétence."
+    },
+    {
+      "question": "Aurai-je accès à un professeur pour résoudre mes doutes ?",
+      "answer": "Oui, nous proposons un système de tutorat optionnel où vous pourrez programmer des séances individuelles avec des professeurs pour résoudre des doutes spécifiques."
+    },
+    {
+      "question": "Combien de temps ai-je pour compléter le cours ?",
+      "answer": "S'agissant d'un cours à votre rythme, il n'y a pas de limite de temps. Une fois acheté, vous aurez un accès permanent à tous les matériaux et mises à jour."
+    }
+  ],
+
+  "cta": {
+    "title": "Apprenez l'espagnol à votre façon",
+    "description": "Ne laissez pas votre emploi du temps être un obstacle à l'apprentissage de l'espagnol. Avec notre cours à votre rythme, vous décidez quand et comment étudier.",
+    "button": "Réserver ma place maintenant"
+  },
+
+  "backToServices": "Retour aux Services"
+}

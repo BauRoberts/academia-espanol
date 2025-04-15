@@ -184,4 +184,9 @@ Se utilizó Tailwind CSS v4 con la siguiente configuración:
 
 Que vamos a hacer ahora?
 
-Vamos a armar una pagina para hacer un show de los profesores! son dos profesores uno se llama natan y la otra mili! La idea seria mostrar una foto y texto de cada uno! Tratemos de seguir el estilo que llevamos en el resto de la pagina!
+Cuando presionas en el curso a tu ritmo en los servivios la idea es que te lleve a otra pagina de contacto y no la general! Esta va a darte la posibilidad de sumarte a la waitlist. La idea del curso a tu rtimo es tener un espacio donde hay contenido asincrono el cual podes consultar.
+
+Tenes en cuenta que tenemos que armar esta pagina en todos los idiomas, usando la estrucutra de i18n que tenemos.
+/Users/bautistaroberts/academia-espanol/public/locales/es/common.json
+
+Este seria un archivo! Tenemos frances, polaco, ingles, espanol y portugues como idiomas!

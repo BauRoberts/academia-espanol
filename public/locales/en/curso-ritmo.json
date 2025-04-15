@@ -1,0 +1,150 @@
+{
+  "title": "Spanish course",
+  "titleHighlight": "at your own pace",
+  "description": "Learn Spanish at your own pace with our asynchronous course designed to adapt to your schedule and specific needs.",
+
+  "benefitsTitle": "Course benefits",
+  "benefits": [
+    {
+      "title": "Complete flexibility",
+      "description": "Study whenever and wherever you want, without fixed schedules or commitments."
+    },
+    {
+      "title": "Quality content",
+      "description": "Educational material developed by native teachers specialized in Spanish teaching."
+    },
+    {
+      "title": "Personalized learning",
+      "description": "Adapt your learning experience according to your specific interests and goals."
+    },
+    {
+      "title": "Permanent access",
+      "description": "Once enrolled, you'll have unlimited access to all course materials."
+    }
+  ],
+
+  "formatTitle": "How does it work?",
+  "format": [
+    {
+      "title": "Structured lessons",
+      "description": "The course is organized in progressive modules covering grammar, vocabulary, and cultural aspects."
+    },
+    {
+      "title": "Multimedia resources",
+      "description": "Videos, audios, texts, and interactive exercises that make learning more dynamic."
+    },
+    {
+      "title": "Practical exercises",
+      "description": "Activities designed to reinforce what you've learned with automatic feedback."
+    },
+    {
+      "title": "Student community",
+      "description": "Access to a forum where you can interact with other students and solve doubts."
+    }
+  ],
+
+  "waitlistTitle": "Join the waitlist",
+  "waitlistDescription": "The course will be available soon. Leave us your details to be among the first to access and receive exclusive information.",
+
+  "form": {
+    "fields": {
+      "nombre": {
+        "label": "Full name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Email address",
+        "placeholder": "youremail@example.com"
+      },
+      "nivel": {
+        "label": "Spanish level",
+        "options": [
+          {
+            "label": "Beginner (A1)",
+            "value": "a1"
+          },
+          {
+            "label": "Elementary (A2)",
+            "value": "a2"
+          },
+          {
+            "label": "Intermediate (B1)",
+            "value": "b1"
+          },
+          {
+            "label": "Upper Intermediate (B2)",
+            "value": "b2"
+          },
+          {
+            "label": "Advanced (C1)",
+            "value": "c1"
+          },
+          {
+            "label": "Proficient/Bilingual (C2)",
+            "value": "c2"
+          }
+        ]
+      },
+      "interes": {
+        "label": "What are you interested in learning? (optional)",
+        "options": [
+          {
+            "label": "Grammar and structures",
+            "value": "gramatica"
+          },
+          {
+            "label": "Specific vocabulary",
+            "value": "vocabulario"
+          },
+          {
+            "label": "Conversation and fluency",
+            "value": "conversacion"
+          },
+          {
+            "label": "Hispanic culture",
+            "value": "cultura"
+          },
+          {
+            "label": "Business Spanish",
+            "value": "negocios"
+          }
+        ]
+      },
+      "mensaje": {
+        "label": "Message (optional)",
+        "placeholder": "Tell us more about your learning goals or any other information you consider relevant."
+      }
+    },
+    "submit": "Join the waitlist",
+    "success": "We've added you to our waitlist. We'll notify you by email when the course is available.",
+    "error": "An error occurred while processing your request. Please try again."
+  },
+
+  "faqTitle": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "question": "When will the course be available?",
+      "answer": "We are in the final development phase. We expect to launch the course in the coming weeks. By joining the waitlist, you'll be among the first to receive the announcement."
+    },
+    {
+      "question": "What Spanish level do I need to enroll?",
+      "answer": "The course is designed for all levels, from beginners to advanced. We have different modules adapted to each proficiency level."
+    },
+    {
+      "question": "Will I have access to a teacher to resolve doubts?",
+      "answer": "Yes, we offer an optional tutoring system where you can schedule individual sessions with teachers to resolve specific doubts."
+    },
+    {
+      "question": "How much time do I have to complete the course?",
+      "answer": "Being a self-paced course, there is no time limit. Once purchased, you will have permanent access to all materials and updates."
+    }
+  ],
+
+  "cta": {
+    "title": "Learn Spanish your way",
+    "description": "Don't let your schedule be an obstacle to learning Spanish. With our self-paced course, you decide when and how to study.",
+    "button": "Reserve my spot now"
+  },
+
+  "backToServices": "Back to Services"
+}

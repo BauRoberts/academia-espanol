@@ -1,0 +1,150 @@
+{
+  "title": "Kurs hiszpańskiego",
+  "titleHighlight": "we własnym tempie",
+  "description": "Ucz się hiszpańskiego we własnym tempie dzięki naszemu asynchronicznemu kursowi dostosowanemu do Twojego harmonogramu i specyficznych potrzeb.",
+
+  "benefitsTitle": "Korzyści z kursu",
+  "benefits": [
+    {
+      "title": "Pełna elastyczność",
+      "description": "Ucz się kiedy chcesz i skąd chcesz, bez ustalonych godzin czy zobowiązań."
+    },
+    {
+      "title": "Treści wysokiej jakości",
+      "description": "Materiały dydaktyczne opracowane przez natywnych nauczycieli specjalizujących się w nauczaniu hiszpańskiego."
+    },
+    {
+      "title": "Spersonalizowana nauka",
+      "description": "Dostosuj swoje doświadczenie edukacyjne do konkretnych zainteresowań i celów."
+    },
+    {
+      "title": "Stały dostęp",
+      "description": "Po zapisaniu się będziesz mieć nieograniczony dostęp do wszystkich materiałów kursu."
+    }
+  ],
+
+  "formatTitle": "Jak to działa?",
+  "format": [
+    {
+      "title": "Ustrukturyzowane lekcje",
+      "description": "Kurs jest zorganizowany w progresywnych modułach obejmujących gramatykę, słownictwo i aspekty kulturowe."
+    },
+    {
+      "title": "Zasoby multimedialne",
+      "description": "Filmy, nagrania audio, teksty i interaktywne ćwiczenia, które sprawiają, że nauka jest bardziej dynamiczna."
+    },
+    {
+      "title": "Ćwiczenia praktyczne",
+      "description": "Aktywności zaprojektowane, aby wzmocnić to, czego się nauczyłeś, z automatyczną informacją zwrotną."
+    },
+    {
+      "title": "Społeczność uczniów",
+      "description": "Dostęp do forum, gdzie możesz wchodzić w interakcje z innymi uczniami i rozwiązywać wątpliwości."
+    }
+  ],
+
+  "waitlistTitle": "Dołącz do listy oczekujących",
+  "waitlistDescription": "Kurs będzie wkrótce dostępny. Zostaw nam swoje dane, aby być jednym z pierwszych, którzy uzyskają dostęp i otrzymają ekskluzywne informacje.",
+
+  "form": {
+    "fields": {
+      "nombre": {
+        "label": "Pełne imię i nazwisko",
+        "placeholder": "Wpisz swoje pełne imię i nazwisko"
+      },
+      "email": {
+        "label": "Adres e-mail",
+        "placeholder": "twojemail@przyklad.com"
+      },
+      "nivel": {
+        "label": "Poziom hiszpańskiego",
+        "options": [
+          {
+            "label": "Początkujący (A1)",
+            "value": "a1"
+          },
+          {
+            "label": "Podstawowy (A2)",
+            "value": "a2"
+          },
+          {
+            "label": "Średniozaawansowany (B1)",
+            "value": "b1"
+          },
+          {
+            "label": "Ponadśredniozaawansowany (B2)",
+            "value": "b2"
+          },
+          {
+            "label": "Zaawansowany (C1)",
+            "value": "c1"
+          },
+          {
+            "label": "Biegły/Dwujęzyczny (C2)",
+            "value": "c2"
+          }
+        ]
+      },
+      "interes": {
+        "label": "Czego chciałbyś się nauczyć? (opcjonalnie)",
+        "options": [
+          {
+            "label": "Gramatyka i struktury",
+            "value": "gramatica"
+          },
+          {
+            "label": "Specjalistyczne słownictwo",
+            "value": "vocabulario"
+          },
+          {
+            "label": "Konwersacja i płynność",
+            "value": "conversacion"
+          },
+          {
+            "label": "Kultura hiszpańska",
+            "value": "cultura"
+          },
+          {
+            "label": "Hiszpański biznesowy",
+            "value": "negocios"
+          }
+        ]
+      },
+      "mensaje": {
+        "label": "Wiadomość (opcjonalnie)",
+        "placeholder": "Opowiedz nam więcej o swoich celach edukacyjnych lub jakichkolwiek innych informacjach, które uważasz za istotne."
+      }
+    },
+    "submit": "Dołącz do listy oczekujących",
+    "success": "Dodaliśmy Cię do naszej listy oczekujących. Powiadomimy Cię e-mailem, gdy kurs będzie dostępny.",
+    "error": "Wystąpił błąd podczas przetwarzania Twojego żądania. Spróbuj ponownie."
+  },
+
+  "faqTitle": "Często zadawane pytania",
+  "faqs": [
+    {
+      "question": "Kiedy kurs będzie dostępny?",
+      "answer": "Jesteśmy w końcowej fazie rozwoju. Spodziewamy się uruchomić kurs w nadchodzących tygodniach. Dołączając do listy oczekujących, będziesz jednym z pierwszych, którzy otrzymają ogłoszenie."
+    },
+    {
+      "question": "Jaki poziom hiszpańskiego jest wymagany do zapisania się?",
+      "answer": "Kurs jest zaprojektowany dla wszystkich poziomów, od początkujących do zaawansowanych. Mamy różne moduły dostosowane do każdego poziomu biegłości."
+    },
+    {
+      "question": "Czy będę mieć dostęp do nauczyciela, aby rozwiązać wątpliwości?",
+      "answer": "Tak, oferujemy opcjonalny system tutoringu, w którym możesz zaplanować indywidualne sesje z nauczycielami, aby rozwiązać konkretne wątpliwości."
+    },
+    {
+      "question": "Ile czasu mam na ukończenie kursu?",
+      "answer": "Ponieważ jest to kurs we własnym tempie, nie ma limitu czasowego. Po zakupie będziesz mieć stały dostęp do wszystkich materiałów i aktualizacji."
+    }
+  ],
+
+  "cta": {
+    "title": "Ucz się hiszpańskiego po swojemu",
+    "description": "Nie pozwól, aby Twój harmonogram był przeszkodą w nauce hiszpańskiego. Z naszym kursem we własnym tempie, to Ty decydujesz, kiedy i jak się uczysz.",
+    "button": "Zarezerwuj miejsce teraz"
+  },
+
+  "backToServices": "Powrót do Usług"
+}
