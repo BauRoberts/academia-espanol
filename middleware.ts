@@ -32,6 +32,6 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // Solo ejecutar en el frontend para rutas que no sean archivos estáticos
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
+  // Modificado para excluir también la carpeta 'images'
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|images).*)"],
 };
