@@ -15,11 +15,12 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
 
-  // Añadir configuración para imágenes SVG
+  // Configuración para imágenes
   images: {
     dangerouslyAllowSVG: true,
     contentDispositionType: "attachment",
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    domains: ["images.ctfassets.net"], // Añadimos el dominio de Contentful
   },
 
   // Añadir configuraciones experimentales para Next.js 15.3.0
