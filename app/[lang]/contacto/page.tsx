@@ -1,3 +1,5 @@
+//app/[lang]/contacto/page.tsx
+
 import { getTranslations } from "@/lib/i18n";
 import ContactoTranslated from "@/components/ContactoTranslated";
 

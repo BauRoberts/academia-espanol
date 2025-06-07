@@ -5,28 +5,29 @@
   "cta": "Agenda una clase ahora",
   "profesores": {
     "natan": {
-      "name": "Natan Rodríguez",
-      "title": "Profesor de español - Especialista en conversación",
-      "bio": "Natan es un apasionado profesor de español con más de 8 años de experiencia enseñando a estudiantes de todo el mundo. Con un enfoque dinámico y práctico, Natan se especializa en ayudar a sus alumnos a desarrollar fluidez y confianza en la conversación, adaptando sus clases a las necesidades individuales de cada estudiante.",
+      "name": "Natan Julian Mitros",
+      "title": "Profesor de español",
+      "bio": "¡Hola! Mi nombre es Natan y con mucho gusto seré tu profesor de español. Desde pequeño siempre me han apasionado los idiomas y ahora me gustaría compartir esta pasión contigo enseñándote español.\n\nTengo más de 3 años de experiencia enseñando español, tanto en clases individuales como en grupos. Mis clases son siempre 100% adaptadas a las necesidades del estudiante. En mis clases nunca nos aburrimos y siempre me enfoco en que tú comprendas todo lo que estamos haciendo. Soy graduado en Lenguas Modernas por la Universidad de Valencia (España).\n\nNo lo dudes más y reserva ya tu primera clase conmigo :)\n\nExperiencia: 3+ años enseñando español a estudiantes de más de 20 países diferentes.",
       "specialties": [
         "Conversación avanzada",
-        "Español de negocios",
+        "Preparación DELE",
         "Cultura latinoamericana",
-        "Pronunciación"
-      ],
-      "experience": "8 años enseñando español a estudiantes de más de 20 países diferentes"
+        "Cultura española",
+        "Pronunciación",
+        "Gramática"
+      ]
     },
     "mili": {
-      "name": "Mili Fernández",
-      "title": "Profesora de español - Especialista en gramática",
-      "bio": "Mili combina su formación académica en lingüística con técnicas pedagógicas innovadoras para hacer que el aprendizaje de la gramática española sea accesible y divertido. Su método estructurado pero flexible ha ayudado a cientos de estudiantes a dominar los aspectos más desafiantes del idioma español.",
+      "name": "Mili",
+      "title": "Profesora de español",
+      "bio": "¡Hola! Soy Mili, tutora de español online con más de 3 años de experiencia. Soy hablante nativa, nací en Argentina y vivo desde hace muchos años en España, por lo que tengo una visión amplia del idioma y sus variedades.\n\nEstoy especializada en clases personalizadas que se adaptan a cada alumno, sin importar la edad: creo un espacio cálido y seguro para que hables con confianza desde el primer día. Diseño cada clase a medida, adaptando los contenidos y la metodología a tus intereses, objetivos y forma de aprender.\n\nYa sea que necesites el español para viajar, trabajar, comunicarte mejor en tu día a día o aprender desde cero, estaré encantada de acompañarte.\n\nExperiencia: +3 años de experiencia con todas las edades; entre 5 años a +65.",
       "specialties": [
-        "Gramática española",
-        "Preparación para exámenes DELE",
-        "Español académico",
-        "Literatura hispanoamericana"
-      ],
-      "experience": "10 años como profesora certificada de ELE con especialización en lingüística aplicada"
+        "Conversación avanzada",
+        "Español para niños y adolescentes",
+        "Gramática",
+        "Pronunciación",
+        "Cultura española"
+      ]
     }
   }
 }

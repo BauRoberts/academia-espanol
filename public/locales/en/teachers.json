@@ -1,32 +1,33 @@
 {
   "title": "Our Teachers",
-  "subtitle": "Spanish Language Experts",
-  "description": "We have highly qualified native teachers with extensive experience in teaching Spanish as a foreign language. Meet our team of professionals who are passionate about sharing our language and culture.",
-  "cta": "Schedule a class now",
+  "subtitle": "Experts in Spanish language instruction",
+  "description": "We have highly qualified native teachers with experience teaching Spanish as a foreign language. Meet our team of passionate professionals eager to share their language and culture.",
+  "cta": "Book a class now",
   "profesores": {
     "natan": {
-      "name": "Natan Rodríguez",
-      "title": "Spanish Teacher - Conversation Specialist",
-      "bio": "Natan is a passionate Spanish teacher with more than 8 years of experience teaching students from around the world. With a dynamic and practical approach, Natan specializes in helping his students develop fluency and confidence in conversation, adapting his classes to the individual needs of each student.",
+      "name": "Natan Julian Mitros",
+      "title": "Spanish teacher",
+      "bio": "Hello! My name is Natan and I will be happy to be your Spanish teacher. Since I was a child I have always been passionate about languages and now I would like to share this passion with you by teaching you Spanish.\n\nI have more than 3 years of experience teaching Spanish, both in individual classes and in groups. My classes are always 100% adapted to the student's needs. In my classes we never get bored and I always focus on you understanding everything we are doing. I have a Bachelor's Degree in Modern Languages from the University of Valencia (Spain).\n\nDon't wait any longer and book your first class with me :)\n\nExperience: 3+ years teaching Spanish to students from more than 20 different countries.",
       "specialties": [
-        "Advanced conversation",
-        "Business Spanish",
-        "Latin American culture",
-        "Pronunciation"
-      ],
-      "experience": "8 years teaching Spanish to students from more than 20 different countries"
+        "Advanced Conversation",
+        "DELE Preparation",
+        "Latin American Culture",
+        "Spanish Culture",
+        "Pronunciation",
+        "Grammar"
+      ]
     },
     "mili": {
-      "name": "Mili Fernández",
-      "title": "Spanish Teacher - Grammar Specialist",
-      "bio": "Mili combines her academic background in linguistics with innovative teaching techniques to make learning Spanish grammar accessible and fun. Her structured yet flexible method has helped hundreds of students master the most challenging aspects of the Spanish language.",
+      "name": "Mili",
+      "title": "Spanish teacher",
+      "bio": "Hello! I'm Mili, an online Spanish tutor with over 3 years of experience. I'm a native speaker, born in Argentina and have lived in Spain for many years, so I have a broad understanding of the language and its varieties.\n\nI specialize in personalized classes tailored to each student, regardless of age. I create a warm and safe space for you to speak confidently from day one. I design each class to fit your interests, goals, and learning style.\n\nWhether you need Spanish for travel, work, to communicate better in your daily life, or to start from scratch, I’d be delighted to help you.\n\nExperience: 3+ years of experience with all ages; from 5 years old to over 65.",
       "specialties": [
-        "Spanish grammar",
-        "DELE exam preparation",
-        "Academic Spanish",
-        "Hispanic literature"
-      ],
-      "experience": "10 years as a certified Spanish teacher with specialization in applied linguistics"
+        "Advanced Conversation",
+        "Spanish for children and teenagers",
+        "Grammar",
+        "Pronunciation",
+        "Spanish Culture"
+      ]
     }
   }
 }

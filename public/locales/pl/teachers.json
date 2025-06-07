@@ -1,32 +1,33 @@
 {
-  "title": "Nasi Nauczyciele",
-  "subtitle": "Eksperci języka hiszpańskiego",
-  "description": "Mamy wysoko wykwalifikowanych nauczycieli natywnych z bogatym doświadczeniem w nauczaniu języka hiszpańskiego jako języka obcego. Poznaj nasz zespół profesjonalistów, którzy z pasją dzielą się naszym językiem i kulturą.",
-  "cta": "Zarezerwuj lekcję teraz",
+  "title": "Nasi nauczyciele",
+  "subtitle": "Eksperci w nauczaniu hiszpańskiego",
+  "description": "Posiadamy wykwalifikowanych nauczycieli native speakerów z doświadczeniem w nauczaniu hiszpańskiego jako języka obcego. Poznaj nasz zespół profesjonalistów z pasją do dzielenia się językiem i kulturą.",
+  "cta": "Zarezerwuj lekcję już teraz",
   "profesores": {
     "natan": {
-      "name": "Natan Rodríguez",
-      "title": "Nauczyciel hiszpańskiego - Specjalista od konwersacji",
-      "bio": "Natan to pasjonat nauczania języka hiszpańskiego z ponad 8-letnim doświadczeniem w pracy z uczniami z całego świata. Dzięki dynamicznemu i praktycznemu podejściu, Natan specjalizuje się w pomaganiu swoim uczniom w rozwijaniu płynności i pewności w konwersacji, dostosowując swoje zajęcia do indywidualnych potrzeb każdego ucznia.",
+      "name": "Natan Julian Mitros",
+      "title": "Nauczyciel hiszpańskiego",
+      "bio": "Cześć, mam na imię Natan i z przyjemnością zostanę Twoim nauczycielem języka hiszpańskiego. Odkąd byłem mały, języki zawsze mnie pasjonowały. Teraz chciałbym podzielić się tą pasją z Tobą, ucząc Cię hiszpańskiego.\n\nMam ponad 3-letnie doświadczenie w nauczaniu języka hiszpańskiego, zarówno na zajęciach indywidualnych, jak i w grupach. Moje zajęcia są zawsze w 100% dostosowane do potrzeb ucznia. Na moich zajęciach nigdy się nie nudzimy i zawsze skupiam się na tym, abyś rozumiał wszystko, co robimy. Ukończyłem Filologię Nowożytną na Uniwersytecie w Walencji (Hiszpania).\n\nNie wahaj się dłużej i już teraz zarezerwuj swoje pierwsze zajęcia ze mną :)\n\nDoświadczenie: 3+ lata nauczania hiszpańskiego uczniów z ponad 20 różnych krajów.",
       "specialties": [
         "Zaawansowana konwersacja",
-        "Hiszpański biznesowy",
+        "Przygotowanie do DELE",
         "Kultura latynoamerykańska",
-        "Wymowa"
-      ],
-      "experience": "8 lat nauczania hiszpańskiego uczniów z ponad 20 różnych krajów"
+        "Kultura hiszpańska",
+        "Wymowa",
+        "Gramatyka"
+      ]
     },
     "mili": {
-      "name": "Mili Fernández",
-      "title": "Nauczycielka hiszpańskiego - Specjalistka od gramatyki",
-      "bio": "Mili łączy swoje wykształcenie akademickie w dziedzinie językoznawstwa z innowacyjnymi technikami nauczania, aby uczynić naukę gramatyki hiszpańskiej przystępną i przyjemną. Jej ustrukturyzowana, ale elastyczna metoda pomogła setkom uczniów opanować najtrudniejsze aspekty języka hiszpańskiego.",
+      "name": "Mili",
+      "title": "Nauczycielka hiszpańskiego",
+      "bio": "Cześć! Jestem Mili, nauczycielka hiszpańskiego online z ponad 3-letnim doświadczeniem. Jestem native speakerką, urodzoną w Argentynie, a od wielu lat mieszkam w Hiszpanii, co daje mi szeroką perspektywę na język i jego odmiany.\n\nSpecjalizuję się w spersonalizowanych zajęciach dostosowanych do potrzeb każdego ucznia, bez względu na wiek. Tworzę ciepłą i bezpieczną przestrzeń, abyś mógł mówić pewnie od pierwszej lekcji. Każde zajęcia projektuję zgodnie z Twoimi zainteresowaniami, celami i sposobem uczenia się.\n\nNiezależnie od tego, czy potrzebujesz hiszpańskiego do podróży, pracy, komunikacji w życiu codziennym czy nauki od podstaw, chętnie Ci w tym pomogę.\n\nDoświadczenie: +3 lata doświadczenia z uczniami w różnym wieku; od 5 do ponad 65 lat.",
       "specialties": [
-        "Gramatyka hiszpańska",
-        "Przygotowanie do egzaminów DELE",
-        "Hiszpański akademicki",
-        "Literatura hiszpańskojęzyczna"
-      ],
-      "experience": "10 lat jako certyfikowana nauczycielka hiszpańskiego ze specjalizacją w językoznawstwie stosowanym"
+        "Zaawansowana konwersacja",
+        "Hiszpański dla dzieci i młodzieży",
+        "Gramatyka",
+        "Wymowa",
+        "Kultura hiszpańska"
+      ]
     }
   }
 }

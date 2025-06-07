@@ -1,32 +1,33 @@
 {
-  "title": "Nos Professeurs",
-  "subtitle": "Experts en langue espagnole",
-  "description": "Nous disposons de professeurs natifs hautement qualifiés et expérimentés dans l'enseignement de l'espagnol comme langue étrangère. Rencontrez notre équipe de professionnels passionnés par le partage de notre langue et de notre culture.",
+  "title": "Nos professeurs",
+  "subtitle": "Experts dans l'enseignement de l'espagnol",
+  "description": "Nous avons des professeurs natifs hautement qualifiés et expérimentés dans l'enseignement de l'espagnol comme langue étrangère. Rencontrez notre équipe de professionnels passionnés qui souhaitent partager leur langue et leur culture.",
   "cta": "Réservez un cours maintenant",
   "profesores": {
     "natan": {
-      "name": "Natan Rodríguez",
-      "title": "Professeur d'espagnol - Spécialiste en conversation",
-      "bio": "Natan est un professeur d'espagnol passionné avec plus de 8 ans d'expérience dans l'enseignement à des étudiants du monde entier. Avec une approche dynamique et pratique, Natan se spécialise dans l'aide aux étudiants pour développer leur fluidité et leur confiance en conversation, en adaptant ses cours aux besoins individuels de chaque étudiant.",
+      "name": "Natan Julian Mitros",
+      "title": "Professeur d’espagnol",
+      "bio": "Bonjour, je m'appelle Natan et je serai heureux d'être votre professeur d'espagnol. Depuis mon enfance, j'ai toujours été passionné par les langues et maintenant j'aimerais partager cette passion avec vous en vous enseignant l'espagnol.\n\nJ'ai plus de 3 ans d'expérience dans l'enseignement de l'espagnol, aussi bien en cours individuels qu'en groupes. Mes cours sont toujours adaptés à 100% aux besoins de l'étudiant. Dans mes cours, on ne s'ennuie jamais et je me concentre toujours sur le fait que vous compreniez tout ce que nous faisons. Je suis licencié en Langues Modernes de l'Université de Valence (Espagne).\n\nN'hésitez plus, réservez dès maintenant votre premier cours avec moi :)\n\nExpérience : plus de 3 ans d'enseignement de l'espagnol à des étudiants de plus de 20 pays différents.",
       "specialties": [
         "Conversation avancée",
-        "Espagnol des affaires",
+        "Préparation au DELE",
         "Culture latino-américaine",
-        "Prononciation"
-      ],
-      "experience": "8 ans d'enseignement de l'espagnol à des étudiants de plus de 20 pays différents"
+        "Culture espagnole",
+        "Prononciation",
+        "Grammaire"
+      ]
     },
     "mili": {
-      "name": "Mili Fernández",
-      "title": "Professeure d'espagnol - Spécialiste en grammaire",
-      "bio": "Mili combine sa formation académique en linguistique avec des techniques pédagogiques innovantes pour rendre l'apprentissage de la grammaire espagnole accessible et amusant. Sa méthode structurée mais flexible a aidé des centaines d'étudiants à maîtriser les aspects les plus difficiles de la langue espagnole.",
+      "name": "Mili",
+      "title": "Professeure d’espagnol",
+      "bio": "Bonjour ! Je suis Mili, tutrice d’espagnol en ligne avec plus de 3 ans d’expérience. Je suis locutrice native, née en Argentine, et je vis en Espagne depuis de nombreuses années, ce qui me donne une vision large de la langue et de ses variétés.\n\nJe suis spécialisée dans les cours personnalisés adaptés à chaque étudiant, quel que soit son âge. Je crée un espace chaleureux et sûr pour que vous puissiez parler en toute confiance dès le premier jour. Je conçois chaque cours en fonction de vos intérêts, de vos objectifs et de votre manière d’apprendre.\n\nQue vous ayez besoin de l’espagnol pour voyager, travailler, mieux communiquer au quotidien ou commencer à zéro, je serai ravie de vous accompagner.\n\nExpérience : +3 ans d’expérience avec des étudiants de tous âges ; de 5 à plus de 65 ans.",
       "specialties": [
-        "Grammaire espagnole",
-        "Préparation aux examens DELE",
-        "Espagnol académique",
-        "Littérature hispanique"
-      ],
-      "experience": "10 ans en tant que professeure certifiée d'espagnol avec une spécialisation en linguistique appliquée"
+        "Conversation avancée",
+        "Espagnol pour enfants et adolescents",
+        "Grammaire",
+        "Prononciation",
+        "Culture espagnole"
+      ]
     }
   }
 }

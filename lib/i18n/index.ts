@@ -1,3 +1,5 @@
+//lib/i18n/index.ts
+
 // Definimos traducciones directamente en el archivo para evitar problemas de importación
 const contactTranslations = {
   es: {

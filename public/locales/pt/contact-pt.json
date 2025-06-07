@@ -1,6 +1,6 @@
 {
   "title": "Agende sua aula",
-  "subtitle": "Estamos aqui para ajudá-lo em sua jornada de aprendizado do espanhol. Entre em contato conosco ou agende diretamente uma aula com nossos professores nativos.",
+  "subtitle": "Estamos aqui para ajudar você na sua jornada de aprendizado do espanhol. Entre em contato ou agende diretamente uma aula com nossos professores nativos.",
   "form": {
     "name": "Nome",
     "email": "E-mail",
@@ -8,45 +8,45 @@
     "message": "Mensagem",
     "submit": "Enviar mensagem",
     "success": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
-    "error": "Houve um erro ao enviar sua mensagem. Por favor, tente novamente.",
+    "error": "Houve um erro ao enviar a mensagem. Por favor, tente novamente.",
     "placeholder": {
       "name": "Seu nome completo",
-      "email": "seu@email.com",
-      "subject": "Como podemos ajudá-lo?",
+      "email": "voce@email.com",
+      "subject": "Como podemos ajudar você?",
       "message": "Escreva sua mensagem aqui..."
     }
   },
   "calendar": {
-    "title": "Reserve sua aula",
-    "description": "Selecione o horário que melhor se adapta à sua disponibilidade para iniciar seu aprendizado de espanhol com um de nossos professores nativos."
+    "title": "Agende sua aula",
+    "description": "Escolha o horário que melhor se encaixa para começar seu aprendizado de espanhol com um de nossos professores nativos."
   },
   "contact": {
     "title": "Informações de contato",
-    "description": "Se preferir entrar em contato diretamente conosco, aqui estão nossas informações:",
-    "email": "contato@academiaespanol.com",
-    "phone": "+34 912 345 678",
-    "address": "Calle Gran Vía 28, 28013 Madrid, Espanha",
-    "social": "Siga-nos nas redes sociais:"
+    "description": "Se preferir entrar em contato diretamente, aqui estão nossos dados:",
+    "email": "espanolingvlc@outlook.es",
+    "phone": "+34 614 52 26 59",
+    "social": "Siga-nos no Instagram: espanoling.es"
   },
   "faq": {
     "title": "Perguntas frequentes",
     "questions": [
       {
-        "question": "Que nível de espanhol preciso para começar?",
-        "answer": "Nenhum! Temos cursos para todos os níveis, desde iniciantes absolutos (A1) até níveis avançados (C2). Realizamos uma avaliação inicial para colocá-lo no nível adequado."
+        "question": "Qual nível de espanhol eu preciso para começar?",
+        "answer": "Nenhum! Temos cursos para todos os níveis, desde iniciantes absolutos (A1) até avançados (C2)."
       },
       {
-        "question": "Como funcionam as aulas online?",
-        "answer": "As aulas são realizadas via Zoom com material interativo compartilhado. Nossos professores utilizam recursos digitais e atividades dinâmicas adaptadas às suas necessidades específicas."
+        "question": "Como são as aulas online?",
+        "answer": "As aulas são feitas pelo Google Meets com material interativo. Nossos professores utilizam recursos digitais e atividades dinâmicas adaptadas às suas necessidades."
       },
       {
-        "question": "Posso cancelar ou reagendar uma aula?",
-        "answer": "Sim, você pode cancelar ou reagendar até 24 horas antes da aula sem custo adicional. Cancelamentos com menos de 24 horas de antecedência estão sujeitos à nossa política de cancelamento."
+        "question": "Posso cancelar ou remarcar uma aula?",
+        "answer": "Sim, você pode cancelar ou remarcar até 24 horas antes da aula sem custo adicional. Cancelamentos com menos de 24 horas seguem nossa política de cancelamento."
       },
       {
         "question": "Quais formas de pagamento vocês aceitam?",
-        "answer": "Aceitamos cartões de crédito/débito, PayPal e transferências bancárias. Você pode escolher entre planos mensais ou pacotes de aulas de acordo com suas necessidades."
+        "answer": "Aceitamos cartões de crédito/débito, PayPal e transferências bancárias. Você pode escolher entre planos mensais ou pacotes de aulas, conforme suas necessidades."
       }
     ]
-  }
+  },
+  "pricing": "Preço: 25€/50min"
 }

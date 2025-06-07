@@ -1,52 +1,52 @@
 {
-  "title": "Zaplanuj swoją lekcję",
-  "subtitle": "Jesteśmy tutaj, aby pomóc Ci w nauce języka hiszpańskiego. Skontaktuj się z nami lub zarezerwuj lekcję bezpośrednio z naszymi rodzimymi nauczycielami.",
+  "title": "Zarezerwuj swoją lekcję",
+  "subtitle": "Jesteśmy tutaj, aby pomóc Ci w nauce hiszpańskiego. Skontaktuj się z nami lub bezpośrednio umów się na zajęcia z naszymi native speakerami.",
   "form": {
     "name": "Imię i nazwisko",
     "email": "E-mail",
     "subject": "Temat",
     "message": "Wiadomość",
     "submit": "Wyślij wiadomość",
-    "success": "Wiadomość wysłana pomyślnie! Skontaktujemy się wkrótce.",
-    "error": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie.",
+    "success": "Wiadomość wysłana pomyślnie! Skontaktujemy się z Tobą wkrótce.",
+    "error": "Wystąpił błąd podczas wysyłania. Spróbuj ponownie.",
     "placeholder": {
       "name": "Twoje pełne imię i nazwisko",
       "email": "twoj@email.com",
-      "subject": "W czym możemy pomóc?",
+      "subject": "Jak możemy Ci pomóc?",
       "message": "Napisz swoją wiadomość tutaj..."
     }
   },
   "calendar": {
-    "title": "Zarezerwuj lekcję",
-    "description": "Wybierz harmonogram, który najlepiej pasuje do Twojej dyspozycyjności, aby rozpocząć naukę hiszpańskiego z jednym z naszych rodzimych nauczycieli."
+    "title": "Zarezerwuj swoją lekcję",
+    "description": "Wybierz dogodny termin, aby rozpocząć naukę hiszpańskiego z naszymi native speakerami."
   },
   "contact": {
-    "title": "Informacje kontaktowe",
-    "description": "Jeśli wolisz skontaktować się z nami bezpośrednio, oto nasze dane:",
-    "email": "kontakt@academiaespanol.com",
-    "phone": "+34 912 345 678",
-    "address": "Calle Gran Vía 28, 28013 Madryt, Hiszpania",
-    "social": "Obserwuj nas w mediach społecznościowych:"
+    "title": "Dane kontaktowe",
+    "description": "Jeśli wolisz skontaktować się bezpośrednio, oto nasze dane:",
+    "email": "espanolingvlc@outlook.es",
+    "phone": "+34 614 52 26 59",
+    "social": "Śledź nas na Instagramie: espanoling.es"
   },
   "faq": {
-    "title": "Często zadawane pytania",
+    "title": "Najczęściej zadawane pytania",
     "questions": [
       {
-        "question": "Jaki poziom hiszpańskiego potrzebuję, żeby zacząć?",
-        "answer": "Żadnego! Mamy kursy dla wszystkich poziomów, od absolutnych początkujących (A1) do zaawansowanych (C2). Przeprowadzamy wstępną ocenę, aby umieścić Cię na odpowiednim poziomie."
+        "question": "Jaki poziom hiszpańskiego muszę mieć, aby zacząć?",
+        "answer": "Żaden! Oferujemy kursy na wszystkich poziomach, od absolutnych początkujących (A1) po zaawansowanych (C2)."
       },
       {
-        "question": "Jak działają zajęcia online?",
-        "answer": "Zajęcia odbywają się przez Zoom z udostępnianymi materiałami interaktywnymi. Nasi nauczyciele korzystają z zasobów cyfrowych i dynamicznych aktywności dostosowanych do Twoich konkretnych potrzeb."
+        "question": "Jak wyglądają zajęcia online?",
+        "answer": "Zajęcia odbywają się przez Google Meets z interaktywnymi materiałami. Nasi nauczyciele korzystają z cyfrowych zasobów i dynamicznych ćwiczeń dostosowanych do Twoich potrzeb."
       },
       {
         "question": "Czy mogę anulować lub przełożyć zajęcia?",
-        "answer": "Tak, możesz anulować lub przełożyć zajęcia do 24 godzin przed ich rozpoczęciem bez dodatkowych kosztów. Anulowania z wyprzedzeniem krótszym niż 24 godziny podlegają naszej polityce anulowania."
+        "answer": "Tak, możesz anulować lub przełożyć zajęcia do 24 godzin przed terminem bez dodatkowych kosztów. Anulacje z mniej niż 24-godzinnym wyprzedzeniem podlegają naszej polityce anulacji."
       },
       {
         "question": "Jakie metody płatności akceptujecie?",
-        "answer": "Akceptujemy karty kredytowe/debetowe, PayPal i przelewy bankowe. Możesz wybrać pomiędzy planami miesięcznymi lub pakietami zajęć według Twoich potrzeb."
+        "answer": "Akceptujemy karty kredytowe/debetowe, PayPal i przelewy bankowe. Możesz wybrać między planami miesięcznymi lub pakietami zajęć dostosowanymi do Twoich potrzeb."
       }
     ]
-  }
+  },
+  "pricing": "Cena: 25€/50min (115PLN/50min)"
 }

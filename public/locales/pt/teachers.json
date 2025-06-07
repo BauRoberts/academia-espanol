@@ -1,32 +1,33 @@
 {
   "title": "Nossos Professores",
-  "subtitle": "Especialistas em língua espanhola",
-  "description": "Contamos com professores nativos altamente qualificados e com experiência no ensino de espanhol como língua estrangeira. Conheça nossa equipe de profissionais apaixonados por compartilhar nosso idioma e cultura.",
+  "subtitle": "Especialistas no ensino de espanhol",
+  "description": "Temos professores nativos altamente qualificados e experientes no ensino de espanhol como língua estrangeira. Conheça nossa equipe de profissionais apaixonados por compartilhar o idioma e a cultura.",
   "cta": "Agende uma aula agora",
   "profesores": {
     "natan": {
-      "name": "Natan Rodríguez",
-      "title": "Professor de espanhol - Especialista em conversação",
-      "bio": "Natan é um professor de espanhol apaixonado com mais de 8 anos de experiência ensinando estudantes de todo o mundo. Com uma abordagem dinâmica e prática, Natan se especializa em ajudar seus alunos a desenvolver fluência e confiança na conversação, adaptando suas aulas às necessidades individuais de cada estudante.",
+      "name": "Natan Julian Mitros",
+      "title": "Professor de espanhol",
+      "bio": "Olá, o meu nome é Natan e gostaria de ser o seu professor de espanhol. Desde pequeno, sempre fui apaixonado pelas línguas e agora gostaria de partilhar esta paixão com você, ensinando-lhe espanhol.\n\nTenho mais de 3 anos de experiência no ensino do espanhol, tanto em aulas individuais como em grupos. As minhas aulas são sempre 100% adaptadas às necessidades do aluno. Nas minhas aulas nunca nos aborrecemos e concentro-me sempre em que o aluno compreenda tudo o que estamos a fazer. Sou licenciado em Línguas Modernas pela Universidade de Valência (Espanha).\n\nNão espere mais e reserve já a sua primeira aula comigo :)\n\nExperiência: 3+ anos de ensino de espanhol a estudantes de mais de 20 países diferentes.",
       "specialties": [
         "Conversação avançada",
-        "Espanhol para negócios",
+        "Preparação para o DELE",
         "Cultura latino-americana",
-        "Pronúncia"
-      ],
-      "experience": "8 anos ensinando espanhol para estudantes de mais de 20 países diferentes"
+        "Cultura espanhola",
+        "Pronúncia",
+        "Gramática"
+      ]
     },
     "mili": {
-      "name": "Mili Fernández",
-      "title": "Professora de espanhol - Especialista em gramática",
-      "bio": "Mili combina sua formação acadêmica em linguística com técnicas pedagógicas inovadoras para tornar o aprendizado da gramática espanhola acessível e divertido. Seu método estruturado, mas flexível, ajudou centenas de estudantes a dominar os aspectos mais desafiadores do idioma espanhol.",
+      "name": "Mili",
+      "title": "Professora de espanhol",
+      "bio": "Olá! Sou a Mili, tutora de espanhol online com mais de 3 anos de experiência. Sou falante nativa, nascida na Argentina e moro há muitos anos na Espanha, o que me dá uma visão ampla da língua e suas variedades.\n\nSou especializada em aulas personalizadas, adaptadas a cada aluno, independentemente da idade. Crio um espaço acolhedor e seguro para que você fale com confiança desde a primeira aula. Cada aula é feita sob medida, de acordo com seus interesses, objetivos e forma de aprender.\n\nSeja para viajar, trabalhar, comunicar-se melhor no dia a dia ou aprender do zero, estou à disposição para te ajudar.\n\nExperiência: +3 anos de experiência com alunos de todas as idades; de 5 a mais de 65 anos.",
       "specialties": [
-        "Gramática espanhola",
-        "Preparação para exames DELE",
-        "Espanhol acadêmico",
-        "Literatura hispano-americana"
-      ],
-      "experience": "10 anos como professora certificada de espanhol com especialização em linguística aplicada"
+        "Conversação avançada",
+        "Espanhol para crianças e adolescentes",
+        "Gramática",
+        "Pronúncia",
+        "Cultura espanhola"
+      ]
     }
   }
 }

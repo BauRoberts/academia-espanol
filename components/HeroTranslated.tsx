@@ -134,7 +134,7 @@ const HeroTranslated = ({
               <div className="relative w-full max-w-[500px]">
                 {/* Imagen ya recortada con círculo amarillo */}
                 <Image
-                  src="/images/profesores/profesor_principal.png"
+                  src="/images/profesores/hero-final-2.png"
                   alt="Profesores de español"
                   width={500}
                   height={500}

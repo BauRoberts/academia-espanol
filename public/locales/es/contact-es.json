@@ -23,21 +23,20 @@
   "contact": {
     "title": "Información de contacto",
     "description": "Si prefieres contactarnos directamente, aquí tienes nuestros datos:",
-    "email": "contacto@academiaespanol.com",
-    "phone": "+34 912 345 678",
-    "address": "Calle Gran Vía 28, 28013 Madrid, España",
-    "social": "Síguenos en nuestras redes sociales:"
+    "email": "espanolingvlc@outlook.es",
+    "phone": "+34 614 52 26 59",
+    "social": "Síguenos en nuestras redes sociales (Instagram: espanoling.es)"
   },
   "faq": {
     "title": "Preguntas frecuentes",
     "questions": [
       {
         "question": "¿Qué nivel de español necesito para empezar?",
-        "answer": "¡Ninguno! Tenemos cursos para todos los niveles, desde principiantes absolutos (A1) hasta niveles avanzados (C2). Realizamos una evaluación inicial para ubicarte en el nivel adecuado."
+        "answer": "¡Ninguno! Tenemos cursos para todos los niveles, desde principiantes absolutos (A1) hasta niveles avanzados (C2)."
       },
       {
         "question": "¿Cómo son las clases online?",
-        "answer": "Las clases se realizan a través de Zoom con material interactivo compartido. Nuestros profesores utilizan recursos digitales, actividades dinámicas y adaptadas a tus necesidades específicas."
+        "answer": "Las clases se realizan a través de Google Meets con material interactivo compartido. Nuestros profesores utilizan recursos digitales, actividades dinámicas y adaptadas a tus necesidades específicas."
       },
       {
         "question": "¿Puedo cancelar o reagendar una clase?",
@@ -48,5 +47,6 @@
         "answer": "Aceptamos tarjetas de crédito/débito, PayPal y transferencias bancarias. Puedes elegir entre planes mensuales o paquetes de clases según tus necesidades."
       }
     ]
-  }
+  },
+  "pricing": "Precios: 25€/50min"
 }
