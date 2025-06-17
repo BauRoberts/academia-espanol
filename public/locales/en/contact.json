@@ -1,0 +1,52 @@
+{
+  "title": "Book your class",
+  "subtitle": "We are here to help you on your Spanish learning journey. Contact us or book a class directly with our native teachers.",
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Message sent successfully! We'll get back to you soon.",
+    "error": "There was an error sending the message. Please try again.",
+    "placeholder": {
+      "name": "Your full name",
+      "email": "you@email.com",
+      "subject": "How can we help you?",
+      "message": "Write your message here..."
+    }
+  },
+  "calendar": {
+    "title": "Schedule your class",
+    "description": "Choose the time that works best for you to start your Spanish learning with one of our native teachers."
+  },
+  "contact": {
+    "title": "Contact information",
+    "description": "If you prefer to contact us directly, here are our details:",
+    "email": "espanolingvlc@outlook.es",
+    "phone": "+34 614 52 26 59",
+    "social": "Follow us on Instagram: espanoling.es"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What level of Spanish do I need to start?",
+        "answer": "None! We have courses for all levels, from absolute beginners (A1) to advanced (C2)."
+      },
+      {
+        "question": "What are online classes like?",
+        "answer": "Classes are held via Google Meets with interactive materials. Our teachers use digital resources and dynamic activities tailored to your specific needs."
+      },
+      {
+        "question": "Can I cancel or reschedule a class?",
+        "answer": "Yes, you can cancel or reschedule up to 24 hours before the class at no additional cost. Cancellations with less than 24 hours’ notice are subject to our cancellation policy."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept credit/debit cards, PayPal, and bank transfers. You can choose between monthly plans or class packages to suit your needs."
+      }
+    ]
+  },
+  "pricing": "Pricing: €25/50min"
+}

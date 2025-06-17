@@ -14,6 +14,7 @@ type Testimonio = {
 };
 
 type TestimoniosTranslatedProps = {
+  id?: string;
   translations: {
     titleSuffix: string;
     items: Testimonio[];
@@ -21,6 +22,7 @@ type TestimoniosTranslatedProps = {
 };
 
 const TestimoniosTranslated = ({
+  id,
   translations,
 }: TestimoniosTranslatedProps) => {
   // Asegurarnos de tener valores predeterminados en caso de que translations sea undefined
@@ -77,7 +79,7 @@ const TestimoniosTranslated = ({
   }
 
   return (
-    <section className="w-full py-10 sm:py-16 md:py-24 bg-white">
+    <section id={id} className="w-full py-10 sm:py-16 md:py-24 bg-white">
       <div className="w-full max-w-3xl mx-auto px-4 flex flex-col items-center text-center relative transition-opacity duration-500">
         {/* Comillas grandes */}
         <div className="mb-3 sm:mb-4 text-gray-300">

@@ -1,22 +1,23 @@
-//app/[lang]/contacto/page.tsx
-
-import { getTranslations } from "@/lib/i18n";
+import { getTranslations } from "@/lib/i18n/utils"; // ✅ Cambiado a utils
 import ContactoTranslated from "@/components/ContactoTranslated";
 
 interface ContactoPageProps {
-  params: {
+  params: Promise<{
     lang: string;
-  };
+  }>;
 }
 
 export default async function ContactoPage({ params }: ContactoPageProps) {
+  // Await params antes de usar sus propiedades
+  const resolvedParams = await params;
+
   // Obtener las traducciones según el idioma seleccionado
-  const translations = await getTranslations(params.lang, "contact");
+  const translations = await getTranslations(resolvedParams.lang, "contact");
 
   return (
     <main>
       <ContactoTranslated
-        currentLocale={params.lang}
+        currentLocale={resolvedParams.lang}
         translations={translations}
       />
     </main>

@@ -1,0 +1,52 @@
+{
+  "title": "Réservez votre cours",
+  "subtitle": "Nous sommes là pour vous accompagner dans votre apprentissage de l'espagnol. Contactez-nous ou réservez directement un cours avec nos professeurs natifs.",
+  "form": {
+    "name": "Nom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "success": "Message envoyé avec succès ! Nous vous contacterons bientôt.",
+    "error": "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer.",
+    "placeholder": {
+      "name": "Votre nom complet",
+      "email": "vous@email.com",
+      "subject": "Comment pouvons-nous vous aider ?",
+      "message": "Écrivez votre message ici..."
+    }
+  },
+  "calendar": {
+    "title": "Planifiez votre cours",
+    "description": "Choisissez l'heure qui vous convient le mieux pour commencer votre apprentissage de l'espagnol avec un professeur natif."
+  },
+  "contact": {
+    "title": "Informations de contact",
+    "description": "Si vous préférez nous contacter directement, voici nos coordonnées :",
+    "email": "espanolingvlc@outlook.es",
+    "phone": "+34 614 52 26 59",
+    "social": "Suivez-nous sur Instagram : espanoling.es"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Quel niveau d'espagnol est nécessaire pour commencer ?",
+        "answer": "Aucun ! Nous proposons des cours pour tous les niveaux, des débutants absolus (A1) aux niveaux avancés (C2)."
+      },
+      {
+        "question": "Comment se déroulent les cours en ligne ?",
+        "answer": "Les cours se font via Google Meets avec du matériel interactif. Nos professeurs utilisent des ressources numériques et des activités dynamiques adaptées à vos besoins."
+      },
+      {
+        "question": "Puis-je annuler ou reprogrammer un cours ?",
+        "answer": "Oui, vous pouvez annuler ou reprogrammer jusqu'à 24 heures avant le cours sans frais supplémentaires. Les annulations de moins de 24 heures sont soumises à notre politique."
+      },
+      {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons les cartes de crédit/débit, PayPal et les virements bancaires. Vous pouvez choisir entre des formules mensuelles ou des packs de cours selon vos besoins."
+      }
+    ]
+  },
+  "pricing": "Prix : 25€/50min"
+}

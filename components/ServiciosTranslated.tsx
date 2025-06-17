@@ -12,6 +12,7 @@ type ServiceItem = {
 };
 
 type ServiciosTranslatedProps = {
+  id?: string;
   currentLocale: string;
   translations: {
     title: string;
@@ -28,6 +29,7 @@ type ServiciosTranslatedProps = {
 };
 
 const ServiciosTranslated = ({
+  id,
   currentLocale,
   translations,
 }: ServiciosTranslatedProps) => {
@@ -242,7 +244,10 @@ const ServiciosTranslated = ({
     </div>
   );
   return (
-    <section className="w-full py-10 sm:py-16 px-4 min-h-[80vh] sm:min-h-screen">
+    <section
+      id={id}
+      className="w-full py-10 sm:py-16 px-4 min-h-[80vh] sm:min-h-screen"
+    >
       {isClient ? (
         <AnimatedBackground3D>{renderContent()}</AnimatedBackground3D>
       ) : (

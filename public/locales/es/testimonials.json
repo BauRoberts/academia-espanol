@@ -1,34 +1,185 @@
 {
   "testimonials": {
-    "titleSuffix": "fue increíble!",
+    "titleSuffixes": [
+      "fue increíble!",
+      "superó mis expectativas!",
+      "cambió mi forma de aprender!",
+      "fue exactamente lo que necesitaba!",
+      "me encantó la experiencia!",
+      "fue muy profesional!",
+      "me ayudó muchísimo!",
+      "fue divertido y efectivo!",
+      "recomiendo totalmente!",
+      "valió cada minuto!"
+    ],
     "items": [
       {
         "id": 1,
-        "name": "Anna L.",
-        "location": "Chicago, IL",
-        "text": "La experiencia y dedicación de Peter marcaron toda la diferencia en mi caso, y me sentí apoyada en cada paso del camino.",
-        "image": "/images/testimonio/testimonio4.jpg"
+        "name": "Issam",
+        "location": "Lisboa, Portugal",
+        "text": "Actualmente estoy aprendiendo español con Milli, y ha sido una experiencia fantástica. Su estilo de enseñanza es atractivo, paciente y adaptado a las necesidades individuales. Hace que aprender sea divertido y fácil de entender. ¡La recomiendo mucho!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue increíble!"
       },
       {
         "id": 2,
-        "name": "Carlos M.",
-        "location": "Madrid, España",
-        "text": "Las clases son increíblemente dinámicas y divertidas. He aprendido más español en 3 meses que en años de estudio tradicional.",
-        "image": "/images/testimonio/testimonio4.jpg"
+        "name": "Johan",
+        "location": "París, Francia",
+        "text": "Mili es una profesora de español 10/10. Súper dulce y hace que aprender sea divertido. Siempre sonriente y ayudándome a aprender, ¡incluso cuando olvido hacer la tarea!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "superó mis expectativas!"
       },
       {
         "id": 3,
-        "name": "Sophie D.",
-        "location": "París, Francia",
-        "text": "Los profesores son excepcionales y adaptan cada clase a mis necesidades. ¡Mi español ha mejorado muchísimo!",
-        "image": "/images/testimonio/testimonio4.jpg"
+        "name": "Kamila",
+        "location": "Varsovia, Polonia",
+        "text": "Mili lleva las lecciones de manera profesional. Siempre está preparada y transmite su conocimiento de una manera interesante, alegre y sencilla. A los niños les encantan las clases con Mili. Todos vemos el progreso en su aprendizaje. Recomendamos mucho aprender español con Mili :)",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "cambió mi forma de aprender!"
       },
       {
         "id": 4,
-        "name": "Markus W.",
-        "location": "Berlín, Alemania",
-        "text": "El enfoque personalizado de Españoling me ha permitido avanzar a mi propio ritmo. Recomiendo 100% esta academia.",
-        "image": "/images/testimonio/testimonio4.jpg"
+        "name": "Lance",
+        "location": "Londres, Inglaterra",
+        "text": "Después de unos años tomando clases de español, finalmente decidí conseguir un tutor privado. Las clases de Mili son interesantes y su estilo de enseñanza ha sido muy útil. En solo unas pocas semanas de reunirme con ella, he aprendido más en un entorno uno a uno que en un aula.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue exactamente lo que necesitaba!"
+      },
+      {
+        "id": 5,
+        "name": "Matt",
+        "location": "Oporto, Portugal",
+        "text": "He estado aprendiendo con Mili durante los últimos 4 meses y es genial. Se adapta a lo que necesitas mejorar lección tras lección, ¡además trae mucha entusiasmo y energía que ayuda mucho!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "me encantó la experiencia!"
+      },
+      {
+        "id": 6,
+        "name": "Paul",
+        "location": "Lyon, Francia",
+        "text": "Mili es un diamante en el enorme pajar de tutores de Preply. Ella claramente tiene una pasión por enseñar idiomas y lo disfruta. Es muy perceptiva sobre tus necesidades como estudiante de idiomas y te ayudará a progresar más rápido de lo que piensas que eres capaz. En última instancia, su estilo de enseñanza muy personal y centrado en el estudiante hace que aprender sea divertido. ¡Siempre esperarás con ansias sus clases!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue muy profesional!"
+      },
+      {
+        "id": 7,
+        "name": "André",
+        "location": "Cracovia, Polonia",
+        "text": "Me encanta aprender con Mili. Ella es una persona tan divertida y simpática, y una profesora profesional. Sabe cómo practicar el idioma.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "me ayudó muchísimo!"
+      },
+      {
+        "id": 8,
+        "name": "Ivana",
+        "location": "Manchester, Inglaterra",
+        "text": "Mili es una profesora con mucha experiencia y paciencia. Las lecciones son muy variadas y ella se adapta muy bien a las necesidades del alumno. Las clases me divierten mucho y gracias a Mili estoy mejorando mis conocimientos de español en el ámbito informal y formal. ¡Recomiendo mucho las clases con ella!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "fue divertido y efectivo!"
+      },
+      {
+        "id": 9,
+        "name": "Emna",
+        "location": "Marsella, Francia",
+        "text": "¡Mili es la mejor tutora de español! Es increíblemente paciente, siempre se toma el tiempo para explicar todo con claridad y hace que aprender sea muy agradable. Sus lecciones están súper organizadas, son atractivas y están adaptadas a mis necesidades. He mejorado mucho gracias a su orientación y apoyo. ¡La recomiendo encarecidamente a cualquiera que busque una tutora amable, dedicada y profesional!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "recomiendo totalmente!"
+      },
+      {
+        "id": 10,
+        "name": "Victoria",
+        "location": "Braga, Portugal",
+        "text": "Muy amable, paciente y atractivo para mi hija de 5 años. Las lecciones hacen que aprender sea divertido, y mi hija está emocionada de hablar con Mili cada semana.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "valió cada minuto!"
+      },
+      {
+        "id": 11,
+        "name": "Mario",
+        "location": "Gdansk, Polonia",
+        "text": "Las lecciones de Mili son individuales y muy bien estructuradas. Realmente disfruto la mezcla de conversación, gramática, lectura, nuevo vocabulario e información cultural. ¡Gran profesora, siempre sonriendo, muy recomendada!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue increíble!"
+      },
+      {
+        "id": 12,
+        "name": "Yoshiro",
+        "location": "Birmingham, Inglaterra",
+        "text": "Aunque es bastante joven, tiene talento para enseñar: ella tiene el don para enseñar.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "superó mis expectativas!"
+      },
+      {
+        "id": 13,
+        "name": "Chadi",
+        "location": "Niza, Francia",
+        "text": "Mili es la mejor tutora que puedes tener; amable, apasionada y comprensiva; si quieres aprender español, ella apoya a sus estudiantes y crea un ambiente de aprendizaje positivo. Ella es la mejor.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "cambió mi forma de aprender!"
+      },
+      {
+        "id": 14,
+        "name": "Ellie",
+        "location": "Coimbra, Portugal",
+        "text": "Milli es una gran tutora; prepara presentaciones y ejercicios adicionales que puedes hacer por tu cuenta para que puedas estudiar más de la hora por la que pagas. Es súper entusiasta y amable; la recomiendo mucho.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "fue exactamente lo que necesitaba!"
+      },
+      {
+        "id": 15,
+        "name": "Gurshant",
+        "location": "Wrocław, Polonia",
+        "text": "Mili es muy amable y siempre me anima durante las lecciones. Ella es muy flexible con su estilo, ¡y la recomiendo para cualquiera que quiera empezar a aprender español!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "me encantó la experiencia!"
+      },
+      {
+        "id": 16,
+        "name": "Celestino",
+        "location": "Liverpool, Inglaterra",
+        "text": "Mili es una profesora fantástica y muy profesional, siempre es puntual y tiene diferentes métodos para hacerme aprender español, es muy divertida :)",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue muy profesional!"
+      },
+      {
+        "id": 17,
+        "name": "Dennis",
+        "location": "Toulouse, Francia",
+        "text": "Siempre es muy divertido con Mili. Ella realmente ayuda mucho a aprender español. ¡Súper amable y amigable!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "me ayudó muchísimo!"
+      },
+      {
+        "id": 18,
+        "name": "Calvin",
+        "location": "Aveiro, Portugal",
+        "text": "¡Realmente buen profesor, me estoy divirtiendo mucho aprendiendo español!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue divertido y efectivo!"
+      },
+      {
+        "id": 19,
+        "name": "Pascal",
+        "location": "Poznań, Polonia",
+        "text": "Siempre espero con ansias las lecciones con Mili. Soy un completo principiante en español, pero ella lo hace realmente fácil de digerir. Es súper empática, está bien preparada y su inglés es increíble, así que es realmente útil para cualquiera que esté comenzando con el español, pero que sepa inglés.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "recomiendo totalmente!"
+      },
+      {
+        "id": 20,
+        "name": "Linda",
+        "location": "Bristol, Inglaterra",
+        "text": "Mili es una profesora increíblemente genial, con encanto y juego me enseña el idioma español con mucha diversión. Ella responde a mis necesidades y deseos y es muy flexible. ¡Espero con ansias más lecciones con ella!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "valió cada minuto!"
+      },
+      {
+        "id": 21,
+        "name": "Abdulla",
+        "location": "Strasbourg, Francia",
+        "text": "Milli tiene pasión por hacer que las personas hablen español, hace que el idioma sea más fácil y es muy amable y tiene buenos modales.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue increíble!"
       }
     ]
   }

@@ -53,6 +53,7 @@ export default async function Home({ params }: { params: { lang: string } }) {
       />
 
       <ServiciosTranslated
+        id="servicios"
         currentLocale={lang}
         translations={
           servicesTranslations?.services || {
@@ -99,6 +100,7 @@ export default async function Home({ params }: { params: { lang: string } }) {
         }
       />
       <TestimoniosTranslated
+        id="testimonios"
         translations={
           testimonialsTranslations?.testimonials || {
             titleSuffix: "fue increíble!",

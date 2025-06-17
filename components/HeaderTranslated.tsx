@@ -1,15 +1,17 @@
-///Users/bautistaroberts/academia-espanol/components/HeaderTranslated.tsx
 "use client";
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter, usePathname } from "next/navigation";
 import { Locale, i18n } from "@/lib/i18n/config";
 
 type NavigationItem = {
   key: string;
   label: string;
-  href: string;
+  href?: string;
+  sectionId?: string;
+  isExternal?: boolean;
 };
 
 export default function HeaderTranslated({
@@ -30,27 +32,88 @@ export default function HeaderTranslated({
   const [scrolled, setScrolled] = useState(false);
   const [headerHeight, setHeaderHeight] = useState(0);
   const headerRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
+  const pathname = usePathname();
 
-  // Crear elementos de navegación con URLs que incluyan el idioma
+  // Función para determinar si estamos en la página principal
+  const isHomePage =
+    pathname === `/${currentLocale}` || pathname === `/${currentLocale}/`;
+
+  // Crear elementos de navegación con lógica mixta
   const navItems: NavigationItem[] = [
-    { key: "home", label: navigation.home, href: `/${currentLocale}` },
+    {
+      key: "home",
+      label: navigation.home,
+      href: `/${currentLocale}`,
+    },
     {
       key: "services",
       label: navigation.services,
-      href: `/${currentLocale}/servicios`,
+      sectionId: "servicios",
+      href: `/${currentLocale}#servicios`,
     },
     {
       key: "reviews",
       label: navigation.reviews,
-      href: `/${currentLocale}/resenas`,
+      sectionId: "testimonios",
+      href: `/${currentLocale}#testimonios`,
     },
-    { key: "blog", label: navigation.blog, href: `/${currentLocale}/blog` },
+    {
+      key: "blog",
+      label: navigation.blog,
+      href: `/${currentLocale}/blog`,
+      isExternal: true,
+    },
     {
       key: "professors",
       label: navigation.professors,
       href: `/${currentLocale}/profesores`,
+      isExternal: true,
     },
   ];
+
+  // Función para manejar clics en navegación
+  const handleNavClick = (item: NavigationItem, e: React.MouseEvent) => {
+    // Si es un enlace externo (blog, profesores), usar navegación normal
+    if (item.isExternal) {
+      return; // Dejar que Link maneje la navegación
+    }
+
+    // Si tiene sectionId, manejar scroll
+    if (item.sectionId) {
+      e.preventDefault();
+
+      // Si no estamos en la página principal, navegar primero
+      if (!isHomePage) {
+        router.push(`/${currentLocale}`);
+        // Esperar un momento para que la página cargue antes de hacer scroll
+        setTimeout(() => {
+          scrollToSection(item.sectionId!);
+        }, 100);
+      } else {
+        // Si ya estamos en la página principal, hacer scroll directo
+        scrollToSection(item.sectionId);
+      }
+
+      // Cerrar menú móvil
+      setMobileMenuOpen(false);
+    }
+  };
+
+  // Función para hacer scroll a una sección
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const yOffset = -100; // Offset para el header fijo
+      const y =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({
+        top: y,
+        behavior: "smooth",
+      });
+    }
+  };
 
   // Detectar scroll y medir altura del header
   useEffect(() => {
@@ -67,7 +130,6 @@ export default function HeaderTranslated({
       }
     };
 
-    // Medimos al cargar y al cambiar el tamaño de la ventana
     updateHeaderHeight();
     window.addEventListener("resize", updateHeaderHeight);
     window.addEventListener("scroll", handleScroll);
@@ -79,7 +141,7 @@ export default function HeaderTranslated({
   }, [scrolled]);
 
   // Calculamos la altura del blur basado en la altura del header + padding
-  const blurHeight = headerHeight + 12; // 24px es el padding total (py-3 * 2)
+  const blurHeight = headerHeight + 12;
 
   return (
     <>
@@ -127,13 +189,23 @@ export default function HeaderTranslated({
             <nav className="hidden md:flex items-center justify-center flex-1 px-10">
               <div className="flex gap-6">
                 {navItems.map((item) => (
-                  <Link
-                    key={item.key}
-                    href={item.href}
-                    className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium"
-                  >
-                    {item.label}
-                  </Link>
+                  <div key={item.key}>
+                    {item.isExternal ? (
+                      <Link
+                        href={item.href!}
+                        className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium cursor-pointer"
+                      >
+                        {item.label}
+                      </Link>
+                    ) : (
+                      <button
+                        onClick={(e) => handleNavClick(item, e)}
+                        className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium cursor-pointer"
+                      >
+                        {item.label}
+                      </button>
+                    )}
+                  </div>
                 ))}
               </div>
             </nav>
@@ -230,14 +302,24 @@ export default function HeaderTranslated({
           <div className="container mx-auto px-4">
             <nav className="flex flex-col space-y-6 text-center">
               {navItems.map((item) => (
-                <Link
-                  key={item.key}
-                  href={item.href}
-                  className="text-xl text-gray-800 hover:text-brand-orange transition-colors py-2"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
+                <div key={item.key}>
+                  {item.isExternal ? (
+                    <Link
+                      href={item.href!}
+                      className="text-xl text-gray-800 hover:text-brand-orange transition-colors py-2 block"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <button
+                      onClick={(e) => handleNavClick(item, e)}
+                      className="text-xl text-gray-800 hover:text-brand-orange transition-colors py-2"
+                    >
+                      {item.label}
+                    </button>
+                  )}
+                </div>
               ))}
               <div className="pt-6 flex flex-col space-y-4">
                 <Link

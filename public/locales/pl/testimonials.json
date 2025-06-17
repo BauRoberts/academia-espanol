@@ -1,34 +1,185 @@
 {
   "testimonials": {
-    "titleSuffix": "był/a niesamowity/a!",
+    "titleSuffixes": [
+      "było niesamowite!",
+      "przekroczyło moje oczekiwania!",
+      "zmieniło sposób mojej nauki!",
+      "było dokładnie tym, czego potrzebowałem!",
+      "uwielbiałem to doświadczenie!",
+      "było bardzo profesjonalne!",
+      "bardzo mi pomogło!",
+      "było zabawne i skuteczne!",
+      "totalnie polecam!",
+      "było warte każdej minuty!"
+    ],
     "items": [
       {
         "id": 1,
-        "name": "Anna L.",
-        "location": "Chicago, IL",
-        "text": "Wiedza i zaangażowanie Petera miały ogromne znaczenie w moim przypadku, czułam się wspierana na każdym kroku.",
-        "image": "/api/placeholder/150/150"
+        "name": "Issam",
+        "location": "Lizbona, Portugalia",
+        "text": "Obecnie uczę się hiszpańskiego z Milli i to fantastyczne doświadczenie. Jej styl nauczania jest angażujący, cierpliwy i dostosowany do indywidualnych potrzeb. Sprawia, że nauka jest zabawna i łatwa do zrozumienia. Bardzo ją polecam!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "było niesamowite!"
       },
       {
         "id": 2,
-        "name": "Carlos M.",
-        "location": "Madryt, Hiszpania",
-        "text": "Zajęcia są niesamowicie dynamiczne i zabawne. Nauczyłem się więcej hiszpańskiego w 3 miesiące niż przez lata tradycyjnej nauki.",
-        "image": "/api/placeholder/150/150"
+        "name": "Johan",
+        "location": "Paryż, Francja",
+        "text": "Mili to nauczycielka hiszpańskiego 10/10. Super słodka i sprawia, że nauka jest zabawna. Zawsze uśmiechnięta i pomaga mi się uczyć, nawet gdy zapominam odrobić zadanie domowe!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "przekroczyło moje oczekiwania!"
       },
       {
         "id": 3,
-        "name": "Sophie D.",
-        "location": "Paryż, Francja",
-        "text": "Nauczyciele są wyjątkowi i dostosowują każdą lekcję do moich potrzeb. Mój hiszpański znacznie się poprawił!",
-        "image": "/api/placeholder/150/150"
+        "name": "Kamila",
+        "location": "Warszawa, Polska",
+        "text": "Mili prowadzi lekcje profesjonalnie. Jest zawsze przygotowana i przekazuje swoją wiedzę w interesujący, radosny i prosty sposób. Dzieci uwielbiają zajęcia z Mili. Wszyscy widzimy postępy w ich nauce. Bardzo polecamy naukę hiszpańskiego z Mili :)",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "zmieniło sposób mojej nauki!"
       },
       {
         "id": 4,
-        "name": "Markus W.",
-        "location": "Berlin, Niemcy",
-        "text": "Spersonalizowane podejście Españoling pozwoliło mi rozwijać się we własnym tempie. W 100% polecam tę akademię.",
-        "image": "/api/placeholder/150/150"
+        "name": "Lance",
+        "location": "Londyn, Anglia",
+        "text": "Po kilku latach uczęszczania na zajęcia hiszpańskiego w końcu zdecydowałem się na prywatnego korepetytora. Zajęcia Mili są interesujące, a jej styl nauczania był bardzo pomocny. W ciągu zaledwie kilku tygodni spotkań z nią nauczyłem się więcej w środowisku jeden na jeden niż w klasie.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "było dokładnie tym, czego potrzebowałem!"
+      },
+      {
+        "id": 5,
+        "name": "Matt",
+        "location": "Porto, Portugalia",
+        "text": "Uczę się z Mili od 4 miesięcy i jest wspaniała. Dostosowuje się do tego, co musisz poprawić, lekcja po lekcji, a dodatkowo wnosi dużo entuzjazmu i energii, co bardzo pomaga!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "uwielbiałem to doświadczenie!"
+      },
+      {
+        "id": 6,
+        "name": "Paul",
+        "location": "Lyon, Francja",
+        "text": "Mili to diament w ogromnym stogu siana korepetytorów Preply. Ma wyraźną pasję do nauczania języków i to lubi. Jest bardzo spostrzegawcza jeśli chodzi o twoje potrzeby jako ucznia języka i pomoże ci rozwijać się szybciej niż myślisz, że jesteś w stanie. Ostatecznie jej bardzo osobisty i skoncentrowany na uczniu styl nauczania sprawia, że nauka jest zabawna. Zawsze będziesz czekać na jej zajęcia z niecierpliwością!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "było bardzo profesjonalne!"
+      },
+      {
+        "id": 7,
+        "name": "André",
+        "location": "Kraków, Polska",
+        "text": "Uwielbiam uczyć się z Mili. To taka zabawna i miła osoba, a jednocześnie profesjonalna nauczycielka. Wie, jak ćwiczyć język.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "bardzo mi pomogło!"
+      },
+      {
+        "id": 8,
+        "name": "Ivana",
+        "location": "Manchester, Anglia",
+        "text": "Mili to nauczycielka z dużym doświadczeniem i cierpliwością. Lekcje są bardzo zróżnicowane, a ona bardzo dobrze dostosowuje się do potrzeb ucznia. Świetnie się bawię na zajęciach i dzięki Mili poprawiam swoją znajomość hiszpańskiego zarówno w sferze nieformalnej, jak i formalnej. Bardzo polecam zajęcia z nią!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "było zabawne i skuteczne!"
+      },
+      {
+        "id": 9,
+        "name": "Emna",
+        "location": "Marsylia, Francja",
+        "text": "Mili to najlepsza korepetytorka hiszpańskiego! Jest niesamowicie cierpliwa, zawsze poświęca czas na jasne wytłumaczenie wszystkiego i sprawia, że nauka jest bardzo przyjemna. Jej lekcje są super zorganizowane, angażujące i dostosowane do moich potrzeb. Bardzo się poprawiłam dzięki jej wskazówkom i wsparciu. Gorąco polecam ją każdemu, kto szuka miłej, oddanej i profesjonalnej korepetytorki!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "totalnie polecam!"
+      },
+      {
+        "id": 10,
+        "name": "Victoria",
+        "location": "Braga, Portugalia",
+        "text": "Bardzo miła, cierpliwa i angażująca dla mojej 5-letniej córki. Lekcje sprawiają, że nauka jest zabawna, a moja córka jest podekscytowana rozmową z Mili każdego tygodnia.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "było warte każdej minuty!"
+      },
+      {
+        "id": 11,
+        "name": "Mario",
+        "location": "Gdańsk, Polska",
+        "text": "Lekcje Mili są indywidualne i bardzo dobrze ustrukturyzowane. Naprawdę podoba mi się połączenie konwersacji, gramatyki, czytania, nowego słownictwa i informacji kulturowych. Wspaniała nauczycielka, zawsze uśmiechnięta, bardzo polecana!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "było niesamowite!"
+      },
+      {
+        "id": 12,
+        "name": "Yoshiro",
+        "location": "Birmingham, Anglia",
+        "text": "Choć jest dość młoda, ma talent do nauczania: ma dar nauczania.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "przekroczyło moje oczekiwania!"
+      },
+      {
+        "id": 13,
+        "name": "Chadi",
+        "location": "Nicea, Francja",
+        "text": "Mili to najlepsza korepetytorka, jaką możesz mieć; miła, pełna pasji i wyrozumiała; jeśli chcesz uczyć się hiszpańskiego, wspiera swoich uczniów i tworzy pozytywne środowisko nauki. Jest najlepsza.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "zmieniło sposób mojej nauki!"
+      },
+      {
+        "id": 14,
+        "name": "Ellie",
+        "location": "Coimbra, Portugalia",
+        "text": "Milli to wspaniała korepetytorka; przygotowuje prezentacje i dodatkowe ćwiczenia, które możesz robić sam, żebyś mógł uczyć się więcej niż za tę godzinę, za którą płacisz. Jest super entuzjastyczna i miła; bardzo ją polecam.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "było dokładnie tym, czego potrzebowałem!"
+      },
+      {
+        "id": 15,
+        "name": "Gurshant",
+        "location": "Wrocław, Polska",
+        "text": "Mili jest bardzo miła i zawsze mnie zachęca podczas lekcji. Jest bardzo elastyczna w swoim stylu i polecam ją każdemu, kto chce zacząć uczyć się hiszpańskiego!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "uwielbiałem to doświadczenie!"
+      },
+      {
+        "id": 16,
+        "name": "Celestino",
+        "location": "Liverpool, Anglia",
+        "text": "Mili to fantastyczna i bardzo profesjonalna nauczycielka, zawsze punktualna i ma różne metody, żebym uczył się hiszpańskiego, jest bardzo zabawna :)",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "było bardzo profesjonalne!"
+      },
+      {
+        "id": 17,
+        "name": "Dennis",
+        "location": "Tuluza, Francja",
+        "text": "Z Mili zawsze jest bardzo fajnie. Naprawdę bardzo pomaga w nauce hiszpańskiego. Super miła i przyjazna!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "bardzo mi pomogło!"
+      },
+      {
+        "id": 18,
+        "name": "Calvin",
+        "location": "Aveiro, Portugalia",
+        "text": "Naprawdę dobra nauczycielka, świetnie się bawię ucząc się hiszpańskiego!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "było zabawne i skuteczne!"
+      },
+      {
+        "id": 19,
+        "name": "Pascal",
+        "location": "Poznań, Polska",
+        "text": "Zawsze z niecierpliwością czekam na lekcje z Mili. Jestem kompletnym początkującym w hiszpańskim, ale ona sprawia, że jest to naprawdę łatwe do przyswojenia. Jest super empatyczna, dobrze przygotowana, a jej angielski jest niesamowity, więc to naprawdę pomocne dla każdego, kto zaczyna z hiszpańskim, ale zna angielski.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "totalnie polecam!"
+      },
+      {
+        "id": 20,
+        "name": "Linda",
+        "location": "Bristol, Anglia",
+        "text": "Mili to niesamowicie fajna nauczycielka, z wdziękiem i zabawą uczy mnie hiszpańskiego z wielką radością. Odpowiada na moje potrzeby i życzenia i jest bardzo elastyczna. Nie mogę się doczekać kolejnych lekcji z nią!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "było warte każdej minuty!"
+      },
+      {
+        "id": 21,
+        "name": "Abdulla",
+        "location": "Strasburg, Francja",
+        "text": "Milli ma pasję do sprawiania, żeby ludzie mówili po hiszpańsku, ułatwia język i jest bardzo miła i dobrze wychowana.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "było niesamowite!"
       }
     ]
   }
