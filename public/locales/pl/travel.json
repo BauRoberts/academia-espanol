@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "badge": "Travel Advice",
+    "title": "Twój Osobisty Przewodnik po Hiszpanii",
+    "subtitle": "Zestaw survivalowy i spersonalizowane porady na Twoje podróże do Hiszpanii, z wskazówkami kulturowymi i niezbędnymi zwrotami",
+    "cta_primary": "Zdobądź swój Travel Advice",
+    "cta_secondary": "Zobacz przykłady",
+    "stats": {
+      "travelers": "Podróżnych wspartych",
+      "cities": "Miast objętych",
+      "rating": "Ocena"
+    }
+  },
+  "features": {
+    "title": "Wszystko, czego potrzebujesz do podróży",
+    "subtitle": "Kompleksowa usługa zaprojektowana, aby pomóc Ci doświadczyć Hiszpanii jak lokalny mieszkaniec",
+    "items": [
+      {
+        "title": "Spersonalizowany Przewodnik Kulturowy",
+        "description": "Specyficzne porady w zależności od Twojego celu podróży w Hiszpanii, od Barcelony po Sewillę"
+      },
+      {
+        "title": "Niezbędne Zwroty",
+        "description": "Najważniejsze wyrażenia do przetrwania i nawiązania kontaktu z mieszkańcami"
+      },
+      {
+        "title": "Etykieta Społeczna",
+        "description": "Jak zachowywać się w restauracjach, sklepach i typowych sytuacjach społecznych"
+      },
+      {
+        "title": "Autentyczne Doświadczenia",
+        "description": "Rekomendacje, aby doświadczyć Hiszpanii jak lokalny mieszkaniec, a nie jak turysta"
+      }
+    ]
+  },
+  "destinations": {
+    "title": "Destynacje, które obejmujemy",
+    "subtitle": "Specyficzne porady dla najpopularniejszych miast Hiszpanii",
+    "cities": [
+      {
+        "name": "Madryt",
+        "highlights": ["Prado", "Retiro", "Malasaña"]
+      },
+      {
+        "name": "Barcelona",
+        "highlights": ["Gaudí", "Dzielnica Gotycka", "Plaża"]
+      },
+      {
+        "name": "Sewilla",
+        "highlights": ["Flamenco", "Katedra", "Alcázar"]
+      },
+      {
+        "name": "Walencja",
+        "highlights": ["Paella", "Miasto Sztuk", "Plaża"]
+      },
+      {
+        "name": "Bilbao",
+        "highlights": ["Guggenheim", "Pintxos", "Architektura"]
+      },
+      {
+        "name": "Granada",
+        "highlights": ["Alhambra", "Albaicín", "Tapas"]
+      }
+    ]
+  },
+  "included": {
+    "title": "Co zawiera Twój Travel Advice",
+    "subtitle": "Kompletny pakiet zasobów i spersonalizowanego wsparcia na Twoją hiszpańską przygodę",
+    "image_text": "Cyfrowy + fizyczny zestaw survivalowy",
+    "items": [
+      "Spersonalizowany przewodnik PDF dla Twojego celu",
+      "Lista niezbędnych zwrotów z wymową",
+      "Porady kulturowe specyficzne dla regionu",
+      "Rekomendacje autentycznych miejsc",
+      "Wskazówki etykiety społecznej i protokołu",
+      "Spersonalizowana sesja konsultacyjna (30 min)",
+      "Wsparcie WhatsApp podczas podróży",
+      "Dodatkowe zasoby i przydatne mapy"
+    ]
+  },
+  "testimonials": {
+    "title": "Co mówią nasi podróżnicy",
+    "items": [
+      {
+        "name": "Maria Schmidt",
+        "country": "Niemcy",
+        "text": "Travel advice uratowało mnie podczas podróży do Madrytu. Zwroty, których mnie nauczyli, pomogły mi nawiązać kontakt z miejscowymi w niesamowity sposób.",
+        "rating": 5
+      },
+      {
+        "name": "John Peterson",
+        "country": "Stany Zjednoczone",
+        "text": "Niesamowita usługa. Wskazówki kulturowe pomogły mi uniknąć typowych błędów turystycznych i naprawdę cieszyć się hiszpańską kulturą.",
+        "rating": 5
+      },
+      {
+        "name": "Sophie Dubois",
+        "country": "Francja",
+        "text": "Spersonalizowany przewodnik na moją podróż do Andaluzji był idealny. Odkryłam miejsca, których nigdy nie znalazłabym sama.",
+        "rating": 5
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Gotowy na hiszpańską przygodę?",
+    "subtitle": "Zdobądź swój spersonalizowany przewodnik i doświadcz Hiszpanii jak nigdy wcześniej. Twoja idealna podróż jest na wyciągnięcie ręki.",
+    "cta_primary": "Zdobądź mój Travel Advice",
+    "cta_secondary": "Porozmawiaj z ekspertem",
+    "guarantees": "100% gwarancja zadowolenia • Natychmiastowa dostawa • Wsparcie podczas podróży"
+  }
+}

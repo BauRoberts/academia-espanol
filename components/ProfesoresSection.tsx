@@ -2,14 +2,18 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
+// Tipos para las traducciones
 type TeachersTranslations = {
-  title: string;
-  subtitle: string;
-  description: string;
-  cta: string;
+  hero: {
+    title: string;
+    subtitle: string;
+  };
+  section: {
+    title: string;
+    subtitle: string;
+  };
   profesores: {
     natan: {
       name: string;
@@ -17,6 +21,7 @@ type TeachersTranslations = {
       bio: string;
       specialties: string[];
       experience: string;
+      university: string;
     };
     mili: {
       name: string;
@@ -24,7 +29,13 @@ type TeachersTranslations = {
       bio: string;
       specialties: string[];
       experience: string;
+      background: string;
     };
+  };
+  common: {
+    specialties_label: string;
+    experience_label: string;
+    book_class: string;
   };
 };
 
@@ -33,302 +44,318 @@ type ProfesoresSectionProps = {
   translations: TeachersTranslations;
 };
 
-// Componente de texto que rota palabras
-const RotatingWords = ({
-  words,
-  className,
-}: {
-  words: string[];
-  className?: string;
-}) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
-    }, 2000); // cambiar cada 2 segundos
-
-    return () => clearInterval(interval);
-  }, [words.length]);
-
-  return (
-    <span className={`inline-block relative ${className || ""}`}>
-      {words.map((word, index) => (
-        <span
-          key={index}
-          className={`absolute transition-opacity duration-500 ${
-            index === currentIndex ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          {word}
-        </span>
-      ))}
-      {/* Espacio vacío para mantener el layout mientras las palabras rotan */}
-      <span className="opacity-0">{words[0]}</span>
-    </span>
-  );
-};
-
 const ProfesoresSection = ({
   currentLocale,
   translations,
 }: ProfesoresSectionProps) => {
-  // Palabras para el efecto de rotación
-  const natanKeywords = ["dinámico", "práctico", "conversacional", "efectivo"];
-  const miliKeywords = [
-    "estructurada",
-    "innovadora",
-    "analítica",
-    "apasionada",
-  ];
+  // Traducciones para los badges según el idioma
+  const getBadgeLabels = (locale: string) => {
+    const labels = {
+      es: {
+        experience: "años experiencia",
+        countries: "países enseñados",
+        personalized: "personalizado",
+      },
+      en: {
+        experience: "years experience",
+        countries: "countries taught",
+        personalized: "personalized",
+      },
+      fr: {
+        experience: "ans d'expérience",
+        countries: "pays enseignés",
+        personalized: "personnalisé",
+      },
+      pt: {
+        experience: "anos experiência",
+        countries: "países ensinados",
+        personalized: "personalizado",
+      },
+      pl: {
+        experience: "lat doświadczenia",
+        countries: "krajów nauczanych",
+        personalized: "spersonalizowany",
+      },
+    };
 
-  // Adaptamos las palabras según el idioma
-  const getKeywords = (locale: string, isNatan: boolean) => {
-    const keywords = isNatan ? natanKeywords : miliKeywords;
-
-    // Si no es español, devolvemos las palabras en inglés como ejemplo
-    // Esto debería adaptarse según tus traducciones reales
-    if (locale !== "es") {
-      return isNatan
-        ? ["dynamic", "practical", "conversational", "effective"]
-        : ["structured", "innovative", "analytical", "passionate"];
-    }
-
-    return keywords;
+    return labels[locale as keyof typeof labels] || labels.es;
   };
 
+  const badgeLabels = getBadgeLabels(currentLocale);
   return (
-    <section className="w-full py-12 md:py-20 bg-white">
-      <div className="container max-w-6xl mx-auto px-4">
-        {/* Encabezado de la sección */}
-        <motion.div
-          className="text-center mb-16"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            {translations.title}
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-800 font-medium mb-6">
-            {translations.subtitle}
-          </p>
-          <p className="max-w-3xl mx-auto text-lg text-gray-700">
-            {translations.description}
-          </p>
-        </motion.div>
+    <div className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <section className="relative min-h-screen flex items-center justify-center bg-white overflow-hidden">
+        <div className="container max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+          {/* Contenido del Hero */}
+          <motion.div
+            className="space-y-8"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="space-y-6">
+              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+                {translations.hero.title}
+              </h1>
+              <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
+                {translations.hero.subtitle}
+              </p>
+            </div>
 
-        {/* Profesor Natan - Imagen izquierda, texto derecha */}
-        <motion.div
-          className="flex flex-col md:flex-row items-center mb-16 gap-8"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <div className="w-full md:w-2/5">
-            <Tilt
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-              scale={1.05}
-              transitionSpeed={1000}
-              glareEnable={true}
-              glareMaxOpacity={0.1}
-              glareColor="#ffffff"
-              glarePosition="all"
-              className="w-full"
+            {/* Badges de experiencia */}
+            <div className="flex flex-wrap gap-4">
+              <div className="bg-white rounded-lg shadow-md px-4 py-2 border border-gray-100">
+                <div className="text-2xl font-bold text-brand-orange">3+</div>
+                <div className="text-sm text-gray-600">
+                  {badgeLabels.experience}
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-md px-4 py-2 border border-gray-100">
+                <div className="text-2xl font-bold text-brand-orange">20+</div>
+                <div className="text-sm text-gray-600">
+                  {badgeLabels.countries}
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-md px-4 py-2 border border-gray-100">
+                <div className="text-2xl font-bold text-brand-orange">100%</div>
+                <div className="text-sm text-gray-600">
+                  {badgeLabels.personalized}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Imagen del Hero */}
+          <motion.div
+            className="relative"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <div className="relative w-full h-[500px] lg:h-[600px]">
+              <Image
+                src="/images/profesores/profesores-section.png"
+                alt="Profesores de español - Natan y Mili"
+                fill
+                className="object-contain"
+              />
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Espacio inferior vacío */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+          <div className="h-10"></div>
+        </div>
+      </section>
+
+      {/* Sección de Profesores */}
+      <section className="py-20 bg-white">
+        <div className="container max-w-6xl mx-auto px-4">
+          {/* Header de la sección */}
+          <motion.div
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              {translations.section.title}
+            </h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              {translations.section.subtitle}
+            </p>
+          </motion.div>
+
+          {/* Cards de profesores */}
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+            {/* Card Natan */}
+            <motion.div
+              className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
             >
-              <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg">
+              {/* Imagen */}
+              <div className="relative h-80 overflow-hidden group">
+                {/* Imagen normal */}
+                <Image
+                  src="/images/profesores/natan-car.png"
+                  alt={translations.profesores.natan.name}
+                  fill
+                  className="object-cover transition-opacity duration-500 group-hover:opacity-0"
+                />
+                {/* Imagen hover */}
                 <Image
                   src="/images/profesores/natan.png"
                   alt={translations.profesores.natan.name}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-opacity duration-500 opacity-0 group-hover:opacity-100 absolute inset-0"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-6 text-white">
-                    <p className="font-bold text-xl">
-                      {translations.profesores.natan.name}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <h3 className="text-2xl font-bold">
+                    {translations.profesores.natan.name}
+                  </h3>
+                  <p className="text-white/90">
+                    {translations.profesores.natan.title}
+                  </p>
+                </div>
+              </div>
+
+              {/* Contenido */}
+              <div className="p-6 space-y-6 flex-1 flex flex-col">
+                {/* Descripción */}
+                <div className="space-y-4 flex-1">
+                  <p className="text-gray-700 leading-relaxed">
+                    {translations.profesores.natan.bio}
+                  </p>
+
+                  {/* Universidad destacada */}
+                  <div className="bg-gray-50 rounded-lg p-3">
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">🎓 Formación:</span>{" "}
+                      {translations.profesores.natan.university}
                     </p>
-                    <p className="text-white/90">
-                      {translations.profesores.natan.title}
+                  </div>
+
+                  {/* Especialidades */}
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-3">
+                      {translations.common.specialties_label}:
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {translations.profesores.natan.specialties.map(
+                        (specialty, index) => (
+                          <span
+                            key={index}
+                            className="bg-brand-orange/10 text-brand-orange px-3 py-1 rounded-full text-sm font-medium"
+                          >
+                            {specialty}
+                          </span>
+                        )
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Experiencia */}
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">
+                        {translations.common.experience_label}:
+                      </span>{" "}
+                      {translations.profesores.natan.experience}
                     </p>
                   </div>
                 </div>
+
+                {/* CTA */}
+                <Link
+                  href={`/${currentLocale}/contacto`}
+                  className="w-full py-3 bg-brand-orange text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all mt-auto text-center block"
+                >
+                  {translations.common.book_class}
+                </Link>
               </div>
-            </Tilt>
-          </div>
+            </motion.div>
 
-          <div className="w-full md:w-3/5">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-              {translations.profesores.natan.name}
-            </h2>
-            <p className="text-lg text-gray-800 font-medium mb-4">
-              {translations.profesores.natan.title}
-            </p>
-            <p className="text-gray-700 mb-4">
-              {translations.profesores.natan.bio
-                .split(" ")
-                .slice(0, -20)
-                .join(" ")}{" "}
-              <span className="text-black font-semibold">
-                <RotatingWords words={getKeywords(currentLocale, true)} />
-              </span>{" "}
-              {translations.profesores.natan.bio
-                .split(" ")
-                .slice(-20)
-                .join(" ")}
-            </p>
-            <div className="mb-4">
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Especialidades:
-              </h4>
-              <motion.div
-                className="flex flex-wrap gap-2"
-                initial="hidden"
-                animate="visible"
-                variants={{
-                  visible: { transition: { staggerChildren: 0.1 } },
-                }}
-              >
-                {translations.profesores.natan.specialties.map(
-                  (specialty, index) => (
-                    <motion.span
-                      key={index}
-                      className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium"
-                      variants={{
-                        hidden: { opacity: 0, x: 20 },
-                        visible: {
-                          opacity: 1,
-                          x: 0,
-                          transition: { duration: 0.5 },
-                        },
-                      }}
-                    >
-                      {specialty}
-                    </motion.span>
-                  )
-                )}
-              </motion.div>
-            </div>
-            <p className="text-sm text-gray-600">
-              <span className="font-semibold">Experiencia: </span>
-              {translations.profesores.natan.experience}
-            </p>
-          </div>
-        </motion.div>
-
-        {/* Profesora Mili - Texto izquierda, imagen derecha */}
-        <motion.div
-          className="flex flex-col md:flex-row-reverse items-center mb-16 gap-8"
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-        >
-          <div className="w-full md:w-2/5">
-            <Tilt
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-              scale={1.05}
-              transitionSpeed={1000}
-              glareEnable={true}
-              glareMaxOpacity={0.1}
-              glareColor="#ffffff"
-              glarePosition="all"
-              className="w-full"
+            {/* Card Mili */}
+            <motion.div
+              className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              viewport={{ once: true }}
             >
-              <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg">
+              {/* Imagen */}
+              <div className="relative h-80 overflow-hidden group">
+                {/* Imagen normal */}
+                <Image
+                  src="/images/profesores/mili-car.png"
+                  alt={translations.profesores.mili.name}
+                  fill
+                  className="object-cover transition-opacity duration-500 group-hover:opacity-0"
+                />
+                {/* Imagen hover */}
                 <Image
                   src="/images/profesores/mili.png"
                   alt={translations.profesores.mili.name}
                   fill
-                  className="object-cover"
+                  className="object-cover transition-opacity duration-500 opacity-0 group-hover:opacity-100 absolute inset-0"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-6 text-white">
-                    <p className="font-bold text-xl">
-                      {translations.profesores.mili.name}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <h3 className="text-2xl font-bold">
+                    {translations.profesores.mili.name}
+                  </h3>
+                  <p className="text-white/90">
+                    {translations.profesores.mili.title}
+                  </p>
+                </div>
+              </div>
+
+              {/* Contenido */}
+              <div className="p-6 space-y-6 flex-1 flex flex-col">
+                {/* Descripción */}
+                <div className="space-y-4 flex-1">
+                  <p className="text-gray-700 leading-relaxed">
+                    {translations.profesores.mili.bio}
+                  </p>
+
+                  {/* Background destacado */}
+                  <div className="bg-gray-50 rounded-lg p-3">
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">🌎 Background:</span>{" "}
+                      {translations.profesores.mili.background}
                     </p>
-                    <p className="text-white/90">
-                      {translations.profesores.mili.title}
+                  </div>
+
+                  {/* Especialidades */}
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-3">
+                      {translations.common.specialties_label}:
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {translations.profesores.mili.specialties.map(
+                        (specialty, index) => (
+                          <span
+                            key={index}
+                            className="bg-brand-yellow/20 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium"
+                          >
+                            {specialty}
+                          </span>
+                        )
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Experiencia */}
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <p className="text-sm text-gray-600">
+                      <span className="font-semibold">
+                        {translations.common.experience_label}:
+                      </span>{" "}
+                      {translations.profesores.mili.experience}
                     </p>
                   </div>
                 </div>
+
+                {/* CTA */}
+                <Link
+                  href={`/${currentLocale}/contacto`}
+                  className="w-full py-3 bg-brand-orange text-white font-semibold rounded-lg hover:bg-opacity-90 transition-all mt-auto text-center block"
+                >
+                  {translations.common.book_class}
+                </Link>
               </div>
-            </Tilt>
+            </motion.div>
           </div>
-
-          <div className="w-full md:w-3/5">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-              {translations.profesores.mili.name}
-            </h2>
-            <p className="text-lg text-gray-800 font-medium mb-4">
-              {translations.profesores.mili.title}
-            </p>
-            <p className="text-gray-700 mb-4">
-              {translations.profesores.mili.bio
-                .split(" ")
-                .slice(0, -20)
-                .join(" ")}{" "}
-              <span className="text-black font-semibold">
-                <RotatingWords words={getKeywords(currentLocale, false)} />
-              </span>{" "}
-              {translations.profesores.mili.bio.split(" ").slice(-20).join(" ")}
-            </p>
-            <div className="mb-4">
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Especialidades:
-              </h4>
-              <motion.div
-                className="flex flex-wrap gap-2"
-                initial="hidden"
-                animate="visible"
-                variants={{
-                  visible: { transition: { staggerChildren: 0.1 } },
-                }}
-              >
-                {translations.profesores.mili.specialties.map(
-                  (specialty, index) => (
-                    <motion.span
-                      key={index}
-                      className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium"
-                      variants={{
-                        hidden: { opacity: 0, x: 20 },
-                        visible: {
-                          opacity: 1,
-                          x: 0,
-                          transition: { duration: 0.5 },
-                        },
-                      }}
-                    >
-                      {specialty}
-                    </motion.span>
-                  )
-                )}
-              </motion.div>
-            </div>
-            <p className="text-sm text-gray-600">
-              <span className="font-semibold">Experiencia: </span>
-              {translations.profesores.mili.experience}
-            </p>
-          </div>
-        </motion.div>
-
-        {/* CTA final */}
-        <motion.div
-          className="text-center"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-        >
-          <Link
-            href={`/${currentLocale}/contacto`}
-            className="inline-block px-8 py-4 bg-brand-orange text-white text-lg font-medium rounded-md hover:bg-opacity-90 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-1"
-          >
-            {translations.cta}
-          </Link>
-        </motion.div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </div>
   );
 };
 

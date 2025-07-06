@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "badge": "Travel Advice",
+    "title": "Seu Guia Pessoal para a Espanha",
+    "subtitle": "Kit de sobrevivência e conselhos personalizados para suas viagens à Espanha, com dicas culturais e frases essenciais",
+    "cta_primary": "Obtenha seu Travel Advice",
+    "cta_secondary": "Ver exemplos",
+    "stats": {
+      "travelers": "Viajantes ajudados",
+      "cities": "Cidades cobertas",
+      "rating": "Avaliação"
+    }
+  },
+  "features": {
+    "title": "Tudo o que você precisa para sua viagem",
+    "subtitle": "Um serviço completo projetado para você viver a Espanha como um local",
+    "items": [
+      {
+        "title": "Guia Cultural Personalizado",
+        "description": "Conselhos específicos de acordo com seu destino na Espanha, de Barcelona a Sevilha"
+      },
+      {
+        "title": "Frases Essenciais",
+        "description": "As expressões mais importantes para sobreviver e se conectar com os locais"
+      },
+      {
+        "title": "Etiqueta Social",
+        "description": "Como se comportar em restaurantes, lojas e situações sociais típicas"
+      },
+      {
+        "title": "Experiências Autênticas",
+        "description": "Recomendações para viver a Espanha como um local, não como turista"
+      }
+    ]
+  },
+  "destinations": {
+    "title": "Destinos que cobrimos",
+    "subtitle": "Conselhos específicos para as cidades mais populares da Espanha",
+    "cities": [
+      {
+        "name": "Madrid",
+        "highlights": ["Prado", "Retiro", "Malasaña"]
+      },
+      {
+        "name": "Barcelona",
+        "highlights": ["Gaudí", "Bairro Gótico", "Praia"]
+      },
+      {
+        "name": "Sevilha",
+        "highlights": ["Flamenco", "Catedral", "Alcázar"]
+      },
+      {
+        "name": "Valência",
+        "highlights": ["Paella", "Cidade das Artes", "Praia"]
+      },
+      {
+        "name": "Bilbao",
+        "highlights": ["Guggenheim", "Pintxos", "Arquitetura"]
+      },
+      {
+        "name": "Granada",
+        "highlights": ["Alhambra", "Albaicín", "Tapas"]
+      }
+    ]
+  },
+  "included": {
+    "title": "O que inclui seu Travel Advice",
+    "subtitle": "Um pacote completo de recursos e apoio personalizado para sua aventura espanhola",
+    "image_text": "Kit de sobrevivência digital + físico",
+    "items": [
+      "Guia PDF personalizado para seu destino",
+      "Lista de frases essenciais com pronúncia",
+      "Conselhos culturais específicos por região",
+      "Recomendações de lugares autênticos",
+      "Dicas de etiqueta social e protocolo",
+      "Sessão de consulta personalizada (30 min)",
+      "Suporte via WhatsApp durante sua viagem",
+      "Recursos adicionais e mapas úteis"
+    ]
+  },
+  "testimonials": {
+    "title": "O que dizem nossos viajantes",
+    "items": [
+      {
+        "name": "Maria Schmidt",
+        "country": "Alemanha",
+        "text": "O travel advice me salvou na minha viagem a Madrid. As frases que me ensinaram me ajudaram a me conectar com as pessoas locais de forma incrível.",
+        "rating": 5
+      },
+      {
+        "name": "John Peterson",
+        "country": "Estados Unidos",
+        "text": "Serviço incrível. As dicas culturais me ajudaram a evitar erros típicos de turista e realmente curtir a cultura espanhola.",
+        "rating": 5
+      },
+      {
+        "name": "Sophie Dubois",
+        "country": "França",
+        "text": "O guia personalizado para minha viagem à Andaluzia foi perfeito. Descobri lugares que jamais teria encontrado sozinha.",
+        "rating": 5
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Pronto para sua aventura espanhola?",
+    "subtitle": "Obtenha seu guia personalizado e viva a Espanha como nunca imaginou. Sua viagem perfeita está a um clique de distância.",
+    "cta_primary": "Obter meu Travel Advice",
+    "cta_secondary": "Falar com um especialista",
+    "guarantees": "Garantia de satisfação 100% • Entrega imediata • Suporte durante sua viagem"
+  }
+}

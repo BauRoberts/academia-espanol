@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "badge": "Travel Advice",
+    "title": "Tu Guía Personal para España",
+    "subtitle": "Survival kit y consejos personalizados para tus viajes a España, con tips culturales y frases esenciales",
+    "cta_primary": "Obtén tu Travel Advice",
+    "cta_secondary": "Ver ejemplos",
+    "stats": {
+      "travelers": "Viajeros ayudados",
+      "cities": "Ciudades cubiertas",
+      "rating": "Valoración"
+    }
+  },
+  "features": {
+    "title": "Todo lo que necesitas para tu viaje",
+    "subtitle": "Un servicio completo diseñado para que vivas España como un local",
+    "items": [
+      {
+        "title": "Guía Cultural Personalizada",
+        "description": "Consejos específicos según tu destino en España, desde Barcelona hasta Sevilla"
+      },
+      {
+        "title": "Frases Esenciales",
+        "description": "Las expresiones más importantes para sobrevivir y conectar con los locales"
+      },
+      {
+        "title": "Etiqueta Social",
+        "description": "Cómo comportarte en restaurantes, tiendas y situaciones sociales típicas"
+      },
+      {
+        "title": "Experiencias Auténticas",
+        "description": "Recomendaciones para vivir España como un local, no como turista"
+      }
+    ]
+  },
+  "destinations": {
+    "title": "Destinos que cubrimos",
+    "subtitle": "Consejos específicos para las ciudades más populares de España",
+    "cities": [
+      {
+        "name": "Madrid",
+        "highlights": ["Prado", "Retiro", "Malasaña"]
+      },
+      {
+        "name": "Barcelona",
+        "highlights": ["Gaudí", "Barrio Gótico", "Playa"]
+      },
+      {
+        "name": "Sevilla",
+        "highlights": ["Flamenco", "Catedral", "Alcázar"]
+      },
+      {
+        "name": "Valencia",
+        "highlights": ["Paella", "Ciudad de las Artes", "Playa"]
+      },
+      {
+        "name": "Bilbao",
+        "highlights": ["Guggenheim", "Pintxos", "Arquitectura"]
+      },
+      {
+        "name": "Granada",
+        "highlights": ["Alhambra", "Albaicín", "Tapas"]
+      }
+    ]
+  },
+  "included": {
+    "title": "Qué incluye tu Travel Advice",
+    "subtitle": "Un paquete completo de recursos y apoyo personalizado para tu aventura española",
+    "image_text": "Kit de supervivencia digital + físico",
+    "items": [
+      "Guía PDF personalizada para tu destino",
+      "Lista de frases esenciales con pronunciación",
+      "Consejos culturales específicos por región",
+      "Recomendaciones de lugares auténticos",
+      "Tips de etiqueta social y protocolo",
+      "Sesión de consulta personalizada (30 min)",
+      "Soporte por WhatsApp durante tu viaje",
+      "Recursos adicionales y mapas útiles"
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros viajeros",
+    "items": [
+      {
+        "name": "Maria Schmidt",
+        "country": "Alemania",
+        "text": "El travel advice me salvó en mi viaje a Madrid. Las frases que me enseñaron me ayudaron a conectar con la gente local de una manera increíble.",
+        "rating": 5
+      },
+      {
+        "name": "John Peterson",
+        "country": "Estados Unidos",
+        "text": "Increíble servicio. Los consejos culturales me ayudaron a evitar errores típicos de turista y realmente disfrutar de la cultura española.",
+        "rating": 5
+      },
+      {
+        "name": "Sophie Dubois",
+        "country": "Francia",
+        "text": "La guía personalizada para mi viaje a Andalucía fue perfecta. Descubrí lugares que jamás habría encontrado por mi cuenta.",
+        "rating": 5
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "¿Listo para tu aventura española?",
+    "subtitle": "Obtén tu guía personalizada y vive España como nunca imaginaste. Tu viaje perfecto está a un clic de distancia.",
+    "cta_primary": "Obtener mi Travel Advice",
+    "cta_secondary": "Hablar con un experto",
+    "guarantees": "Garantía de satisfacción 100% • Entrega inmediata • Soporte durante tu viaje"
+  }
+}

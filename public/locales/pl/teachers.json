@@ -1,13 +1,17 @@
 {
-  "title": "Nasi nauczyciele",
-  "subtitle": "Eksperci w nauczaniu hiszpańskiego",
-  "description": "Posiadamy wykwalifikowanych nauczycieli native speakerów z doświadczeniem w nauczaniu hiszpańskiego jako języka obcego. Poznaj nasz zespół profesjonalistów z pasją do dzielenia się językiem i kulturą.",
-  "cta": "Zarezerwuj lekcję już teraz",
+  "hero": {
+    "title": "3+ lata nauczania hiszpańskiego: Natywni nauczyciele, którzy pomogli uczniom z +20 narodowości",
+    "subtitle": "Poznaj Natana i Mili, nauczycieli, którzy pomogą Ci mówić po hiszpańsku z pewnością siebie od pierwszej lekcji"
+  },
+  "section": {
+    "title": "Poznaj swoich nauczycieli",
+    "subtitle": "Natywni nauczyciele z ponad 3-letnim doświadczeniem, specjalizujący się w spersonalizowanych lekcjach dostosowanych do każdego ucznia"
+  },
   "profesores": {
     "natan": {
-      "name": "Natan Julian Mitros",
+      "name": "Natan Julián Mitros",
       "title": "Nauczyciel hiszpańskiego",
-      "bio": "Cześć, mam na imię Natan i z przyjemnością zostanę Twoim nauczycielem języka hiszpańskiego. Odkąd byłem mały, języki zawsze mnie pasjonowały. Teraz chciałbym podzielić się tą pasją z Tobą, ucząc Cię hiszpańskiego.\n\nMam ponad 3-letnie doświadczenie w nauczaniu języka hiszpańskiego, zarówno na zajęciach indywidualnych, jak i w grupach. Moje zajęcia są zawsze w 100% dostosowane do potrzeb ucznia. Na moich zajęciach nigdy się nie nudzimy i zawsze skupiam się na tym, abyś rozumiał wszystko, co robimy. Ukończyłem Filologię Nowożytną na Uniwersytecie w Walencji (Hiszpania).\n\nNie wahaj się dłużej i już teraz zarezerwuj swoje pierwsze zajęcia ze mną :)\n\nDoświadczenie: 3+ lata nauczania hiszpańskiego uczniów z ponad 20 różnych krajów.",
+      "bio": "Cześć, mam na imię Natan i z przyjemnością zostanę Twoim nauczycielem języka hiszpańskiego. Odkąd byłem mały, języki zawsze mnie pasjonowały. Teraz chciałbym podzielić się tą pasją z Tobą, ucząc Cię hiszpańskiego. Mam ponad 3-letnie doświadczenie w nauczaniu języka hiszpańskiego, zarówno na zajęciach indywidualnych, jak i w grupach. Moje zajęcia są zawsze w 100% dostosowane do potrzeb ucznia. Na moich zajęciach nigdy się nie nudzimy i zawsze skupiam się na tym, abyś rozumiał wszystko, co robimy.",
       "specialties": [
         "Zaawansowana konwersacja",
         "Przygotowanie do DELE",
@@ -15,19 +19,28 @@
         "Kultura hiszpańska",
         "Wymowa",
         "Gramatyka"
-      ]
+      ],
+      "experience": "3+ lata nauczania hiszpańskiego uczniów z ponad 20 różnych krajów",
+      "university": "Ukończył Filologię Nowożytną na Uniwersytecie w Walencji (Hiszpania)"
     },
     "mili": {
       "name": "Mili",
       "title": "Nauczycielka hiszpańskiego",
-      "bio": "Cześć! Jestem Mili, nauczycielka hiszpańskiego online z ponad 3-letnim doświadczeniem. Jestem native speakerką, urodzoną w Argentynie, a od wielu lat mieszkam w Hiszpanii, co daje mi szeroką perspektywę na język i jego odmiany.\n\nSpecjalizuję się w spersonalizowanych zajęciach dostosowanych do potrzeb każdego ucznia, bez względu na wiek. Tworzę ciepłą i bezpieczną przestrzeń, abyś mógł mówić pewnie od pierwszej lekcji. Każde zajęcia projektuję zgodnie z Twoimi zainteresowaniami, celami i sposobem uczenia się.\n\nNiezależnie od tego, czy potrzebujesz hiszpańskiego do podróży, pracy, komunikacji w życiu codziennym czy nauki od podstaw, chętnie Ci w tym pomogę.\n\nDoświadczenie: +3 lata doświadczenia z uczniami w różnym wieku; od 5 do ponad 65 lat.",
+      "bio": "Cześć! Jestem Mili, korepetytorką hiszpańskiego online z ponad 3-letnim doświadczeniem. Jestem native speakerem, urodziłam się w Argentynie i mieszkam w Hiszpanii od wielu lat, co daje mi szeroką wizję języka i jego odmian. Specjalizuję się w spersonalizowanych lekcjach dostosowanych do każdego ucznia, niezależnie od wieku: tworzę ciepłą i bezpieczną przestrzeń, abyś mówił z pewnością siebie od pierwszego dnia.",
       "specialties": [
         "Zaawansowana konwersacja",
-        "Hiszpański dla dzieci i młodzieży",
+        "Hiszpański dla dzieci i nastolatków",
         "Gramatyka",
         "Wymowa",
         "Kultura hiszpańska"
-      ]
+      ],
+      "experience": "+3 lata doświadczenia ze wszystkimi grupami wiekowymi; od 5 lat do +65",
+      "background": "Argentyna i Hiszpania - Szeroka wizja języka i jego odmian"
     }
+  },
+  "common": {
+    "specialties_label": "Specjalizacje",
+    "experience_label": "Doświadczenie",
+    "book_class": "Zarezerwuj lekcję"
   }
 }

@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "badge": "Travel Advice",
+    "title": "Votre Guide Personnel pour l'Espagne",
+    "subtitle": "Kit de survie et conseils personnalisés pour vos voyages en Espagne, avec des astuces culturelles et phrases essentielles",
+    "cta_primary": "Obtenez votre Travel Advice",
+    "cta_secondary": "Voir des exemples",
+    "stats": {
+      "travelers": "Voyageurs aidés",
+      "cities": "Villes couvertes",
+      "rating": "Évaluation"
+    }
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin pour votre voyage",
+    "subtitle": "Un service complet conçu pour vous faire vivre l'Espagne comme un local",
+    "items": [
+      {
+        "title": "Guide Culturel Personnalisé",
+        "description": "Conseils spécifiques selon votre destination en Espagne, de Barcelone à Séville"
+      },
+      {
+        "title": "Phrases Essentielles",
+        "description": "Les expressions les plus importantes pour survivre et vous connecter avec les locaux"
+      },
+      {
+        "title": "Étiquette Sociale",
+        "description": "Comment vous comporter dans les restaurants, magasins et situations sociales typiques"
+      },
+      {
+        "title": "Expériences Authentiques",
+        "description": "Recommandations pour vivre l'Espagne comme un local, pas comme un touriste"
+      }
+    ]
+  },
+  "destinations": {
+    "title": "Destinations que nous couvrons",
+    "subtitle": "Conseils spécifiques pour les villes les plus populaires d'Espagne",
+    "cities": [
+      {
+        "name": "Madrid",
+        "highlights": ["Prado", "Retiro", "Malasaña"]
+      },
+      {
+        "name": "Barcelone",
+        "highlights": ["Gaudí", "Quartier Gothique", "Plage"]
+      },
+      {
+        "name": "Séville",
+        "highlights": ["Flamenco", "Cathédrale", "Alcázar"]
+      },
+      {
+        "name": "Valence",
+        "highlights": ["Paella", "Cité des Arts", "Plage"]
+      },
+      {
+        "name": "Bilbao",
+        "highlights": ["Guggenheim", "Pintxos", "Architecture"]
+      },
+      {
+        "name": "Grenade",
+        "highlights": ["Alhambra", "Albaicín", "Tapas"]
+      }
+    ]
+  },
+  "included": {
+    "title": "Ce que comprend votre Travel Advice",
+    "subtitle": "Un pack complet de ressources et de soutien personnalisé pour votre aventure espagnole",
+    "image_text": "Kit de survie numérique + physique",
+    "items": [
+      "Guide PDF personnalisé pour votre destination",
+      "Liste de phrases essentielles avec prononciation",
+      "Conseils culturels spécifiques par région",
+      "Recommandations de lieux authentiques",
+      "Conseils d'étiquette sociale et protocole",
+      "Session de consultation personnalisée (30 min)",
+      "Support WhatsApp pendant votre voyage",
+      "Ressources supplémentaires et cartes utiles"
+    ]
+  },
+  "testimonials": {
+    "title": "Ce que disent nos voyageurs",
+    "items": [
+      {
+        "name": "Maria Schmidt",
+        "country": "Allemagne",
+        "text": "Le travel advice m'a sauvée lors de mon voyage à Madrid. Les phrases qu'ils m'ont enseignées m'ont aidée à me connecter avec les locaux de manière incroyable.",
+        "rating": 5
+      },
+      {
+        "name": "John Peterson",
+        "country": "États-Unis",
+        "text": "Service incroyable. Les conseils culturels m'ont aidé à éviter les erreurs typiques de touriste et à vraiment profiter de la culture espagnole.",
+        "rating": 5
+      },
+      {
+        "name": "Sophie Dubois",
+        "country": "France",
+        "text": "Le guide personnalisé pour mon voyage en Andalousie était parfait. J'ai découvert des endroits que je n'aurais jamais trouvés seule.",
+        "rating": 5
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Prêt pour votre aventure espagnole ?",
+    "subtitle": "Obtenez votre guide personnalisé et vivez l'Espagne comme jamais auparavant. Votre voyage parfait est à un clic.",
+    "cta_primary": "Obtenir mon Travel Advice",
+    "cta_secondary": "Parler à un expert",
+    "guarantees": "Garantie de satisfaction 100% • Livraison immédiate • Support pendant votre voyage"
+  }
+}

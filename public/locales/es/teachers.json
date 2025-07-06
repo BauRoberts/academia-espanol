@@ -1,13 +1,17 @@
 {
-  "title": "Nuestros Profesores",
-  "subtitle": "Expertos en la enseñanza del español",
-  "description": "Contamos con profesores nativos altamente calificados y con experiencia en la enseñanza del español como lengua extranjera. Conoce a nuestro equipo de profesionales apasionados por compartir nuestro idioma y cultura.",
-  "cta": "Agenda una clase ahora",
+  "hero": {
+    "title": "3+ años enseñando español: Profesores nativos que han ayudado a +20 nacionalidades",
+    "subtitle": "Conoce a Natan y Mili, los profesores que harán que hables español con confianza desde la primera clase"
+  },
+  "section": {
+    "title": "Conoce a tus profesores",
+    "subtitle": "Profesores nativos con más de 3 años de experiencia, especializados en clases personalizadas y adaptadas a cada estudiante"
+  },
   "profesores": {
     "natan": {
-      "name": "Natan Julian Mitros",
+      "name": "Natan Julián Mitros",
       "title": "Profesor de español",
-      "bio": "¡Hola! Mi nombre es Natan y con mucho gusto seré tu profesor de español. Desde pequeño siempre me han apasionado los idiomas y ahora me gustaría compartir esta pasión contigo enseñándote español.\n\nTengo más de 3 años de experiencia enseñando español, tanto en clases individuales como en grupos. Mis clases son siempre 100% adaptadas a las necesidades del estudiante. En mis clases nunca nos aburrimos y siempre me enfoco en que tú comprendas todo lo que estamos haciendo. Soy graduado en Lenguas Modernas por la Universidad de Valencia (España).\n\nNo lo dudes más y reserva ya tu primera clase conmigo :)\n\nExperiencia: 3+ años enseñando español a estudiantes de más de 20 países diferentes.",
+      "bio": "¡Hola! Mi nombre es Natan y con mucho gusto seré tu profesor de español. Desde pequeño siempre me han apasionado los idiomas y ahora me gustaría compartir esta pasión contigo enseñándote español. Tengo más de 3 años de experiencia enseñando español, tanto en clases individuales, como en grupos. Mis clases son siempre 100% adaptadas a las necesidades del estudiante. En mis clases nunca nos aburrimos y siempre me enfoco en que tú comprendas todo lo que estamos haciendo.",
       "specialties": [
         "Conversación avanzada",
         "Preparación DELE",
@@ -15,19 +19,28 @@
         "Cultura española",
         "Pronunciación",
         "Gramática"
-      ]
+      ],
+      "experience": "3+ años enseñando español a estudiantes de más de 20 países diferentes",
+      "university": "Graduado en Lenguas Modernas por Universidad de Valencia (España)"
     },
     "mili": {
       "name": "Mili",
       "title": "Profesora de español",
-      "bio": "¡Hola! Soy Mili, tutora de español online con más de 3 años de experiencia. Soy hablante nativa, nací en Argentina y vivo desde hace muchos años en España, por lo que tengo una visión amplia del idioma y sus variedades.\n\nEstoy especializada en clases personalizadas que se adaptan a cada alumno, sin importar la edad: creo un espacio cálido y seguro para que hables con confianza desde el primer día. Diseño cada clase a medida, adaptando los contenidos y la metodología a tus intereses, objetivos y forma de aprender.\n\nYa sea que necesites el español para viajar, trabajar, comunicarte mejor en tu día a día o aprender desde cero, estaré encantada de acompañarte.\n\nExperiencia: +3 años de experiencia con todas las edades; entre 5 años a +65.",
+      "bio": "¡Hola! Soy Mili, tutora de español online con más de 3 años de experiencia. Soy hablante nativa, nací en Argentina y vivo desde hace muchos años en España, por lo que tengo una visión amplia del idioma y sus variedades. Estoy especializada en clases personalizadas que se adaptan a cada alumno, sin importar la edad: creo un espacio cálido y seguro para que hables con confianza desde el primer día.",
       "specialties": [
         "Conversación avanzada",
         "Español para niños y adolescentes",
         "Gramática",
         "Pronunciación",
         "Cultura española"
-      ]
+      ],
+      "experience": "+3 años de experiencia con todas las edades; entre 5 años a +65",
+      "background": "Argentina y España - Visión amplia del idioma y sus variedades"
     }
+  },
+  "common": {
+    "specialties_label": "Especialidades",
+    "experience_label": "Experiencia",
+    "book_class": "Reserva tu clase"
   }
 }

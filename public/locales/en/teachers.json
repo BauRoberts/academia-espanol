@@ -1,13 +1,17 @@
 {
-  "title": "Our Teachers",
-  "subtitle": "Experts in Spanish language instruction",
-  "description": "We have highly qualified native teachers with experience teaching Spanish as a foreign language. Meet our team of passionate professionals eager to share their language and culture.",
-  "cta": "Book a class now",
+  "hero": {
+    "title": "3+ years teaching Spanish: Native teachers who have helped students from +20 nationalities",
+    "subtitle": "Meet Natan and Mili, the teachers who will help you speak Spanish with confidence from the first class"
+  },
+  "section": {
+    "title": "Meet your teachers",
+    "subtitle": "Native teachers with more than 3 years of experience, specialized in personalized classes adapted to each student"
+  },
   "profesores": {
     "natan": {
-      "name": "Natan Julian Mitros",
+      "name": "Natan Julián Mitros",
       "title": "Spanish teacher",
-      "bio": "Hello! My name is Natan and I will be happy to be your Spanish teacher. Since I was a child I have always been passionate about languages and now I would like to share this passion with you by teaching you Spanish.\n\nI have more than 3 years of experience teaching Spanish, both in individual classes and in groups. My classes are always 100% adapted to the student's needs. In my classes we never get bored and I always focus on you understanding everything we are doing. I have a Bachelor's Degree in Modern Languages from the University of Valencia (Spain).\n\nDon't wait any longer and book your first class with me :)\n\nExperience: 3+ years teaching Spanish to students from more than 20 different countries.",
+      "bio": "Hello my name is Natan and I will be happy to be your Spanish teacher. Since I was a child I have always been passionate about languages and now I would like to share this passion with you by teaching you Spanish. I have more than 3 years of experience teaching Spanish, both in individual classes and in groups. My classes are always 100% adapted to the student's needs. In my classes we never get bored and I always focus on you understanding everything we are doing.",
       "specialties": [
         "Advanced Conversation",
         "DELE Preparation",
@@ -15,19 +19,28 @@
         "Spanish Culture",
         "Pronunciation",
         "Grammar"
-      ]
+      ],
+      "experience": "3+ years teaching Spanish to students from more than 20 different countries",
+      "university": "Bachelor's Degree in Modern Languages from the University of Valencia (Spain)"
     },
     "mili": {
       "name": "Mili",
       "title": "Spanish teacher",
-      "bio": "Hello! I'm Mili, an online Spanish tutor with over 3 years of experience. I'm a native speaker, born in Argentina and have lived in Spain for many years, so I have a broad understanding of the language and its varieties.\n\nI specialize in personalized classes tailored to each student, regardless of age. I create a warm and safe space for you to speak confidently from day one. I design each class to fit your interests, goals, and learning style.\n\nWhether you need Spanish for travel, work, to communicate better in your daily life, or to start from scratch, I’d be delighted to help you.\n\nExperience: 3+ years of experience with all ages; from 5 years old to over 65.",
+      "bio": "Hello! I'm Mili, an online Spanish tutor with more than 3 years of experience. I'm a native speaker, born in Argentina and living in Spain for many years, which gives me a broad vision of the language and its varieties. I specialize in personalized classes that adapt to each student, regardless of age: I create a warm and safe space for you to speak with confidence from day one.",
       "specialties": [
         "Advanced Conversation",
         "Spanish for children and teenagers",
         "Grammar",
         "Pronunciation",
         "Spanish Culture"
-      ]
+      ],
+      "experience": "+3 years of experience with all ages; from 5 years old to +65",
+      "background": "Argentina and Spain - Broad vision of the language and its varieties"
     }
+  },
+  "common": {
+    "specialties_label": "Areas of focus",
+    "experience_label": "Experience",
+    "book_class": "Book your class"
   }
 }

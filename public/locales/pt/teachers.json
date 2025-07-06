@@ -1,33 +1,46 @@
 {
-  "title": "Nossos Professores",
-  "subtitle": "Especialistas no ensino de espanhol",
-  "description": "Temos professores nativos altamente qualificados e experientes no ensino de espanhol como língua estrangeira. Conheça nossa equipe de profissionais apaixonados por compartilhar o idioma e a cultura.",
-  "cta": "Agende uma aula agora",
+  "hero": {
+    "title": "3+ anos ensinando espanhol: Professores nativos que ajudaram estudantes de +20 nacionalidades",
+    "subtitle": "Conheça Natan e Mili, os professores que o ajudarão a falar espanhol com confiança desde a primeira aula"
+  },
+  "section": {
+    "title": "Conheça seus professores",
+    "subtitle": "Professores nativos com mais de 3 anos de experiência, especializados em aulas personalizadas e adaptadas a cada estudante"
+  },
   "profesores": {
     "natan": {
-      "name": "Natan Julian Mitros",
+      "name": "Natan Julián Mitros",
       "title": "Professor de espanhol",
-      "bio": "Olá, o meu nome é Natan e gostaria de ser o seu professor de espanhol. Desde pequeno, sempre fui apaixonado pelas línguas e agora gostaria de partilhar esta paixão com você, ensinando-lhe espanhol.\n\nTenho mais de 3 anos de experiência no ensino do espanhol, tanto em aulas individuais como em grupos. As minhas aulas são sempre 100% adaptadas às necessidades do aluno. Nas minhas aulas nunca nos aborrecemos e concentro-me sempre em que o aluno compreenda tudo o que estamos a fazer. Sou licenciado em Línguas Modernas pela Universidade de Valência (Espanha).\n\nNão espere mais e reserve já a sua primeira aula comigo :)\n\nExperiência: 3+ anos de ensino de espanhol a estudantes de mais de 20 países diferentes.",
+      "bio": "Olá, o meu nome é Natan e gostaria de ser o seu professor de espanhol. Desde pequeno, sempre fui apaixonado pelas línguas e agora gostaria de partilhar esta paixão com você, ensinando-lhe espanhol. Tenho mais de 3 anos de experiência no ensino do espanhol, tanto em aulas individuais como em grupos. As minhas aulas são sempre 100% adaptadas às necessidades do aluno. Nas minhas aulas nunca nos aborrecemos e concentro-me sempre em que o aluno compreenda tudo o que estamos a fazer.",
       "specialties": [
-        "Conversação avançada",
+        "Conversação Avançada",
         "Preparação para o DELE",
-        "Cultura latino-americana",
-        "Cultura espanhola",
+        "Cultura Latino-Americana",
+        "Cultura Espanhola",
         "Pronúncia",
         "Gramática"
-      ]
+      ],
+      "experience": "3+ anos de ensino de espanhol a estudantes de mais de 20 países diferentes",
+      "university": "Licenciado em Línguas Modernas pela Universidade de Valência (Espanha)"
     },
     "mili": {
       "name": "Mili",
       "title": "Professora de espanhol",
-      "bio": "Olá! Sou a Mili, tutora de espanhol online com mais de 3 anos de experiência. Sou falante nativa, nascida na Argentina e moro há muitos anos na Espanha, o que me dá uma visão ampla da língua e suas variedades.\n\nSou especializada em aulas personalizadas, adaptadas a cada aluno, independentemente da idade. Crio um espaço acolhedor e seguro para que você fale com confiança desde a primeira aula. Cada aula é feita sob medida, de acordo com seus interesses, objetivos e forma de aprender.\n\nSeja para viajar, trabalhar, comunicar-se melhor no dia a dia ou aprender do zero, estou à disposição para te ajudar.\n\nExperiência: +3 anos de experiência com alunos de todas as idades; de 5 a mais de 65 anos.",
+      "bio": "Olá! Sou Mili, tutora de espanhol online com mais de 3 anos de experiência. Sou falante nativa, nasci na Argentina e vivo há muitos anos em Espanha, o que me dá uma visão ampla da língua e das suas variedades. Especializo-me em aulas personalizadas que se adaptam a cada aluno, independentemente da idade: crio um espaço caloroso e seguro para que fale com confiança desde o primeiro dia.",
       "specialties": [
         "Conversação avançada",
         "Espanhol para crianças e adolescentes",
         "Gramática",
         "Pronúncia",
         "Cultura espanhola"
-      ]
+      ],
+      "experience": "+3 anos de experiência com todas as idades; dos 5 aos +65 anos",
+      "background": "Argentina e Espanha - Visão ampla da língua e das suas variedades"
     }
+  },
+  "common": {
+    "specialties_label": "Especialidades",
+    "experience_label": "Experiência",
+    "book_class": "Reserve sua aula"
   }
 }
