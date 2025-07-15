@@ -2,6 +2,8 @@
   "title": "Agenda tu clase",
   "subtitle": "Estamos aquí para ayudarte en tu viaje de aprendizaje del español. Contáctanos o agenda directamente una clase con nuestros profesores nativos.",
   "form": {
+    "title": "Envíanos un mensaje",
+    "description": "¿Tienes alguna pregunta específica? Completa el formulario y te responderemos pronto.",
     "name": "Nombre",
     "email": "Correo electrónico",
     "subject": "Asunto",

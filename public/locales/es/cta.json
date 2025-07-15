@@ -1,10 +1,10 @@
 {
   "cta": {
-    "title": "¿Listo para comenzar tu",
-    "titleSuffix": "aventura con el español?",
-    "description": "Reserva ahora tu primera clase gratuita y descubre cómo nuestra metodología personalizada te ayudará a alcanzar la fluidez que siempre has deseado.",
+    "title": "¿Listo para comenzar tu aventura ",
+    "titleSuffix": " con el español?",
+    "description": "Reserva ahora tu primera clase y descubre cómo nuestra metodología personalizada te ayudará a alcanzar la fluidez que siempre has deseado.",
     "buttons": {
-      "book": "Reserva tu clase gratuita",
+      "book": "Reserva tu clase",
       "demo": "Ver cómo funcionan las clases"
     },
     "stats": {

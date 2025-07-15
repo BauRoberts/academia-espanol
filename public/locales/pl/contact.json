@@ -1,52 +1,54 @@
 {
   "title": "Zarezerwuj swoją lekcję",
-  "subtitle": "Jesteśmy tutaj, aby pomóc Ci w nauce hiszpańskiego. Skontaktuj się z nami lub bezpośrednio umów się na zajęcia z naszymi native speakerami.",
+  "subtitle": "Jesteśmy tutaj, aby pomóc Ci w Twojej podróży nauki hiszpańskiego. Skontaktuj się z nami lub zarezerwuj bezpośrednio lekcję z naszymi natywnymi nauczycielami.",
   "form": {
-    "name": "Imię i nazwisko",
-    "email": "E-mail",
+    "title": "Wyślij nam wiadomość",
+    "description": "Masz jakieś konkretne pytania? Wypełnij formularz, a wkrótce się z Tobą skontaktujemy.",
+    "name": "Imię",
+    "email": "Email",
     "subject": "Temat",
     "message": "Wiadomość",
     "submit": "Wyślij wiadomość",
-    "success": "Wiadomość wysłana pomyślnie! Skontaktujemy się z Tobą wkrótce.",
-    "error": "Wystąpił błąd podczas wysyłania. Spróbuj ponownie.",
+    "success": "Wiadomość została wysłana pomyślnie! Wkrótce się z Tobą skontaktujemy.",
+    "error": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie.",
     "placeholder": {
-      "name": "Twoje pełne imię i nazwisko",
+      "name": "Twoje pełne imię",
       "email": "twoj@email.com",
-      "subject": "Jak możemy Ci pomóc?",
+      "subject": "W czym możemy Ci pomóc?",
       "message": "Napisz swoją wiadomość tutaj..."
     }
   },
   "calendar": {
     "title": "Zarezerwuj swoją lekcję",
-    "description": "Wybierz dogodny termin, aby rozpocząć naukę hiszpańskiego z naszymi native speakerami."
+    "description": "Wybierz termin, który najlepiej pasuje do Twojej dostępności, aby rozpocząć naukę hiszpańskiego z jednym z naszych natywnych nauczycieli."
   },
   "contact": {
-    "title": "Dane kontaktowe",
-    "description": "Jeśli wolisz skontaktować się bezpośrednio, oto nasze dane:",
+    "title": "Informacje kontaktowe",
+    "description": "Jeśli wolisz skontaktować się z nami bezpośrednio, oto nasze dane:",
     "email": "espanolingvlc@outlook.es",
     "phone": "+34 614 52 26 59",
-    "social": "Śledź nas na Instagramie: espanoling.es"
+    "social": "Śledź nas w mediach społecznościowych (Instagram: espanoling.es)"
   },
   "faq": {
-    "title": "Najczęściej zadawane pytania",
+    "title": "Często zadawane pytania",
     "questions": [
       {
-        "question": "Jaki poziom hiszpańskiego muszę mieć, aby zacząć?",
-        "answer": "Żaden! Oferujemy kursy na wszystkich poziomach, od absolutnych początkujących (A1) po zaawansowanych (C2)."
+        "question": "Jaki poziom hiszpańskiego potrzebuję, aby zacząć?",
+        "answer": "Żaden! Mamy kursy dla wszystkich poziomów, od całkowitych początkujących (A1) do poziomów zaawansowanych (C2)."
       },
       {
-        "question": "Jak wyglądają zajęcia online?",
-        "answer": "Zajęcia odbywają się przez Google Meets z interaktywnymi materiałami. Nasi nauczyciele korzystają z cyfrowych zasobów i dynamicznych ćwiczeń dostosowanych do Twoich potrzeb."
+        "question": "Jak wyglądają lekcje online?",
+        "answer": "Lekcje odbywają się przez Google Meets z udostępnianymi interaktywnymi materiałami. Nasi nauczyciele używają zasobów cyfrowych, dynamicznych ćwiczeń dostosowanych do Twoich konkretnych potrzeb."
       },
       {
-        "question": "Czy mogę anulować lub przełożyć zajęcia?",
-        "answer": "Tak, możesz anulować lub przełożyć zajęcia do 24 godzin przed terminem bez dodatkowych kosztów. Anulacje z mniej niż 24-godzinnym wyprzedzeniem podlegają naszej polityce anulacji."
+        "question": "Czy mogę anulować lub przełożyć lekcję?",
+        "answer": "Tak, możesz anulować lub przełożyć do 24 godzin przed lekcją bez dodatkowych kosztów. Anulowania z mniej niż 24-godzinnym wyprzedzeniem podlegają naszej polityce anulowania."
       },
       {
-        "question": "Jakie metody płatności akceptujecie?",
-        "answer": "Akceptujemy karty kredytowe/debetowe, PayPal i przelewy bankowe. Możesz wybrać między planami miesięcznymi lub pakietami zajęć dostosowanymi do Twoich potrzeb."
+        "question": "Jakie formy płatności akceptujecie?",
+        "answer": "Akceptujemy karty kredytowe/debetowe, PayPal i przelewy bankowe. Możesz wybierać między planami miesięcznymi lub pakietami lekcji zgodnie z Twoimi potrzebami."
       }
     ]
   },
-  "pricing": "Cena: 25€/50min (115PLN/50min)"
+  "pricing": "Ceny: 25€/50min"
 }

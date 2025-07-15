@@ -45,6 +45,7 @@ export default function HeaderTranslated({
       key: "home",
       label: navigation.home,
       href: `/${currentLocale}`,
+      //href={`/${currentLocale}`}
     },
     {
       key: "services",
@@ -73,9 +74,15 @@ export default function HeaderTranslated({
   ];
 
   // Función para manejar clics en navegación
+  // Función para manejar clics en navegación
   const handleNavClick = (item: NavigationItem, e: React.MouseEvent) => {
     // Si es un enlace externo (blog, profesores), usar navegación normal
     if (item.isExternal) {
+      return; // Dejar que Link maneje la navegación
+    }
+
+    // Si es el botón de Home y no tiene sectionId, usar navegación normal
+    if (item.key === "home" && !item.sectionId) {
       return; // Dejar que Link maneje la navegación
     }
 
@@ -190,7 +197,7 @@ export default function HeaderTranslated({
               <div className="flex gap-6">
                 {navItems.map((item) => (
                   <div key={item.key}>
-                    {item.isExternal ? (
+                    {item.isExternal || item.key === "home" ? (
                       <Link
                         href={item.href!}
                         className="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium cursor-pointer"
@@ -303,7 +310,7 @@ export default function HeaderTranslated({
             <nav className="flex flex-col space-y-6 text-center">
               {navItems.map((item) => (
                 <div key={item.key}>
-                  {item.isExternal ? (
+                  {item.isExternal || item.key === "home" ? (
                     <Link
                       href={item.href!}
                       className="text-xl text-gray-800 hover:text-brand-orange transition-colors py-2 block"

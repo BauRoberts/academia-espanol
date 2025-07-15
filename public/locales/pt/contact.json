@@ -1,52 +1,54 @@
 {
   "title": "Agende sua aula",
-  "subtitle": "Estamos aqui para ajudar você na sua jornada de aprendizado do espanhol. Entre em contato ou agende diretamente uma aula com nossos professores nativos.",
+  "subtitle": "Estamos aqui para ajudá-lo em sua jornada de aprendizado do espanhol. Entre em contato conosco ou agende diretamente uma aula com nossos professores nativos.",
   "form": {
+    "title": "Envie-nos uma mensagem",
+    "description": "Você tem alguma pergunta específica? Preencha o formulário e entraremos em contato em breve.",
     "name": "Nome",
-    "email": "E-mail",
+    "email": "Email",
     "subject": "Assunto",
     "message": "Mensagem",
     "submit": "Enviar mensagem",
     "success": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
-    "error": "Houve um erro ao enviar a mensagem. Por favor, tente novamente.",
+    "error": "Houve um erro ao enviar a mensagem. Tente novamente.",
     "placeholder": {
       "name": "Seu nome completo",
-      "email": "voce@email.com",
-      "subject": "Como podemos ajudar você?",
+      "email": "seu@email.com",
+      "subject": "Como podemos ajudá-lo?",
       "message": "Escreva sua mensagem aqui..."
     }
   },
   "calendar": {
-    "title": "Agende sua aula",
-    "description": "Escolha o horário que melhor se encaixa para começar seu aprendizado de espanhol com um de nossos professores nativos."
+    "title": "Reserve sua aula",
+    "description": "Selecione o horário que melhor se adapta à sua disponibilidade para começar seu aprendizado de espanhol com um de nossos professores nativos."
   },
   "contact": {
     "title": "Informações de contato",
     "description": "Se preferir entrar em contato diretamente, aqui estão nossos dados:",
     "email": "espanolingvlc@outlook.es",
     "phone": "+34 614 52 26 59",
-    "social": "Siga-nos no Instagram: espanoling.es"
+    "social": "Siga-nos nas redes sociais (Instagram: espanoling.es)"
   },
   "faq": {
     "title": "Perguntas frequentes",
     "questions": [
       {
-        "question": "Qual nível de espanhol eu preciso para começar?",
-        "answer": "Nenhum! Temos cursos para todos os níveis, desde iniciantes absolutos (A1) até avançados (C2)."
+        "question": "Que nível de espanhol preciso para começar?",
+        "answer": "Nenhum! Temos cursos para todos os níveis, desde iniciantes absolutos (A1) até níveis avançados (C2)."
       },
       {
         "question": "Como são as aulas online?",
-        "answer": "As aulas são feitas pelo Google Meets com material interativo. Nossos professores utilizam recursos digitais e atividades dinâmicas adaptadas às suas necessidades."
+        "answer": "As aulas são realizadas através do Google Meets com material interativo compartilhado. Nossos professores usam recursos digitais, atividades dinâmicas adaptadas às suas necessidades específicas."
       },
       {
-        "question": "Posso cancelar ou remarcar uma aula?",
-        "answer": "Sim, você pode cancelar ou remarcar até 24 horas antes da aula sem custo adicional. Cancelamentos com menos de 24 horas seguem nossa política de cancelamento."
+        "question": "Posso cancelar ou reagendar uma aula?",
+        "answer": "Sim, você pode cancelar ou reagendar até 24 horas antes da aula sem custo adicional. Cancelamentos com menos de 24 horas de antecedência estão sujeitos à nossa política de cancelamento."
       },
       {
-        "question": "Quais formas de pagamento vocês aceitam?",
-        "answer": "Aceitamos cartões de crédito/débito, PayPal e transferências bancárias. Você pode escolher entre planos mensais ou pacotes de aulas, conforme suas necessidades."
+        "question": "Que formas de pagamento vocês aceitam?",
+        "answer": "Aceitamos cartões de crédito/débito, PayPal e transferências bancárias. Você pode escolher entre planos mensais ou pacotes de aulas de acordo com suas necessidades."
       }
     ]
   },
-  "pricing": "Preço: 25€/50min"
+  "pricing": "Preços: €25/50min"
 }
