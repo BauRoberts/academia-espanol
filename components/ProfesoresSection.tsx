@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 // Tipos para las traducciones
 type TeachersTranslations = {
@@ -36,6 +36,7 @@ type TeachersTranslations = {
     specialties_label: string;
     experience_label: string;
     book_class: string;
+    meet_natan: string; // Nueva traducción para el botón
   };
 };
 
@@ -48,6 +49,41 @@ const ProfesoresSection = ({
   currentLocale,
   translations,
 }: ProfesoresSectionProps) => {
+  const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+
+  // Función para extraer el ID del video de YouTube
+  const getYouTubeVideoId = (url: string) => {
+    const regExp =
+      /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+    const match = url.match(regExp);
+    return match && match[2].length === 11 ? match[2] : null;
+  };
+
+  const videoId = getYouTubeVideoId(
+    "https://www.youtube.com/watch?v=seGuDLHJnDk"
+  );
+
+  // Cerrar modal con Escape
+  useEffect(() => {
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsVideoModalOpen(false);
+      }
+    };
+
+    if (isVideoModalOpen) {
+      document.addEventListener("keydown", handleEscape);
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+      document.body.style.overflow = "unset";
+    };
+  }, [isVideoModalOpen]);
+
   // Traducciones para los badges según el idioma
   const getBadgeLabels = (locale: string) => {
     const labels = {
@@ -82,6 +118,7 @@ const ProfesoresSection = ({
   };
 
   const badgeLabels = getBadgeLabels(currentLocale);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -171,7 +208,7 @@ const ProfesoresSection = ({
 
           {/* Cards de profesores */}
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            {/* Card Natan */}
+            {/* Card Natan CON VIDEO */}
             <motion.div
               className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col"
               initial={{ opacity: 0, y: 50 }}
@@ -179,7 +216,7 @@ const ProfesoresSection = ({
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              {/* Imagen */}
+              {/* Imagen con video overlay */}
               <div className="relative h-80 overflow-hidden group">
                 {/* Imagen normal */}
                 <Image
@@ -196,13 +233,33 @@ const ProfesoresSection = ({
                   className="object-cover transition-opacity duration-500 opacity-0 group-hover:opacity-100 absolute inset-0"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                {/* Contenido del hover */}
                 <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <h3 className="text-2xl font-bold">
                     {translations.profesores.natan.name}
                   </h3>
-                  <p className="text-white/90">
+                  <p className="text-white/90 mb-3">
                     {translations.profesores.natan.title}
                   </p>
+                </div>
+
+                {/* Botón de video */}
+                <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <button
+                    onClick={() => setIsVideoModalOpen(true)}
+                    className="bg-brand-orange text-white px-4 py-2 rounded-lg shadow-lg hover:bg-brand-orange/90 transition-all flex items-center gap-2 text-sm font-medium"
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                    {translations.common.meet_natan || "Conoce a Natan"}
+                  </button>
                 </div>
               </div>
 
@@ -355,6 +412,69 @@ const ProfesoresSection = ({
           </div>
         </div>
       </section>
+
+      {/* Modal de Video */}
+      <AnimatePresence>
+        {isVideoModalOpen && (
+          <motion.div
+            className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsVideoModalOpen(false)}
+          >
+            <motion.div
+              className="relative w-full max-w-4xl bg-black rounded-lg overflow-hidden shadow-2xl"
+              initial={{ scale: 0.5, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.5, opacity: 0 }}
+              transition={{ type: "spring", damping: 30, stiffness: 300 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Header del modal */}
+              <div className="bg-white px-6 py-4 flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-gray-900">
+                  {translations.common.meet_natan || "Conoce a Natan"} -{" "}
+                  {translations.profesores.natan.name}
+                </h3>
+                <button
+                  onClick={() => setIsVideoModalOpen(false)}
+                  className="text-gray-500 hover:text-gray-700 transition-colors"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </button>
+              </div>
+
+              {/* Video */}
+              <div
+                className="relative w-full"
+                style={{ paddingBottom: "56.25%" }}
+              >
+                {videoId && (
+                  <iframe
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
+                    title="Video de presentación de Natan"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                )}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

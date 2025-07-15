@@ -1,28 +1,134 @@
-export default function ContactoPage() {
+import { getTranslations } from "@/lib/i18n/utils";
+import HeroTranslated from "@/components/HeroTranslated";
+import ServiciosTranslated from "@/components/ServiciosTranslated";
+import ProfesoresDestacadosTranslated from "@/components/ProfesoresDestacadosTranslated";
+import BlogTranslated from "@/components/BlogTranslated";
+import TestimoniosTranslated from "@/components/TestimoniosTranslated";
+import CTATranslated from "@/components/CTATranslated";
+import { i18n } from "@/lib/i18n/config";
+
+// Esta función permite generar páginas estáticas para cada idioma en tiempo de construcción
+export async function generateStaticParams() {
+  return i18n.locales.map((lang) => ({ lang }));
+}
+
+export default async function Home({ params }: { params: { lang: string } }) {
+  // Convertir params a una promesa y esperar su resolución
+  const resolvedParams = await Promise.resolve(params);
+  const lang = resolvedParams.lang;
+
+  // Cargar traducciones
+  const commonTranslations = await getTranslations(lang, "common");
+  const homeTranslations = await getTranslations(lang, "home");
+  const servicesTranslations = await getTranslations(lang, "services");
+  const professorsTranslations = await getTranslations(lang, "professors");
+  const blogTranslations = await getTranslations(lang, "blog");
+  const testimonialsTranslations = await getTranslations(lang, "testimonials");
+  const ctaTranslations = await getTranslations(lang, "cta");
+
   return (
-    <main className="py-16">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">
-          Agenda tu clase
-        </h1>
+    <main>
+      <HeroTranslated
+        currentLocale={lang}
+        translations={
+          homeTranslations?.hero || {
+            title: "Españoling:",
+            subtitle: "Tu academia de idiomas online",
+            description:
+              "Bienvenidos a bordo a esta aventura con destino a: aprender español.",
+            buttons: {
+              schedule: "Reserva tu clase",
+              video: "Video de Presentación",
+            },
+            stats: {
+              levels: { value: "A1-C2", label: "Todos los niveles" },
+              personalized: { value: "100%", label: "Personalizado" },
+              rating: { value: "5/5", label: "Valoración de estudiantes" },
+            },
+            languages: {
+              title: "Clases en",
+              subtitle: "múltiples idiomas",
+            },
+          }
+        }
+      />
 
-        <div className="max-w-3xl mx-auto">
-          <p className="text-center mb-8">
-            Selecciona el horario que mejor se adapte a tu disponibilidad para
-            comenzar tu aprendizaje de español con uno de nuestros profesores
-            nativos.
-          </p>
-
-          <div className="bg-white shadow-md rounded-lg p-6">
-            {/* Aquí iría el embebido de Cal.com */}
-            <div className="h-96 bg-gray-100 flex items-center justify-center">
-              <p className="text-gray-500">
-                Calendario de reservas (Cal.com se integrará aquí)
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ServiciosTranslated
+        id="servicios"
+        currentLocale={lang}
+        translations={
+          servicesTranslations?.services || {
+            title: "Nuestros",
+            titleHighlight: "Servicios",
+            description:
+              "Ofrecemos una variedad de opciones para que encuentres la forma perfecta de aprender español según tus necesidades y objetivos.",
+            items: [],
+            moreInfo: "Más información",
+            cta: {
+              title: "¿Listo para empezar tu viaje con el español?",
+              description:
+                "Reserva una clase de prueba gratuita y descubre cómo podemos ayudarte a alcanzar tus objetivos de aprendizaje.",
+              button: "Reserva tu clase de prueba",
+            },
+          }
+        }
+      />
+      <ProfesoresDestacadosTranslated
+        currentLocale={lang}
+        translations={
+          professorsTranslations?.featuredProfessors || {
+            title: "Conoce a Nuestros",
+            titleHighlight: "Profesores",
+            description:
+              "Mira este video para conocer a nuestro equipo de profesores y descubrir cómo trabajamos para ayudarte a dominar el español.",
+            videoCaption:
+              "Video de YouTube: Aprende español con nuestros profesores",
+            ctaButton: "Reserva una clase con nuestros profesores",
+          }
+        }
+      />
+      <BlogTranslated
+        currentLocale={lang}
+        translations={
+          blogTranslations?.blog || {
+            title: "Artículos y",
+            titleHighlight: "Recursos",
+            description:
+              "Nuestros profesores comparten consejos, técnicas y recursos para que puedas mejorar tu español de forma efectiva.",
+            articles: [],
+            moreArticles: "Ver más artículos",
+          }
+        }
+      />
+      <TestimoniosTranslated
+        id="testimonios"
+        translations={
+          testimonialsTranslations?.testimonials || {
+            titleSuffix: "fue increíble!",
+            items: [],
+          }
+        }
+      />
+      <CTATranslated
+        currentLocale={lang}
+        translations={
+          ctaTranslations || {
+            title: "¿Listo para comenzar tu aventura",
+            titleSuffix: "con el español?",
+            description:
+              "Reserva ahora tu primera clase gratuita y descubre cómo nuestra metodología personalizada te ayudará a alcanzar la fluidez que siempre has deseado.",
+            buttons: {
+              book: "Reserva tu clase gratuita",
+              demo: "Ver cómo funcionan las clases",
+            },
+            stats: {
+              satisfaction: { value: "98%", label: "Tasa de satisfacción" },
+              personalized: { value: "100%", label: "Personalizado" },
+              students: { value: "+1000", label: "Estudiantes satisfechos" },
+            },
+          }
+        }
+      />
     </main>
   );
 }

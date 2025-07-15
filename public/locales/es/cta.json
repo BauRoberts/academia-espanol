@@ -1,25 +1,23 @@
 {
-  "cta": {
-    "title": "¿Listo para comenzar tu aventura ",
-    "titleSuffix": " con el español?",
-    "description": "Reserva ahora tu primera clase y descubre cómo nuestra metodología personalizada te ayudará a alcanzar la fluidez que siempre has deseado.",
-    "buttons": {
-      "book": "Reserva tu clase",
-      "demo": "Ver cómo funcionan las clases"
+  "title": "¿Listo para comenzar tu",
+  "titleSuffix": "aventura con el español?",
+  "description": "Reserva ahora tu primera clase y descubre cómo nuestra metodología personalizada te ayudará a alcanzar la fluidez que siempre has deseado.",
+  "buttons": {
+    "book": "Reserva tu clase",
+    "demo": "Ver cómo funcionan las clases"
+  },
+  "stats": {
+    "satisfaction": {
+      "value": "98%",
+      "label": "Tasa de satisfacción"
     },
-    "stats": {
-      "satisfaction": {
-        "value": "98%",
-        "label": "Tasa de satisfacción"
-      },
-      "personalized": {
-        "value": "100%",
-        "label": "Personalizado"
-      },
-      "students": {
-        "value": "+1000",
-        "label": "Estudiantes satisfechos"
-      }
+    "personalized": {
+      "value": "100%",
+      "label": "Personalizado"
+    },
+    "students": {
+      "value": "+1000",
+      "label": "Estudiantes satisfechos"
     }
   }
 }

@@ -90,7 +90,7 @@ const CTATranslated = ({ currentLocale, translations }: CTATranslatedProps) => {
                   </svg>
                 </Link>
                 <Link
-                  href={`/${currentLocale}/demo`}
+                  href={`/${currentLocale}/contacto`}
                   className="w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-transparent border-2 border-white text-white text-base sm:text-lg font-medium rounded-md hover:bg-white/10 transition-all inline-flex items-center justify-center"
                 >
                   {demoButtonText}

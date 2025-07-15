@@ -1,25 +1,23 @@
 {
-  "cta": {
-    "title": "Pronto para começar sua aventura",
-    "titleSuffix": "com o espanhol?",
-    "description": "Reserve agora sua primeira aula gratuita e descubra como nossa metodologia personalizada o ajudará a alcançar a fluência que você sempre desejou.",
-    "buttons": {
-      "book": "Reserve sua aula gratuita",
-      "demo": "Veja como funcionam as aulas"
+  "title": "Pronto para começar sua aventura",
+  "titleSuffix": "com o espanhol?",
+  "description": "Reserve agora sua primeira aula e descubra como nossa metodologia personalizada ajudará você a alcançar a fluência que sempre desejou.",
+  "buttons": {
+    "book": "Reserve sua aula",
+    "demo": "Veja como funcionam as aulas"
+  },
+  "stats": {
+    "satisfaction": {
+      "value": "98%",
+      "label": "Taxa de satisfação"
     },
-    "stats": {
-      "satisfaction": {
-        "value": "98%",
-        "label": "Taxa de satisfação"
-      },
-      "personalized": {
-        "value": "100%",
-        "label": "Personalizado"
-      },
-      "students": {
-        "value": "+1000",
-        "label": "Estudantes satisfeitos"
-      }
+    "personalized": {
+      "value": "100%",
+      "label": "Personalizado"
+    },
+    "students": {
+      "value": "+1000",
+      "label": "Estudantes satisfeitos"
     }
   }
 }

@@ -1,25 +1,23 @@
 {
-  "cta": {
-    "title": "Ready to start your adventure",
-    "titleSuffix": "with Spanish?",
-    "description": "Book your first free class now and discover how our personalized methodology will help you achieve the fluency you've always wanted.",
-    "buttons": {
-      "book": "Book your free class",
-      "demo": "See how classes work"
+  "title": "Ready to start your adventure",
+  "titleSuffix": "with Spanish?",
+  "description": "Book your first class now and discover how our personalized methodology will help you achieve the fluency you've always wanted.",
+  "buttons": {
+    "book": "Book your class",
+    "demo": "See how classes work"
+  },
+  "stats": {
+    "satisfaction": {
+      "value": "98%",
+      "label": "Satisfaction rate"
     },
-    "stats": {
-      "satisfaction": {
-        "value": "98%",
-        "label": "Satisfaction rate"
-      },
-      "personalized": {
-        "value": "100%",
-        "label": "Personalized"
-      },
-      "students": {
-        "value": "+1000",
-        "label": "Satisfied students"
-      }
+    "personalized": {
+      "value": "100%",
+      "label": "Personalized"
+    },
+    "students": {
+      "value": "+1000",
+      "label": "Satisfied students"
     }
   }
 }
