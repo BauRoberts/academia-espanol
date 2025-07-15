@@ -123,7 +123,7 @@ const ProfesoresSection = ({
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-white overflow-hidden">
-        <div className="container max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="w-full max-w-6xl mx-auto px-4 md:px-6 grid lg:grid-cols-2 gap-12 items-center">
           {/* Contenido del Hero */}
           <motion.div
             className="space-y-8"
@@ -189,7 +189,7 @@ const ProfesoresSection = ({
 
       {/* Sección de Profesores */}
       <section className="py-20 bg-white">
-        <div className="container max-w-6xl mx-auto px-4">
+        <div className="w-full max-w-6xl mx-auto px-4 md:px-6">
           {/* Header de la sección */}
           <motion.div
             className="text-center mb-16"
