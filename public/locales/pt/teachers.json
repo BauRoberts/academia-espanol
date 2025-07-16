@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "3+ anos ensinando espanhol: Professores nativos que ajudaram estudantes de +20 nacionalidades",
+    "title": "3+ anos a ensinar espanhol: Professores nativos que ajudaram estudantes de +20 nacionalidades",
     "subtitle": "Conheça Natan e Mili, os professores que o ajudarão a falar espanhol com confiança desde a primeira aula"
   },
   "section": {
@@ -21,7 +21,8 @@
         "Gramática"
       ],
       "experience": "3+ anos de ensino de espanhol a estudantes de mais de 20 países diferentes",
-      "university": "Licenciado em Línguas Modernas pela Universidade de Valência (Espanha)"
+      "university": "Licenciado em Línguas Modernas pela Universidade de Valência (Espanha)",
+      "education": "Formação"
     },
     "mili": {
       "name": "Mili",
@@ -34,7 +35,7 @@
         "Pronúncia",
         "Cultura espanhola"
       ],
-      "experience": "+3 anos de experiência com todas as idades; dos 5 aos +65 anos",
+      "experience": "3+ anos de experiência com todas as idades; dos 5 aos +65 anos",
       "background": "Argentina e Espanha - Visão ampla da língua e das suas variedades"
     }
   },

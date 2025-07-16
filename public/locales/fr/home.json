@@ -2,7 +2,7 @@
   "hero": {
     "title": "Españoling:",
     "subtitle": "Votre académie de langues en ligne",
-    "description": "Bienvenue à bord de cette aventure avec pour destination : l'apprentissage de l'espagnol. Notre méthodologie vise à vous donner confiance, à comprendre et à parler dès le premier cours. L'ennui est strictement interdit dans notre académie.",
+    "description": "Bienvenue à bord de cette aventure avec destination : l'apprentissage de l'espagnol. Dès le premier cours, notre approche vous aide à comprendre, à parler et à gagner en assurance. L'ennui est strictement interdit dans notre académie.",
     "buttons": {
       "schedule": "Réserver votre cours",
       "video": "Vidéo de présentation"
@@ -17,9 +17,22 @@
         "label": "Personnalisé"
       },
       "rating": {
-        "value": "5/5",
-        "label": "Évaluation des étudiants"
+        "value": "5.0",
+        "label": "31+ avis sur Preply"
+      },
+      "lessons": {
+        "value": "1700+",
+        "label": "cours donnés"
+      },
+      "response": {
+        "value": "4h",
+        "label": "temps de réponse"
       }
+    },
+    "badges": {
+      "superteacher": "Superprofesor",
+      "verified": "Verified",
+      "classes": "cours"
     },
     "languages": {
       "title": "Cours en",

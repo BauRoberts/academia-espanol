@@ -1,10 +1,9 @@
 {
-  "title": "Prêt à commencer votre aventure",
-  "titleSuffix": "avec l'espagnol ?",
-  "description": "Réservez dès maintenant votre premier cours et découvrez comment notre méthodologie personnalisée vous aidera à atteindre la fluidité que vous avez toujours désirée.",
+  "title": "Prêt à commencer votre voyage avec l'espagnol ?",
+  "description": "Réservez un cours d'essai et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'apprentissage.",
   "buttons": {
-    "book": "Réservez votre cours",
-    "demo": "Voir comment fonctionnent les cours"
+    "book": "Réservez votre cours d'essai",
+    "demo": "Voir le fonctionnement des classes"
   },
   "stats": {
     "satisfaction": {

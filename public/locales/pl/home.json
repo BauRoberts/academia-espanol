@@ -2,7 +2,7 @@
   "hero": {
     "title": "Españoling:",
     "subtitle": "Twoja akademia języków online",
-    "description": "Witamy na pokładzie tej przygody z miejscem docelowym: nauka hiszpańskiego. Nasza metodologia polega na budowaniu pewności siebie, zrozumieniu i mówieniu od pierwszej lekcji. Nuda jest surowo zabroniona w naszej akademii.",
+    "description": "Witamy na pokładzie! Nasz cel: Nauka hiszpańskiego. Nasza metodologia polega na budowaniu pewności siebie, rozumieniu i mówieniu od pierwszej lekcji. Nuda ma zakaz wstępu do naszej akademii.",
     "buttons": {
       "schedule": "Zarezerwuj lekcję",
       "video": "Film prezentacyjny"
@@ -17,9 +17,22 @@
         "label": "Spersonalizowane"
       },
       "rating": {
-        "value": "5/5",
-        "label": "Ocena uczniów"
+        "value": "5.0",
+        "label": "31+ opinii na Preply"
+      },
+      "lessons": {
+        "value": "1700+",
+        "label": "Odbytych lekcji"
+      },
+      "response": {
+        "value": "4h",
+        "label": "Czas odpowiedzi"
       }
+    },
+    "badges": {
+      "superteacher": "Superprofesor",
+      "verified": "Verified",
+      "classes": "lekcji"
     },
     "languages": {
       "title": "Zajęcia w",

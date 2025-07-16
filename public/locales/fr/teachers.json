@@ -1,46 +1,46 @@
 {
-  "hero": {
-    "title": "3+ ans d'enseignement de l'espagnol : Professeurs natifs qui ont aidé des étudiants de +20 nationalités",
-    "subtitle": "Rencontrez Natan et Mili, les professeurs qui vous aideront à parler espagnol avec confiance dès le premier cours"
-  },
-  "section": {
-    "title": "Rencontrez vos professeurs",
-    "subtitle": "Professeurs natifs avec plus de 3 ans d'expérience, spécialisés dans les cours personnalisés et adaptés à chaque étudiant"
-  },
-  "profesores": {
-    "natan": {
-      "name": "Natan Julián Mitros",
-      "title": "Professeur d'espagnol",
-      "bio": "Bonjour, je m'appelle Natan et je serai heureux d'être votre professeur d'espagnol. Depuis mon enfance, j'ai toujours été passionné par les langues et maintenant j'aimerais partager cette passion avec vous en vous enseignant l'espagnol. J'ai plus de 3 ans d'expérience dans l'enseignement de l'espagnol, aussi bien en cours individuels qu'en groupes. Mes cours sont toujours adaptés à 100% aux besoins de l'étudiant. Dans mes cours, on ne s'ennuie jamais et je me concentre toujours sur le fait que vous compreniez tout ce que nous faisons.",
-      "specialties": [
-        "Conversation avancée",
-        "Préparation au DELE",
-        "Culture latino-américaine",
-        "Culture espagnole",
-        "Prononciation",
-        "Grammaire"
-      ],
-      "experience": "Plus de 3 ans d'enseignement de l'espagnol à des étudiants de plus de 20 pays différents",
-      "university": "Licencié en Langues Modernes de l'Université de Valence (Espagne)"
-    },
-    "mili": {
-      "name": "Mili",
-      "title": "Professeure d'espagnol",
-      "bio": "Bonjour ! Je suis Mili, tutrice d'espagnol en ligne avec plus de 3 ans d'expérience. Je suis locutrice native, née en Argentine et vivant en Espagne depuis de nombreuses années, ce qui me donne une vision large de la langue et de ses variétés. Je me spécialise dans les cours personnalisés qui s'adaptent à chaque élève, quel que soit l'âge : je crée un espace chaleureux et sûr pour que vous parliez avec confiance dès le premier jour.",
-      "specialties": [
-        "Conversation avancée",
-        "Espagnol pour enfants et adolescents",
-        "Grammaire",
-        "Prononciation",
-        "Culture espagnole"
-      ],
-      "experience": "+3 ans d'expérience avec tous les âges ; de 5 ans à +65",
-      "background": "Argentine et Espagne - Vision large de la langue et de ses variétés"
+  "services": {
+    "title": "Nos",
+    "titleHighlight": "Services",
+    "description": "Nous proposons une variété d'options pour que vous puissiez trouver la façon parfaite d'apprendre l'espagnol selon vos besoins et vos objectifs.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Cours individuels",
+        "description": "Sessions personnalisées adaptées à vos besoins spécifiques et à votre propre rythme d'apprentissage."
+      },
+      {
+        "id": 2,
+        "title": "Cours collectifs",
+        "description": "Cours pour tous les niveaux (A1, A2, B1, B2, C1, C2) dans un environnement collaboratif et dynamique."
+      },
+      {
+        "id": 3,
+        "title": "Préparation DELE",
+        "description": "Cours spécifiques pour la préparation des examens officiels du Diplôme d'Espagnol comme Langue Étrangère."
+      },
+      {
+        "id": 4,
+        "title": "Cours de conversation",
+        "description": "Sessions axées sur l'amélioration de votre fluidité, de votre prononciation et de votre confiance lorsque vous parlez espagnol dans des situations quotidiennes."
+      },
+      {
+        "id": 5,
+        "title": "Cours à votre rythme",
+        "description": "Abonnement mensuel qui vous permet de progresser selon votre disponibilité, avec accès à des matériels exclusifs et un support personnalisé."
+      },
+      {
+        "id": 6,
+        "title": "Conseils de voyage",
+        "description": "Kit de survie et conseils personnalisés pour vos voyages en Espagne, avec des conseils culturels et des phrases essentielles."
+      }
+    ],
+    "moreInfo": "Plus d'informations",
+    "cta": {
+      "title": "Prêt à commencer votre voyage avec l'espagnol ?",
+      "description": "Réservez un cours d'essai et découvrez comment nous pouvons vous aider à atteindre vos objectifs d'apprentissage.",
+      "button": "Réservez votre cours d'essai",
+      "buttonSecondary": "Voir le fonctionnement des classes"
     }
-  },
-  "common": {
-    "specialties_label": "Domaines de spécialisation",
-    "experience_label": "Expérience",
-    "book_class": "Réservez votre cours"
   }
 }

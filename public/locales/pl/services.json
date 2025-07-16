@@ -2,22 +2,22 @@
   "services": {
     "title": "Nasze",
     "titleHighlight": "Usługi",
-    "description": "Oferujemy różnorodne opcje, abyś mógł znaleźć idealny sposób nauki hiszpańskiego zgodnie z Twoimi potrzebami i celami.",
+    "description": "Oferujemy liczne opcje, tak abyś mógł znaleźć idealny sposób nauki hiszpańskiego zgodnie z Twoimi potrzebami i celami.",
     "items": [
       {
         "id": 1,
         "title": "Zajęcia indywidualne",
-        "description": "Spersonalizowane sesje dostosowane do Twoich konkretnych potrzeb i własnego tempa nauki."
+        "description": "Spersonalizowane sesje dostosowane do Twoich konkretnych potrzeb i Twojego tempa nauki."
       },
       {
         "id": 2,
         "title": "Kursy grupowe",
-        "description": "Kursy dla wszystkich poziomów (A1, A2, B1, B2, C1, C2) w środowisku współpracy i dynamiki."
+        "description": "Nauka na wszystkich poziomach (A1, A2, B1, B2, C1, C2) w energicznym, przyjaznym i sprzyjającym współpracy otoczeniu."
       },
       {
         "id": 3,
         "title": "Przygotowanie do DELE",
-        "description": "Specjalne kursy przygotowujące do oficjalnych egzaminów Dyplomu Hiszpańskiego jako Języka Obcego."
+        "description": "Specjalne kursy przygotowujące do oficjalnych egzaminów Języka Hiszpańskiego jako Języka Obcego."
       },
       {
         "id": 4,
@@ -31,15 +31,16 @@
       },
       {
         "id": 6,
-        "title": "Porady podróżnicze",
-        "description": "Zestaw przetrwania i spersonalizowane porady na Twoje podróże do Hiszpanii, z wskazówkami kulturowymi i niezbędnymi zwrotami."
+        "title": "Porady Podróżnicze",
+        "description": "Twój niezbędnik podróżnika do Hiszpanii – spersonalizowane porady, kluczowe zwroty i ciekawostki kulturowe w jednym miejscu!"
       }
     ],
     "moreInfo": "Więcej informacji",
     "cta": {
       "title": "Gotowy, aby rozpocząć swoją przygodę z hiszpańskim?",
-      "description": "Zarezerwuj bezpłatną lekcję próbną i odkryj, jak możemy pomóc Ci osiągnąć Twoje cele w nauce.",
-      "button": "Zarezerwuj lekcję próbną"
+      "description": "Zarezerwuj niezobowiązującą lekcję próbną i odkryj, jak możemy pomóc Ci osiągnąć Twoje cele w nauce.",
+      "button": "Zarezerwuj lekcja próbna",
+      "buttonSecondary": "Poznaj naszą metodologię"
     }
   }
 }

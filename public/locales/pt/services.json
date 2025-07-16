@@ -2,7 +2,7 @@
   "services": {
     "title": "Nossos",
     "titleHighlight": "Serviços",
-    "description": "Oferecemos uma variedade de opções para que você encontre a forma perfeita de aprender espanhol de acordo com suas necessidades e objetivos.",
+    "description": "Oferecemos uma variedade de opções para que você encontre a forma perfeita de aprender espanhol de acordo com as suas necessidades e objetivos.",
     "items": [
       {
         "id": 1,
@@ -37,9 +37,10 @@
     ],
     "moreInfo": "Mais informações",
     "cta": {
-      "title": "Pronto para começar sua jornada com o espanhol?",
-      "description": "Reserve uma aula de teste gratuita e descubra como podemos ajudá-lo a alcançar seus objetivos de aprendizado.",
-      "button": "Reserve sua aula de teste"
+      "title": "Pronto para começar a sua aventura com o espanhol?",
+      "description": "Marque uma aula de teste e descubra como podemos ajudá-lo a alcançar seus objetivos de aprendizado.",
+      "button": "Marque a sua aula de teste",
+      "buttonSecondary": "Ver como funcionam as aulas"
     }
   }
 }

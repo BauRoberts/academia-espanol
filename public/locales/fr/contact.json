@@ -27,7 +27,9 @@
     "description": "Si vous préférez nous contacter directement, voici nos coordonnées :",
     "email": "espanolingvlc@outlook.es",
     "phone": "+34 614 52 26 59",
-    "social": "Suivez-nous sur nos réseaux sociaux (Instagram: espanoling.es)"
+    "telephone": "Téléphone",
+    "social": "Suivez-nous sur nos réseaux sociaux (Instagram: espanoling.es)",
+    "socialMedia": "Réseaux sociaux"
   },
   "faq": {
     "title": "Questions fréquemment posées",

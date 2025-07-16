@@ -1,6 +1,6 @@
 {
-  "title": "Agende sua aula",
-  "subtitle": "Estamos aqui para ajudá-lo em sua jornada de aprendizado do espanhol. Entre em contato conosco ou agende diretamente uma aula com nossos professores nativos.",
+  "title": "Agende a sua aula",
+  "subtitle": "Estamos aqui para ajudar você na sua aventura de aprendizagem do espanhol. Entre em contato ou agende diretamente uma aula com nossos professores nativos.",
   "form": {
     "title": "Envie-nos uma mensagem",
     "description": "Você tem alguma pergunta específica? Preencha o formulário e entraremos em contato em breve.",
@@ -19,8 +19,8 @@
     }
   },
   "calendar": {
-    "title": "Reserve sua aula",
-    "description": "Selecione o horário que melhor se adapta à sua disponibilidade para começar seu aprendizado de espanhol com um de nossos professores nativos."
+    "title": "Agende a sua aula",
+    "description": "Escolha o horário que melhor se encaixa para começar a sua aprendizagem de espanhol com um de nossos professores nativos."
   },
   "contact": {
     "title": "Informações de contato",
@@ -41,12 +41,12 @@
         "answer": "As aulas são realizadas através do Google Meets com material interativo compartilhado. Nossos professores usam recursos digitais, atividades dinâmicas adaptadas às suas necessidades específicas."
       },
       {
-        "question": "Posso cancelar ou reagendar uma aula?",
-        "answer": "Sim, você pode cancelar ou reagendar até 24 horas antes da aula sem custo adicional. Cancelamentos com menos de 24 horas de antecedência estão sujeitos à nossa política de cancelamento."
+        "question": "Posso cancelar ou remarcar uma aula?",
+        "answer": "Sim, você pode cancelar ou remarcar até 24 horas antes da aula sem custo adicional. Cancelamentos com menos de 24 horas seguem a nossa política de cancelamento."
       },
       {
-        "question": "Que formas de pagamento vocês aceitam?",
-        "answer": "Aceitamos cartões de crédito/débito, PayPal e transferências bancárias. Você pode escolher entre planos mensais ou pacotes de aulas de acordo com suas necessidades."
+        "question": "Quais formas de pagamento vocês aceitam?",
+        "answer": "Aceitamos cartões de crédito/débito, PayPal e transferências bancárias. Você pode escolher entre planos mensais ou pacotes de aulas, conforme as suas necessidades."
       }
     ]
   },

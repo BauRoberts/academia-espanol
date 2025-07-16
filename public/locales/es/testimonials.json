@@ -23,78 +23,158 @@
       },
       {
         "id": 2,
-        "name": "Johan",
-        "location": "París, Francia",
-        "text": "Mili es una profesora de español 10/10. Súper dulce y hace que aprender sea divertido. Siempre sonriente y ayudándome a aprender, ¡incluso cuando olvido hacer la tarea!",
-        "image": "/images/testimonios/profile-men.png",
+        "name": "Katarzyna",
+        "location": "Kielce, Polonia",
+        "text": "Natan lleva las lecciones de manera excelente — todo con calma, sin estrés. Siempre responde a todas las preguntas y explica bien. Habla muy bien en polaco, lo que facilita el aprendizaje. ¡Se nota que le gusta lo que hace! ¡Lo recomiendo!",
+        "image": "/images/testimonios/profile.png",
         "titleSuffix": "superó mis expectativas!"
       },
       {
         "id": 3,
-        "name": "Kamila",
-        "location": "Varsovia, Polonia",
-        "text": "Mili lleva las lecciones de manera profesional. Siempre está preparada y transmite su conocimiento de una manera interesante, alegre y sencilla. A los niños les encantan las clases con Mili. Todos vemos el progreso en su aprendizaje. Recomendamos mucho aprender español con Mili :)",
-        "image": "/images/testimonios/profile.png",
+        "name": "Johan",
+        "location": "París, Francia",
+        "text": "Mili es una profesora de español 10/10. Súper dulce y hace que aprender sea divertido. Siempre sonriente y ayudándome a aprender, ¡incluso cuando olvido hacer la tarea!",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "cambió mi forma de aprender!"
       },
       {
         "id": 4,
-        "name": "Lance",
-        "location": "Londres, Inglaterra",
-        "text": "Después de unos años tomando clases de español, finalmente decidí conseguir un tutor privado. Las clases de Mili son interesantes y su estilo de enseñanza ha sido muy útil. En solo unas pocas semanas de reunirme con ella, he aprendido más en un entorno uno a uno que en un aula.",
-        "image": "/images/testimonios/profile-men.png",
+        "name": "Miriam",
+        "location": "Varsovia, Polonia",
+        "text": "Natan siempre está muy bien preparado para las clases. Las lecciones son interesantes y motivadoras para hablar.",
+        "image": "/images/testimonios/profile.png",
         "titleSuffix": "fue exactamente lo que necesitaba!"
       },
       {
         "id": 5,
-        "name": "Matt",
-        "location": "Oporto, Portugal",
-        "text": "He estado aprendiendo con Mili durante los últimos 4 meses y es genial. Se adapta a lo que necesitas mejorar lección tras lección, ¡además trae mucha entusiasmo y energía que ayuda mucho!",
-        "image": "/images/testimonios/profile-men.png",
+        "name": "Kamila",
+        "location": "Varsovia, Polonia",
+        "text": "Mili lleva las lecciones de manera profesional. Siempre está preparada y transmite su conocimiento de una manera interesante, alegre y sencilla. A los niños les encantan las clases con Mili. Todos vemos el progreso en su aprendizaje. Recomendamos mucho aprender español con Mili :)",
+        "image": "/images/testimonios/profile.png",
         "titleSuffix": "me encantó la experiencia!"
       },
       {
         "id": 6,
-        "name": "Paul",
-        "location": "Lyon, Francia",
-        "text": "Mili es un diamante en el enorme pajar de tutores de Preply. Ella claramente tiene una pasión por enseñar idiomas y lo disfruta. Es muy perceptiva sobre tus necesidades como estudiante de idiomas y te ayudará a progresar más rápido de lo que piensas que eres capaz. En última instancia, su estilo de enseñanza muy personal y centrado en el estudiante hace que aprender sea divertido. ¡Siempre esperarás con ansias sus clases!",
+        "name": "Nicolas",
+        "location": "Praga, Chequia",
+        "text": "Solo tuve 2 lecciones y puedo decir que Nathan es fantásticamente enérgico. Incluso una persona ciega puede notar que ama lo que hace y, por lo tanto, las lecciones son siempre divertidas, eficientes y bien hechas. Definitivamente lo recomiendo.",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "fue muy profesional!"
       },
       {
         "id": 7,
-        "name": "André",
-        "location": "Cracovia, Polonia",
-        "text": "Me encanta aprender con Mili. Ella es una persona tan divertida y simpática, y una profesora profesional. Sabe cómo practicar el idioma.",
+        "name": "Lance",
+        "location": "Londres, Inglaterra",
+        "text": "Después de unos años tomando clases de español, finalmente decidí conseguir un tutor privado. Las clases de Mili son interesantes y su estilo de enseñanza ha sido muy útil. En solo unas pocas semanas de reunirme con ella, he aprendido más en un entorno uno a uno que en un aula.",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "me ayudó muchísimo!"
       },
       {
         "id": 8,
-        "name": "Ivana",
-        "location": "Manchester, Inglaterra",
-        "text": "Mili es una profesora con mucha experiencia y paciencia. Las lecciones son muy variadas y ella se adapta muy bien a las necesidades del alumno. Las clases me divierten mucho y gracias a Mili estoy mejorando mis conocimientos de español en el ámbito informal y formal. ¡Recomiendo mucho las clases con ella!",
-        "image": "/images/testimonios/profile.png",
+        "name": "Mateusz",
+        "location": "Tarnowskie Góry, Polonia",
+        "text": "Natan es un profesor increíblemente paciente. Tiene un enfoque excelente hacia el alumno. Las lecciones se llevan a cabo al 100% de una manera muy interesante. Si buscas un tutor con pasión por la enseñanza de idiomas, ¡realmente LO RECOMIENDO!",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "fue divertido y efectivo!"
       },
       {
         "id": 9,
-        "name": "Emna",
-        "location": "Marsella, Francia",
-        "text": "¡Mili es la mejor tutora de español! Es increíblemente paciente, siempre se toma el tiempo para explicar todo con claridad y hace que aprender sea muy agradable. Sus lecciones están súper organizadas, son atractivas y están adaptadas a mis necesidades. He mejorado mucho gracias a su orientación y apoyo. ¡La recomiendo encarecidamente a cualquiera que busque una tutora amable, dedicada y profesional!",
-        "image": "/images/testimonios/profile.png",
+        "name": "Matt",
+        "location": "Oporto, Portugal",
+        "text": "He estado aprendiendo con Mili durante los últimos 4 meses y es genial. Se adapta a lo que necesitas mejorar lección tras lección, ¡además trae mucha entusiasmo y energía que ayuda mucho!",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "recomiendo totalmente!"
       },
       {
         "id": 10,
-        "name": "Victoria",
-        "location": "Braga, Portugal",
-        "text": "Muy amable, paciente y atractivo para mi hija de 5 años. Las lecciones hacen que aprender sea divertido, y mi hija está emocionada de hablar con Mili cada semana.",
-        "image": "/images/testimonios/profile.png",
+        "name": "Jared",
+        "location": "Washington, EEUU",
+        "text": "¡Natan es un tutor realmente genial y amigable! Sus lecciones son increíbles y siempre están adaptadas exactamente a lo que busco practicar, y los temas de discusión son variados y atractivos. ¡Me siento más seguro en mi español ya, definitivamente contrátalo como tu tutor!",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "valió cada minuto!"
       },
       {
         "id": 11,
+        "name": "Paul",
+        "location": "Lyon, Francia",
+        "text": "Mili es un diamante en el enorme pajar de tutores de Preply. Ella claramente tiene una pasión por enseñar idiomas y lo disfruta. Es muy perceptiva sobre tus necesidades como estudiante de idiomas y te ayudará a progresar más rápido de lo que piensas que eres capaz. En última instancia, su estilo de enseñanza muy personal y centrado en el estudiante hace que aprender sea divertido. ¡Siempre esperarás con ansias sus clases!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue increíble!"
+      },
+      {
+        "id": 12,
+        "name": "D'arcy",
+        "location": "Colchester, Reino Unido",
+        "text": "¡Muchas gracias Natan por tu ayuda hasta ahora con mis lecciones de español! En solo 3 lecciones ya me siento más confiado al hablar español, que era mi principal preocupación cuando comencé mis lecciones con Natan. Estoy deseando aprender más en el futuro. ¡Gracias de nuevo por tu apoyo hasta ahora! Realmente aprecio las lecciones fáciles y la paciencia de Natan.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "superó mis expectativas!"
+      },
+      {
+        "id": 13,
+        "name": "André",
+        "location": "Cracovia, Polonia",
+        "text": "Me encanta aprender con Mili. Ella es una persona tan divertida y simpática, y una profesora profesional. Sabe cómo practicar el idioma.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "cambió mi forma de aprender!"
+      },
+      {
+        "id": 14,
+        "name": "Imogen",
+        "location": "Londres, Reino Unido",
+        "text": "Aprender español con Natan ha sido una de las mejores decisiones que he tomado. Es paciente, creativo y hace que cada clase sea divertida y relevante. ¡Mi confianza hablando español ha mejorado muchísimo!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "fue exactamente lo que necesitaba!"
+      },
+      {
+        "id": 15,
+        "name": "Ivana",
+        "location": "Manchester, Inglaterra",
+        "text": "Mili es una profesora con mucha experiencia y paciencia. Las lecciones son muy variadas y ella se adapta muy bien a las necesidades del alumno. Las clases me divierten mucho y gracias a Mili estoy mejorando mis conocimientos de español en el ámbito informal y formal. ¡Recomiendo mucho las clases con ella!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "me encantó la experiencia!"
+      },
+      {
+        "id": 16,
+        "name": "Lennart",
+        "location": "Berlín, Alemania",
+        "text": "Las clases son dinámicas y adaptadas a mis intereses. Natan tiene una gran habilidad para explicar conceptos difíciles de manera clara. Ahora puedo mantener conversaciones con hispanohablantes sin problema.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue muy profesional!"
+      },
+      {
+        "id": 17,
+        "name": "Emna",
+        "location": "Marsella, Francia",
+        "text": "¡Mili es la mejor tutora de español! Es increíblemente paciente, siempre se toma el tiempo para explicar todo con claridad y hace que aprender sea muy agradable. Sus lecciones están súper organizadas, son atractivas y están adaptadas a mis necesidades. He mejorado mucho gracias a su orientación y apoyo. ¡La recomiendo encarecidamente a cualquiera que busque una tutora amable, dedicada y profesional!",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "me ayudó muchísimo!"
+      },
+      {
+        "id": 18,
+        "name": "Giulia",
+        "location": "Bari, Italia",
+        "text": "Gracias a su método de enseñanza tan humano y motivador, aprendí más en unos meses que en años de escuela. Recomiendo sus clases al 100%.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "fue divertido y efectivo!"
+      },
+      {
+        "id": 19,
+        "name": "Victoria",
+        "location": "Braga, Portugal",
+        "text": "Muy amable, paciente y atractivo para mi hija de 5 años. Las lecciones hacen que aprender sea divertido, y mi hija está emocionada de hablar con Mili cada semana.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "recomiendo totalmente!"
+      },
+      {
+        "id": 20,
+        "name": "Declan",
+        "location": "Montreal, Canadá",
+        "text": "¡Increíble profesor! Tiene un don para conectar con los estudiantes y crear un ambiente relajado pero productivo. He aprendido no solo el idioma, sino también la cultura hispana.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "valió cada minuto!"
+      },
+      {
+        "id": 21,
         "name": "Mario",
         "location": "Gdansk, Polonia",
         "text": "Las lecciones de Mili son individuales y muy bien estructuradas. Realmente disfruto la mezcla de conversación, gramática, lectura, nuevo vocabulario e información cultural. ¡Gran profesora, siempre sonriendo, muy recomendada!",
@@ -102,84 +182,76 @@
         "titleSuffix": "fue increíble!"
       },
       {
-        "id": 12,
+        "id": 22,
+        "name": "Lin",
+        "location": "Shenzhen, China",
+        "text": "Antes me daba miedo hablar español. Ahora me siento segura y emocionada de practicar. Natan es muy alentador, amable y profesional.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "superó mis expectativas!"
+      },
+      {
+        "id": 23,
         "name": "Yoshiro",
         "location": "Birmingham, Inglaterra",
         "text": "Aunque es bastante joven, tiene talento para enseñar: ella tiene el don para enseñar.",
         "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "superó mis expectativas!"
+        "titleSuffix": "cambió mi forma de aprender!"
       },
       {
-        "id": 13,
+        "id": 24,
+        "name": "Thiago",
+        "location": "São Paulo, Brasil",
+        "text": "Lo que más me gusta es cómo adapta cada clase a lo que necesito. Además, su conocimiento cultural es impresionante. ¡Estoy feliz de haberlo elegido como profe!",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "fue exactamente lo que necesitaba!"
+      },
+      {
+        "id": 25,
         "name": "Chadi",
         "location": "Niza, Francia",
         "text": "Mili es la mejor tutora que puedes tener; amable, apasionada y comprensiva; si quieres aprender español, ella apoya a sus estudiantes y crea un ambiente de aprendizaje positivo. Ella es la mejor.",
         "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "cambió mi forma de aprender!"
+        "titleSuffix": "me encantó la experiencia!"
       },
       {
-        "id": 14,
+        "id": 26,
+        "name": "Dalia",
+        "location": "Alejandría, Egipto",
+        "text": "Las clases son muy interactivas, y siempre salgo aprendiendo algo nuevo y útil. Es evidente que ama enseñar y eso se transmite en cada sesión.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "fue muy profesional!"
+      },
+      {
+        "id": 27,
         "name": "Ellie",
         "location": "Coimbra, Portugal",
         "text": "Milli es una gran tutora; prepara presentaciones y ejercicios adicionales que puedes hacer por tu cuenta para que puedas estudiar más de la hora por la que pagas. Es súper entusiasta y amable; la recomiendo mucho.",
         "image": "/images/testimonios/profile.png",
-        "titleSuffix": "fue exactamente lo que necesitaba!"
-      },
-      {
-        "id": 15,
-        "name": "Gurshant",
-        "location": "Wrocław, Polonia",
-        "text": "Mili es muy amable y siempre me anima durante las lecciones. Ella es muy flexible con su estilo, ¡y la recomiendo para cualquiera que quiera empezar a aprender español!",
-        "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "me encantó la experiencia!"
-      },
-      {
-        "id": 16,
-        "name": "Celestino",
-        "location": "Liverpool, Inglaterra",
-        "text": "Mili es una profesora fantástica y muy profesional, siempre es puntual y tiene diferentes métodos para hacerme aprender español, es muy divertida :)",
-        "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "fue muy profesional!"
-      },
-      {
-        "id": 17,
-        "name": "Dennis",
-        "location": "Toulouse, Francia",
-        "text": "Siempre es muy divertido con Mili. Ella realmente ayuda mucho a aprender español. ¡Súper amable y amigable!",
-        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "me ayudó muchísimo!"
       },
       {
-        "id": 18,
-        "name": "Calvin",
-        "location": "Aveiro, Portugal",
-        "text": "¡Realmente buen profesor, me estoy divirtiendo mucho aprendiendo español!",
+        "id": 28,
+        "name": "Émile",
+        "location": "Lyon, Francia",
+        "text": "Su forma de enseñar es clara, estructurada y muy divertida. Me ayudó mucho con mi pronunciación y gramática. ¡Merci beaucoup!",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "fue divertido y efectivo!"
       },
       {
-        "id": 19,
-        "name": "Pascal",
-        "location": "Poznań, Polonia",
-        "text": "Siempre espero con ansias las lecciones con Mili. Soy un completo principiante en español, pero ella lo hace realmente fácil de digerir. Es súper empática, está bien preparada y su inglés es increíble, así que es realmente útil para cualquiera que esté comenzando con el español, pero que sepa inglés.",
+        "id": 29,
+        "name": "Gurshant",
+        "location": "Wrocław, Polonia",
+        "text": "Mili es muy amable y siempre me anima durante las lecciones. Ella es muy flexible con su estilo, ¡y la recomiendo para cualquiera que quiera empezar a aprender español!",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "recomiendo totalmente!"
       },
       {
-        "id": 20,
-        "name": "Linda",
-        "location": "Bristol, Inglaterra",
-        "text": "Mili es una profesora increíblemente genial, con encanto y juego me enseña el idioma español con mucha diversión. Ella responde a mis necesidades y deseos y es muy flexible. ¡Espero con ansias más lecciones con ella!",
+        "id": 30,
+        "name": "Aiko",
+        "location": "Kyoto, Japón",
+        "text": "Nunca imaginé que aprender español sería tan entretenido. Me encanta cómo Natan incorpora juegos, música y cultura en sus clases.",
         "image": "/images/testimonios/profile.png",
         "titleSuffix": "valió cada minuto!"
-      },
-      {
-        "id": 21,
-        "name": "Abdulla",
-        "location": "Strasbourg, Francia",
-        "text": "Milli tiene pasión por hacer que las personas hablen español, hace que el idioma sea más fácil y es muy amable y tiene buenos modales.",
-        "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "fue increíble!"
       }
     ]
   }

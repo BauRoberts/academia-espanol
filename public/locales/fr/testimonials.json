@@ -23,78 +23,158 @@
       },
       {
         "id": 2,
-        "name": "Johan",
-        "location": "Paris, France",
-        "text": "Mili est une professeure d'espagnol 10/10. Super douce et rend l'apprentissage amusant. Toujours souriante et m'aide à apprendre, même quand j'oublie de faire mes devoirs !",
-        "image": "/images/testimonios/profile-men.png",
+        "name": "Katarzyna",
+        "location": "Kielce, Pologne",
+        "text": "Natan mène les leçons excellemment — tout avec calme, sans stress. Il répond toujours à toutes les questions et explique bien. Il parle très bien polonais, ce qui facilite l'apprentissage. On voit qu'il aime ce qu'il fait ! Je le recommande !",
+        "image": "/images/testimonios/profile.png",
         "titleSuffix": "a dépassé mes attentes !"
       },
       {
         "id": 3,
-        "name": "Kamila",
-        "location": "Varsovie, Pologne",
-        "text": "Mili mène les leçons de manière professionnelle. Elle est toujours préparée et transmet ses connaissances de manière intéressante, joyeuse et simple. Les enfants adorent les cours avec Mili. Nous voyons tous les progrès dans leur apprentissage. Nous recommandons vivement d'apprendre l'espagnol avec Mili :)",
-        "image": "/images/testimonios/profile.png",
+        "name": "Johan",
+        "location": "Paris, France",
+        "text": "Mili est une professeure d'espagnol 10/10. Super douce et rend l'apprentissage amusant. Toujours souriante et m'aide à apprendre, même quand j'oublie de faire mes devoirs !",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "a changé ma façon d'apprendre !"
       },
       {
         "id": 4,
-        "name": "Lance",
-        "location": "Londres, Angleterre",
-        "text": "Après quelques années de cours d'espagnol, j'ai finalement décidé de prendre un tuteur privé. Les cours de Mili sont intéressants et son style d'enseignement a été très utile. En seulement quelques semaines de rencontres avec elle, j'ai appris plus dans un environnement individuel qu'en classe.",
-        "image": "/images/testimonios/profile-men.png",
+        "name": "Miriam",
+        "location": "Varsovie, Pologne",
+        "text": "Natan est toujours très bien préparé pour les cours. Les leçons sont intéressantes et motivantes pour parler.",
+        "image": "/images/testimonios/profile.png",
         "titleSuffix": "était exactement ce dont j'avais besoin !"
       },
       {
         "id": 5,
-        "name": "Matt",
-        "location": "Porto, Portugal",
-        "text": "J'apprends avec Mili depuis 4 mois et elle est géniale. Elle s'adapte à ce que vous devez améliorer leçon après leçon, en plus elle apporte beaucoup d'enthousiasme et d'énergie qui aide beaucoup !",
-        "image": "/images/testimonios/profile-men.png",
+        "name": "Kamila",
+        "location": "Varsovie, Pologne",
+        "text": "Mili mène les leçons de manière professionnelle. Elle est toujours préparée et transmet ses connaissances de manière intéressante, joyeuse et simple. Les enfants adorent les cours avec Mili. Nous voyons tous les progrès dans leur apprentissage. Nous recommandons vivement d'apprendre l'espagnol avec Mili :)",
+        "image": "/images/testimonios/profile.png",
         "titleSuffix": "j'ai adoré l'expérience !"
       },
       {
         "id": 6,
-        "name": "Paul",
-        "location": "Lyon, France",
-        "text": "Mili est un diamant dans l'énorme botte de foin des tuteurs Preply. Elle a clairement une passion pour l'enseignement des langues et en profite. Elle est très perspicace sur vos besoins en tant qu'apprenant de langue et vous aidera à progresser plus vite que vous ne pensez en être capable. En fin de compte, son style d'enseignement très personnel et centré sur l'étudiant rend l'apprentissage amusant. Vous attendrez toujours ses cours avec impatience !",
+        "name": "Nicolas",
+        "location": "Prague, République tchèque",
+        "text": "J'ai seulement eu 2 leçons et je peux dire que Nathan est fantastiquement énergique. Même une personne aveugle peut remarquer qu'il aime ce qu'il fait et donc les leçons sont toujours amusantes, efficaces et bien faites. Je le recommande définitivement.",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "était très professionnel !"
       },
       {
         "id": 7,
-        "name": "André",
-        "location": "Cracovie, Pologne",
-        "text": "J'adore apprendre avec Mili. Elle est une personne si amusante et sympathique, et une professeure professionnelle. Elle sait comment pratiquer la langue.",
+        "name": "Lance",
+        "location": "Londres, Angleterre",
+        "text": "Après quelques années de cours d'espagnol, j'ai finalement décidé de prendre un tuteur privé. Les cours de Mili sont intéressants et son style d'enseignement a été très utile. En seulement quelques semaines de rencontres avec elle, j'ai appris plus dans un environnement individuel qu'en classe.",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "m'a beaucoup aidé !"
       },
       {
         "id": 8,
-        "name": "Ivana",
-        "location": "Manchester, Angleterre",
-        "text": "Mili est une professeure avec beaucoup d'expérience et de patience. Les leçons sont très variées et elle s'adapte très bien aux besoins de l'élève. Je m'amuse beaucoup en cours et grâce à Mili j'améliore mes connaissances en espagnol dans les domaines informel et formel. Je recommande vivement les cours avec elle !",
-        "image": "/images/testimonios/profile.png",
+        "name": "Mateusz",
+        "location": "Tarnowskie Góry, Pologne",
+        "text": "Natan est un professeur incroyablement patient. Il a une excellente approche envers l'élève. Les leçons se déroulent à 100% de manière très intéressante. Si vous cherchez un tuteur avec passion pour l'enseignement des langues, je le RECOMMANDE vraiment !",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "était amusant et efficace !"
       },
       {
         "id": 9,
-        "name": "Emna",
-        "location": "Marseille, France",
-        "text": "Mili est la meilleure tutrice d'espagnol ! Elle est incroyablement patiente, prend toujours le temps d'expliquer tout clairement et rend l'apprentissage très agréable. Ses leçons sont super organisées, engageantes et adaptées à mes besoins. Je me suis beaucoup améliorée grâce à ses conseils et son soutien. Je la recommande vivement à toute personne recherchant une tutrice aimable, dévouée et professionnelle !",
-        "image": "/images/testimonios/profile.png",
+        "name": "Matt",
+        "location": "Porto, Portugal",
+        "text": "J'apprends avec Mili depuis 4 mois et elle est géniale. Elle s'adapte à ce que vous devez améliorer leçon après leçon, en plus elle apporte beaucoup d'enthousiasme et d'énergie qui aide beaucoup !",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "je le recommande totalement !"
       },
       {
         "id": 10,
-        "name": "Victoria",
-        "location": "Braga, Portugal",
-        "text": "Très gentille, patiente et engageante pour ma fille de 5 ans. Les leçons rendent l'apprentissage amusant, et ma fille est excitée de parler à Mili chaque semaine.",
-        "image": "/images/testimonios/profile.png",
+        "name": "Jared",
+        "location": "Washington, États-Unis",
+        "text": "Natan est un tuteur vraiment cool et sympathique ! Ses leçons sont incroyables et toujours adaptées exactement à ce que je cherche à pratiquer, et les sujets de discussion sont variés et captivants. Je me sens déjà plus confiant en espagnol, engagez-le définitivement comme votre tuteur !",
+        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "valait chaque minute !"
       },
       {
         "id": 11,
+        "name": "Paul",
+        "location": "Lyon, France",
+        "text": "Mili est un diamant dans l'énorme botte de foin des tuteurs Preply. Elle a clairement une passion pour l'enseignement des langues et en profite. Elle est très perspicace sur vos besoins en tant qu'apprenant de langue et vous aidera à progresser plus vite que vous ne pensez en être capable. En fin de compte, son style d'enseignement très personnel et centré sur l'étudiant rend l'apprentissage amusant. Vous attendrez toujours ses cours avec impatience !",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "était incroyable !"
+      },
+      {
+        "id": 12,
+        "name": "D'arcy",
+        "location": "Colchester, Royaume-Uni",
+        "text": "Merci beaucoup Natan pour votre aide jusqu'à présent avec mes leçons d'espagnol ! En seulement 3 leçons, je me sens déjà plus confiant pour parler espagnol, ce qui était ma principale préoccupation quand j'ai commencé mes leçons avec Natan. J'ai hâte d'apprendre plus à l'avenir. Merci encore pour votre soutien jusqu'à présent ! J'apprécie vraiment les leçons faciles et la patience de Natan.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "a dépassé mes attentes !"
+      },
+      {
+        "id": 13,
+        "name": "André",
+        "location": "Cracovie, Pologne",
+        "text": "J'adore apprendre avec Mili. Elle est une personne si amusante et sympathique, et une professeure professionnelle. Elle sait comment pratiquer la langue.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "a changé ma façon d'apprendre !"
+      },
+      {
+        "id": 14,
+        "name": "Imogen",
+        "location": "Londres, Royaume-Uni",
+        "text": "Apprendre l'espagnol avec Natan a été une des meilleures décisions que j'ai prises. Il est patient, créatif et rend chaque cours amusant et pertinent. Ma confiance en parlant espagnol s'est énormément améliorée !",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "était exactement ce dont j'avais besoin !"
+      },
+      {
+        "id": 15,
+        "name": "Ivana",
+        "location": "Manchester, Angleterre",
+        "text": "Mili est une professeure avec beaucoup d'expérience et de patience. Les leçons sont très variées et elle s'adapte très bien aux besoins de l'élève. Je m'amuse beaucoup en cours et grâce à Mili j'améliore mes connaissances en espagnol dans les domaines informel et formel. Je recommande vivement les cours avec elle !",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "j'ai adoré l'expérience !"
+      },
+      {
+        "id": 16,
+        "name": "Lennart",
+        "location": "Berlin, Allemagne",
+        "text": "Les cours sont dynamiques et adaptés à mes intérêts. Natan a une grande capacité à expliquer clairement les concepts difficiles. Maintenant je peux maintenir des conversations avec des hispanophones sans problème.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "était très professionnel !"
+      },
+      {
+        "id": 17,
+        "name": "Emna",
+        "location": "Marseille, France",
+        "text": "Mili est la meilleure tutrice d'espagnol ! Elle est incroyablement patiente, prend toujours le temps d'expliquer tout clairement et rend l'apprentissage très agréable. Ses leçons sont super organisées, engageantes et adaptées à mes besoins. Je me suis beaucoup améliorée grâce à ses conseils et son soutien. Je la recommande vivement à toute personne recherchant une tutrice aimable, dévouée et professionnelle !",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "m'a beaucoup aidé !"
+      },
+      {
+        "id": 18,
+        "name": "Giulia",
+        "location": "Bari, Italie",
+        "text": "Grâce à sa méthode d'enseignement si humaine et motivante, j'ai appris plus en quelques mois qu'en années d'école. Je recommande ses cours à 100%.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "était amusant et efficace !"
+      },
+      {
+        "id": 19,
+        "name": "Victoria",
+        "location": "Braga, Portugal",
+        "text": "Très gentille, patiente et engageante pour ma fille de 5 ans. Les leçons rendent l'apprentissage amusant, et ma fille est excitée de parler à Mili chaque semaine.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "je le recommande totalement !"
+      },
+      {
+        "id": 20,
+        "name": "Declan",
+        "location": "Montréal, Canada",
+        "text": "Professeur incroyable ! Il a un don pour se connecter avec les étudiants et créer un environnement détendu mais productif. J'ai appris non seulement la langue, mais aussi la culture hispanique.",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "valait chaque minute !"
+      },
+      {
+        "id": 21,
         "name": "Mario",
         "location": "Gdansk, Pologne",
         "text": "Les leçons de Mili sont individuelles et très bien structurées. J'apprécie vraiment le mélange de conversation, grammaire, lecture, nouveau vocabulaire et informations culturelles. Excellente professeure, toujours souriante, très recommandée !",
@@ -102,83 +182,83 @@
         "titleSuffix": "était incroyable !"
       },
       {
-        "id": 12,
+        "id": 22,
+        "name": "Lin",
+        "location": "Shenzhen, Chine",
+        "text": "Avant j'avais peur de parler espagnol. Maintenant je me sens confiante et excitée de pratiquer. Natan est très encourageant, gentil et professionnel.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "a dépassé mes attentes !"
+      },
+      {
+        "id": 23,
         "name": "Yoshiro",
         "location": "Birmingham, Angleterre",
         "text": "Bien qu'elle soit assez jeune, elle a un talent pour enseigner : elle a le don d'enseigner.",
         "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "a dépassé mes attentes !"
+        "titleSuffix": "a changé ma façon d'apprendre !"
       },
       {
-        "id": 13,
+        "id": 24,
+        "name": "Thiago",
+        "location": "São Paulo, Brésil",
+        "text": "Ce que j'aime le plus c'est comment il adapte chaque cours à ce dont j'ai besoin. De plus, ses connaissances culturelles sont impressionnantes. Je suis heureux de l'avoir choisi comme prof !",
+        "image": "/images/testimonios/profile-men.png",
+        "titleSuffix": "était exactement ce dont j'avais besoin !"
+      },
+      {
+        "id": 25,
         "name": "Chadi",
         "location": "Nice, France",
         "text": "Mili est la meilleure tutrice que vous puissiez avoir ; gentille, passionnée et compréhensive ; si vous voulez apprendre l'espagnol, elle soutient ses étudiants et crée un environnement d'apprentissage positif. Elle est la meilleure.",
         "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "a changé ma façon d'apprendre !"
+        "titleSuffix": "j'ai adoré l'expérience !"
       },
       {
-        "id": 14,
+        "id": 26,
+        "name": "Dalia",
+        "location": "Alexandrie, Égypte",
+        "text": "Les cours sont très interactifs, et je sors toujours en apprenant quelque chose de nouveau et d'utile. Il est évident qu'il aime enseigner et cela se transmet à chaque session.",
+        "image": "/images/testimonios/profile.png",
+        "titleSuffix": "était très professionnel !"
+      },
+      {
+        "id": 27,
         "name": "Ellie",
         "location": "Coimbra, Portugal",
         "text": "Milli est une excellente tutrice ; elle prépare des présentations et des exercices supplémentaires que vous pouvez faire seul pour pouvoir étudier plus que l'heure pour laquelle vous payez. Elle est super enthousiaste et gentille ; je la recommande vivement.",
         "image": "/images/testimonios/profile.png",
-        "titleSuffix": "était exactement ce dont j'avais besoin !"
-      },
-      {
-        "id": 15,
-        "name": "Gurshant",
-        "location": "Wrocław, Pologne",
-        "text": "Mili est très gentille et m'encourage toujours pendant les leçons. Elle est très flexible avec son style, et je la recommande à quiconque veut commencer à apprendre l'espagnol !",
-        "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "j'ai adoré l'expérience !"
-      },
-      {
-        "id": 16,
-        "name": "Celestino",
-        "location": "Liverpool, Angleterre",
-        "text": "Mili est une professeure fantastique et très professionnelle, toujours ponctuelle et a différentes méthodes pour me faire apprendre l'espagnol, elle est très amusante :)",
-        "image": "/images/testimonios/profile-men.png",
-        "titleSuffix": "était très professionnel !"
-      },
-      {
-        "id": 17,
-        "name": "Dennis",
-        "location": "Toulouse, France",
-        "text": "C'est toujours très amusant avec Mili. Elle aide vraiment beaucoup à apprendre l'espagnol. Super gentille et amicale !",
-        "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "m'a beaucoup aidé !"
       },
       {
-        "id": 18,
-        "name": "Calvin",
-        "location": "Aveiro, Portugal",
-        "text": "Vraiment bon professeur, je m'amuse beaucoup à apprendre l'espagnol !",
+        "id": 28,
+        "name": "Émile",
+        "location": "Lyon, France",
+        "text": "Sa façon d'enseigner est claire, structurée et très amusante. Il m'a beaucoup aidé avec ma prononciation et ma grammaire. Merci beaucoup !",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "était amusant et efficace !"
       },
       {
-        "id": 19,
-        "name": "Pascal",
-        "location": "Poznań, Pologne",
-        "text": "J'attends toujours avec impatience les leçons avec Mili. Je suis un débutant complet en espagnol, mais elle rend les choses vraiment faciles à digérer. Elle est super empathique, bien préparée et son anglais est incroyable, donc c'est vraiment utile pour quiconque commence l'espagnol mais connaît l'anglais.",
+        "id": 29,
+        "name": "Gurshant",
+        "location": "Wrocław, Pologne",
+        "text": "Mili est très gentille et m'encourage toujours pendant les leçons. Elle est très flexible avec son style, et je la recommande à quiconque veut commencer à apprendre l'espagnol !",
         "image": "/images/testimonios/profile-men.png",
         "titleSuffix": "je le recommande totalement !"
       },
       {
-        "id": 20,
-        "name": "Linda",
-        "location": "Bristol, Angleterre",
-        "text": "Mili est une professeure incroyablement cool, avec charme et jeu elle m'enseigne l'espagnol avec beaucoup de plaisir. Elle répond à mes besoins et désirs et est très flexible. J'ai hâte d'avoir plus de leçons avec elle !",
+        "id": 30,
+        "name": "Aiko",
+        "location": "Kyoto, Japon",
+        "text": "Je n'ai jamais imaginé qu'apprendre l'espagnol serait si divertissant. J'adore comment Natan incorpore des jeux, de la musique et la culture dans ses cours.",
         "image": "/images/testimonios/profile.png",
         "titleSuffix": "valait chaque minute !"
       },
       {
-        "id": 21,
-        "name": "Abdulla",
-        "location": "Strasbourg, France",
-        "text": "Milli a une passion pour faire parler les gens espagnol, rend la langue plus facile et est très gentille et bien élevée.",
-        "image": "/images/testimonios/profile-men.png",
+        "id": 31,
+        "name": "Freja",
+        "location": "Aarhus, Danemark",
+        "text": "Un professeur spectaculaire ! Très professionnel, aimable et toujours ponctuel. Grâce à ses cours, maintenant je peux parler avec mes amis en Espagne sans problème.",
+        "image": "/images/testimonios/profile.png",
         "titleSuffix": "était incroyable !"
       }
     ]

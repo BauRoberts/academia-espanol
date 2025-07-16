@@ -1,23 +1,22 @@
 {
-  "title": "Gotowy na rozpoczęcie swojej przygody",
-  "titleSuffix": "z hiszpańskim?",
-  "description": "Zarezerwuj teraz swoją pierwszą lekcję i odkryj, jak nasza spersonalizowana metodologia pomoże Ci osiągnąć płynność, o której zawsze marzyłeś.",
+  "title": "Gotowy, aby rozpocząć swoją przygodę z hiszpańskim?",
+  "description": "Zarezerwuj niezobowiązującą lekcję próbną i odkryj, jak możemy pomóc Ci osiągnąć Twoje cele w nauce.",
   "buttons": {
-    "book": "Zarezerwuj swoją lekcję",
-    "demo": "Zobacz, jak działają lekcje"
+    "book": "Zarezerwuj lekcja próbna",
+    "demo": "Poznaj naszą metodologię"
   },
   "stats": {
     "satisfaction": {
       "value": "98%",
-      "label": "Wskaźnik zadowolenia"
+      "label": "Poziom satysfakcji"
     },
     "personalized": {
       "value": "100%",
-      "label": "Spersonalizowane"
+      "label": "Zajęcia w pełni dopasowane do Twoich celów i potrzeb"
     },
     "students": {
-      "value": "+1000",
-      "label": "Zadowolonych studentów"
+      "value": "Ponad 1000",
+      "label": "Zadowolonych kursantów, którzy nam zaufali"
     }
   }
 }

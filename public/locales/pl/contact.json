@@ -27,22 +27,24 @@
     "description": "Jeśli wolisz skontaktować się z nami bezpośrednio, oto nasze dane:",
     "email": "espanolingvlc@outlook.es",
     "phone": "+34 614 52 26 59",
-    "social": "Śledź nas w mediach społecznościowych (Instagram: espanoling.es)"
+    "telefon": "Telefon",
+    "social": "Śledź nas w mediach społecznościowych (Instagram: espanoling.es)",
+    "socialMedia": "Sieci społecznościowe"
   },
   "faq": {
     "title": "Często zadawane pytania",
     "questions": [
       {
-        "question": "Jaki poziom hiszpańskiego potrzebuję, aby zacząć?",
-        "answer": "Żaden! Mamy kursy dla wszystkich poziomów, od całkowitych początkujących (A1) do poziomów zaawansowanych (C2)."
+        "question": "Jaki poziom hiszpańskiego muszę mieć, aby zacząć?",
+        "answer": "Żaden! Oferujemy kursy na wszystkich poziomach, od absolutnych początkujących (A1) do zaawansowanych (C2)."
       },
       {
         "question": "Jak wyglądają lekcje online?",
         "answer": "Lekcje odbywają się przez Google Meets z udostępnianymi interaktywnymi materiałami. Nasi nauczyciele używają zasobów cyfrowych, dynamicznych ćwiczeń dostosowanych do Twoich konkretnych potrzeb."
       },
       {
-        "question": "Czy mogę anulować lub przełożyć lekcję?",
-        "answer": "Tak, możesz anulować lub przełożyć do 24 godzin przed lekcją bez dodatkowych kosztów. Anulowania z mniej niż 24-godzinnym wyprzedzeniem podlegają naszej polityce anulowania."
+        "question": "Czy mogę anulować lub przełożyć zajęcia?",
+        "answer": "Tak, możesz anulować lub przełożyć zajęcia do 24 godzin przed terminem zajęć bez dodatkowych kosztów. Anulacje z mniej niż 24-godzinnym wyprzedzeniem podlegają naszej polityce odwoływania."
       },
       {
         "question": "Jakie formy płatności akceptujecie?",

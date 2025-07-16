@@ -1,10 +1,9 @@
 {
-  "title": "Pronto para começar sua aventura",
-  "titleSuffix": "com o espanhol?",
-  "description": "Reserve agora sua primeira aula e descubra como nossa metodologia personalizada ajudará você a alcançar a fluência que sempre desejou.",
+  "title": "Pronto para começar a sua aventura com o espanhol?",
+  "description": "Marque uma aula de teste e descubra como podemos ajudá-lo a alcançar seus objetivos de aprendizado.",
   "buttons": {
-    "book": "Reserve sua aula",
-    "demo": "Veja como funcionam as aulas"
+    "book": "Marque a sua aula de teste",
+    "demo": "Ver como funcionam as aulas"
   },
   "stats": {
     "satisfaction": {

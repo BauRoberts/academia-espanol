@@ -17,9 +17,22 @@
         "label": "Personalizado"
       },
       "rating": {
-        "value": "5/5",
-        "label": "Valoración de estudiantes"
+        "value": "5.0",
+        "label": "31+ reseñas en Preply"
+      },
+      "lessons": {
+        "value": "1700+",
+        "label": "clases impartidas"
+      },
+      "response": {
+        "value": "4h",
+        "label": "tiempo de respuesta"
       }
+    },
+    "badges": {
+      "superteacher": "Superprofesor",
+      "verified": "Verificado",
+      "classes": "clases"
     },
     "languages": {
       "title": "Clases en",

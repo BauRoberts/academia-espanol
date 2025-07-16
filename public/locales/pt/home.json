@@ -1,10 +1,10 @@
 {
   "hero": {
     "title": "Españoling:",
-    "subtitle": "Sua academia de idiomas online",
+    "subtitle": "A sua academia de idiomas online",
     "description": "Bem-vindos a bordo desta aventura com destino a: aprender espanhol. Nossa metodologia consiste em fazer você ganhar confiança, entender e falar desde a primeira aula. O tédio tem entrada totalmente proibida em nossa academia.",
     "buttons": {
-      "schedule": "Reserve sua aula",
+      "schedule": "Marque a sua aula",
       "video": "Vídeo de Apresentação"
     },
     "stats": {
@@ -17,9 +17,22 @@
         "label": "Personalizado"
       },
       "rating": {
-        "value": "5/5",
-        "label": "Avaliação dos estudantes"
+        "value": "5.0",
+        "label": "31+ opiniões em Preply"
+      },
+      "lessons": {
+        "value": "1700+",
+        "label": "aulas dadas"
+      },
+      "response": {
+        "value": "4h",
+        "label": "tempo de resposta"
       }
+    },
+    "badges": {
+      "superteacher": "Superprofesor",
+      "verified": "Verified",
+      "classes": "aulas"
     },
     "languages": {
       "title": "Aulas em",
